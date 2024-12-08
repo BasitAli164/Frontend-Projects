@@ -1,0 +1,4 @@
+html,body{
+    font-family: serif;
+    background: -webkit-gradient(linear,left top,right top, from(#20843d),color-stop(50%,rgb(82, 54, 139)),color-stop(50%,rgb(181, 90, 90)),to(rgb(224, 30, 166)));
+}
