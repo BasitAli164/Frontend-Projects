@@ -66,14 +66,17 @@
     gap: 30px;
 }
 .project{
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 .pro{
+    width: 28%;
     border: 1px dashed #e69494;
     padding: 100px;
     box-shadow: -5px 4px 8px 2px rgba(112, 110, 112, 0.8);
+    
 }
 .contact{
     width: 85vw;
