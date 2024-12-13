@@ -71,3 +71,33 @@
     height: 200px;
     background: #f29f9f;
 }
+.cliendHeader{
+    width: 900px;
+    height: 75px;
+    background: #aa88dd;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.clientImage{
+    width: 900px;
+    height: 125px;
+    background-color: blanchedalmond;
+    }
+.images{
+    width: 300px;
+    height: 125px;
+    background-color: wheat;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+}
+.footer{
+    width: 900px;
+    height: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    background-color: tomato;
+}
