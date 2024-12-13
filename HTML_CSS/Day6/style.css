@@ -57,6 +57,7 @@
     height: 200px;
     background: #efaaaa;
     float: right;
+
 }
 .bodyleft >div{
     width: 250px;
@@ -64,4 +65,9 @@
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+}
+.client{
+    width: 900px;
+    height: 200px;
+    background: #f29f9f;
 }
