@@ -23,8 +23,9 @@ h1 span{
     background: #1d1f20;
     width:100% ;
     border-left: 2px solid transparent;
-    -webkit-animation: typing 3s steps(18) forwards,cursor 1s infinite ;
-    animation: typing 3s steps(16) forwards,cursor 1s infinite ;
+    -webkit-animation: typing 9s steps(100) forwards,cursor 1s infinite ;
+    animation: typing 9s steps(16) forwards,cursor 1s infinite ;
+    
 }
 @-webkit-keyframes typing{
     from{width: 100%;}
