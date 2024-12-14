@@ -22,7 +22,7 @@ const Input = ({ labelText,inputType,inputName,inputId,inputPlaceholder,inputMin
                     height={inputHeight}
                     
 
-                />
+                /> 
             </div>
 
         </>

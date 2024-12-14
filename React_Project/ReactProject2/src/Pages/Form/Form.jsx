@@ -4,7 +4,9 @@ import Input from '../../components/InputField/Input'
 
 const Form = () => {
     const[formData,setFormData]=useState({
-        username:''
+        username:'',
+        email:'',
+        password:''
     })
     const handleChange=(e)=>{
         const {name,type,value}=e.target;
@@ -22,8 +24,8 @@ const Form = () => {
         </div>
         <div className="underline"></div>
         <div className="form">
-            <form >
-                <Input
+            <form>              
+               <Input
                 labelText="Username: "
                 inputType="text"
                 inputName="username"
@@ -34,11 +36,30 @@ const Form = () => {
                 inputMaxLength={100}
                 inputValue={formData.username}
                 inputFunction={handleChange}
-                />
-                
-                
-
-
+                />                          
+                 <Input
+                labelText="Email: "
+                inputType="email"
+                inputName="email"
+                inputId="email"
+                inputTitle="Email must in email format"
+                inputPlaceholder="Enter the email"
+                inputValue={formData.email}
+                inputFunction={handleChange}
+                />    
+                <Input
+                labelText="Password: "
+                inputType="password"
+                inputName="password"
+                inputId="password"
+                inputTitle="Password have at least 3 character"
+                inputPlaceholder="Enter the password"
+                inputMin={3}
+                inputMax={100}
+                inputValue={formData.password}
+                inputFunction={handleChange}
+                />       
+                             
             </form>
         </div>
     </div>
