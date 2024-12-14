@@ -4,6 +4,7 @@ import Input from '../../components/InputField/Input'
 import Button from '../../components/Button/Button'
 
 const Form = () => {
+    const [status,setStatus]=useState(true)
     const[formData,setFormData]=useState({
         username:'',
         email:'',
@@ -17,27 +18,38 @@ const Form = () => {
             [name]:valueType,
         })
     }
+    const hnadleStatus=()=>{
+        setStatus(!status)
+    }
+    const handleSubmit=(e)=>{
+        e.preventDefault();
+        console.log("Form Data :",formData)
+    }
   return (
     <>
     <div className="container">
         <div className="header">
-            <h1>Login and SignUp Form</h1>
+            <h1>{status===true?"SignUp Form":"Login Form"}</h1>
         </div>
         <div className="underline"></div>
         <div className="form">
-            <form className='formdata'>              
-               <Input
-                labelText="Username: "
-                inputType="text"
-                inputName="username"
-                inputId="username"
-                inputTitle="Username have at least 3 character"
-                inputPlaceholder="Enter the username"
-                inputMinLenght={3}
-                inputMaxLength={100}
-                inputValue={formData.username}
-                inputFunction={handleChange}
-                />                          
+            <form className='formdata' onSubmit={handleSubmit}> 
+                {
+                    status===true? <Input
+                    labelText="Username: "
+                    inputType="text"
+                    inputName="username"
+                    inputId="username"
+                    inputTitle="Username have at least 3 character"
+                    inputPlaceholder="Enter the username"
+                    inputMinLenght={3}
+                    inputMaxLength={100}
+                    inputValue={formData.username}
+                    inputFunction={handleChange}
+                    />  :
+                    null
+                }             
+                                   
                  <Input
                 labelText="Email: "
                 inputType="email"
@@ -61,17 +73,36 @@ const Form = () => {
                 inputFunction={handleChange}
                 />       
                 <div className="buttons">
-                    <Button
+                    {
+                        status===true?
+                        <Button
                     buttonText="SignUp"
+                    buttonfunction={handleSubmit}
 
-                    />
-                     <Button
+                    />:
+                    <Button
                     buttonText="Login"
+                    buttonfunction={handleSubmit}
                     
                     />
+                    }
+                    
+                    
                     <div className="text">
-                        <h6 className='message'>Already have an account?</h6>
-                        <p className='message'>Login</p>
+                       {
+                        status===true?(
+                            <>
+                             <h6 className='message'>Already have an account?</h6>
+                             <p id='btn' className='message' onClick={hnadleStatus}>{!status===true?"SignUp":"Login"}</p>
+                            </>
+                        ):
+                        (
+                            <>
+                             <h6 className='message'>Create an Account.</h6>
+                             <p id='btn' className='message' onClick={hnadleStatus}>{!status===true?"SignUp":"Login"}</p>
+                            </>
+                        )
+                       }
                     </div>
                     </div>            
             </form>
