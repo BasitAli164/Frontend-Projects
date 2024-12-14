@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Form.css'
 import Input from '../../components/InputField/Input'
+import Button from '../../components/Button/Button'
 
 const Form = () => {
     const[formData,setFormData]=useState({
@@ -24,7 +25,7 @@ const Form = () => {
         </div>
         <div className="underline"></div>
         <div className="form">
-            <form>              
+            <form className='formdata'>              
                <Input
                 labelText="Username: "
                 inputType="text"
@@ -59,7 +60,20 @@ const Form = () => {
                 inputValue={formData.password}
                 inputFunction={handleChange}
                 />       
-                             
+                <div className="buttons">
+                    <Button
+                    buttonText="SignUp"
+
+                    />
+                     <Button
+                    buttonText="Login"
+                    
+                    />
+                    <div className="text">
+                        <h6 className='message'>Already have an account?</h6>
+                        <p className='message'>Login</p>
+                    </div>
+                    </div>            
             </form>
         </div>
     </div>
