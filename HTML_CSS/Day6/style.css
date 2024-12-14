@@ -1,103 +1,46 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-}
-.main{
-    width: 900px;
-    height: 540px;
-    background: #34dd43;
-    /* margin: 20px auto; */
 
 }
-.header{
-    width: 900px;
-    height: 100px;
-    background: #aa99ff;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:#dfdfdf  
 }
-.headers{
-    width: 900px;
-    height: 65px;
-    background: #aa88dd;
-    text-align: center;
-    font-size: 2em;
-    font-weight: bold;
-    text-decoration: underline;
-    word-spacing: 10px;
-    letter-spacing: 1px;
-    /* padding: 8px 0px; */
+.wrapper{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e1e8ed;
+    border-radius: 6px;
+    height: auto;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.92);
 }
-.navBar{
-    width: 900px;
-    height: 35px;
-    background: #ffaacc;
+.profile-bg{
+    background-image: url('./profile.jpg');
+    background-position: 0 50%;
+    background-size: 100% auto;
+    border-radius: 4px 4px 0px 0px;
+    height: 95px;
+    width: 100%;
 }
-.navlist{
-    width: 180px;
-    height:35px ;
-    background: #efaaaa;
-    float: left;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
+.profile-link{
+    background-color: #fff;
+    border-radius: 6px;
+    display: inline-block;
+    margin: -30px 5px 0px 8px ;
+    max-width: 100%;
+    padding: 1px;
+    vertical-align: bottom;
 }
-.body{
-    width: 900px;
-    height: 200px;
-    background: #aa99ff;
-}
-.bodyleft{
-    width: 250px;
-    height: 200px;
-    background-color: #ffaacc;
-    float: left;
-}
-.bodyright{
-    width: 650px;
-    height: 200px;
-    background: #efaaaa;
-    float: right;
-
-}
-.bodyleft >div{
-    width: 250px;
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-}
-.client{
-    width: 900px;
-    height: 200px;
-    background: #f29f9f;
-}
-.cliendHeader{
-    width: 900px;
-    height: 75px;
-    background: #aa88dd;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-}
-.clientImage{
-    width: 900px;
-    height: 125px;
-    background-color: blanchedalmond;
-    }
-.images{
-    width: 300px;
-    height: 125px;
-    background-color: wheat;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    float: left;
-}
-.footer{
-    width: 900px;
-    height: 40px;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    background-color: tomato;
+.profile-img{
+     border: 2px solid #fff;
+     border-radius: 7px;
+     color: #fff;
+     height: 72px;
+     width: 72px;
 }

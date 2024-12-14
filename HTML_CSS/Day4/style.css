@@ -2,45 +2,89 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.profileSection{
+    width: 95vw;
+    height: 400px;
+    border: 1px solid #e9e9e9;
+    border-radius: 8px;
+    background: #e9e9e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
 
 }
-body{
+.image img{
+    border-radius: 50%;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+}
+.intro h2{
+    font-size: 40px;
+}
+.about{
+    width: 85vw;
+    height: 200px;
+    border: 1px solid #e9e9e9;
+    background: #e9e9e9;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+}
+.about p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+}
+.work{
+    width: 85vw;
+    height: 400px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    background: #e9e9e9;
+    gap: 30px;
+}
+.project{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.pro{
+    width: 28%;
+    border: 1px dashed #e69494;
+    padding: 100px;
+    box-shadow: -5px 4px 8px 2px rgba(112, 110, 112, 0.8);
+    
+}
+.contact{
+    width: 85vw;
+    height: 100px;
+    background: #e9e9e9;
+    padding: 10px;
+    display: flex;
     align-items: center;
-    height: 100vh;
-    background:#dfdfdf  
-}
-.wrapper{
-    background: #fff none repeat scroll 0 0;
-    border: 1px solid #e1e8ed;
-    border-radius: 6px;
-    height: auto;
-    width: 100%;
-    max-width: 380px;
-    box-shadow: 0px 2px 10px rgba(0,0,0,.92);
-}
-.profile-bg{
-    background-image: url('./profile.jpg');
-    background-position: 0 50%;
-    background-size: 100% auto;
-    border-radius: 4px 4px 0px 0px;
-    height: 95px;
-    width: 100%;
-}
-.profile-link{
-    background-color: #fff;
-    border-radius: 6px;
-    display: inline-block;
-    margin: -30px 5px 0px 8px ;
-    max-width: 100%;
-    padding: 1px;
-    vertical-align: bottom;
-}
-.profile-img{
-     border: 2px solid #fff;
-     border-radius: 7px;
-     color: #fff;
-     height: 72px;
-     width: 72px;
+    justify-content: center;
+
 }
