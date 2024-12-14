@@ -15,7 +15,8 @@
 
 .header h1{
     text-align: center;
-    opacity: 0.8;
+    color: #4f656a;
+    /* opacity: 0.8; */
 }
 .underline{
     width: 370px;
@@ -28,9 +29,10 @@
 }
 .form{
     width: 600px;
-    height: 389px;
-    background: #4f656a;;
-
+    height: 388px;
+    background: #4f656a;
+   
+   
 }
 @media(width<600px){
     .container{
