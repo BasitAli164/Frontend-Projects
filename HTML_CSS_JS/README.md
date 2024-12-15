@@ -5,3 +5,5 @@ Project-2(10/12/2024)
         Digital Clock with the help of HTML, CSS and Js
 Project-3(13/12/2024)
         Make a simple calender by using HTML CSS and JS
+Project-4(14/12/2024)
+        How_To_Show_Password_Strength_Using_HTML_CSS_And_JavaScript_on_Website
