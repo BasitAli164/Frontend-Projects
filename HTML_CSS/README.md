@@ -13,6 +13,8 @@ Day-6(13/12/2024)
     Twitter_Profile_Card___By__Using__HTML__And___CSS
 Day-7(14/12/2024)
     Awesome_Typewriter_Effect_CSS__HTML___CSS___CSS_Animation_Effects
+Day-8(15/12/2024)
+    Text_Hover_Effect_CSS___CSS_Animation_Effects___Text_Hover_Animation_CSS
 
    
 

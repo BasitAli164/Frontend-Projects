@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    font-family:serif;
+    font-size: 1.5em;
+    background: #24c6dc;
+    background: linear-gradient(to right,#514A90,#24c6dc);
+}
+.menu li{
+    list-style: none;
+    margin: 0;
+    padding: 0 0 1rem 2rem;
+    perspective: 500px;
+}
+.menu li::before,
+.menu li::after{
+    content: '';
+    position: absolute;
+}
+.menu li::before{
+    top: 50%;
+    left: 0;
+    transform: translateY(-80%);
+    width: 0.6rem;
+    height: 0.6rem;
+    background:rgba(255,255,255,0.5);
+    transition: background 500ms;
+    border-radius: 50%;
+}
+.menu li:hover::before{
+    background: #fff;
+}
+.word{
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+}
+.word:hover span{
+    transform: rotateX(-360deg);
+    color: #fff;
+}
+.word span{
+    display: inline-block;
+    padding: 0 0.1rem;
+    font-size: 2.5rem;
+    transition: transform 1s linear ,color 2s linear;
+}
+.word1 span:nth-child(1){
+    transition-delay: 0.1s;
+}
+.word1 span:nth-child(2){
+    transition-delay: 0.2s;
+}
+.word1 span:nth-child(3){
+    transition-delay: 0.3s;
+}
+.word1 span:nth-child(4){
+    transition-delay: 0.4s;
+}
+.word1 span:nth-child(5){
+    transition-delay: 0.5s;
+}
+.word1 span:nth-child(6){
+    transition-delay: 0.6s;
+}
+.word1 span:nth-child(7){
+    transition-delay: 0.7s;
+}
+.word1 span:nth-child(8){
+    transition-delay: 0.8s;
+}
+.word1 span:nth-child(9){
+    transition-delay: 0.9s;
+}
+.word2 span:nth-child(1){
+    transition-delay: 0.1s;
+}
+.word2 span:nth-child(2){
+    transition-delay: 0.2s;
+}
+.word2 span:nth-child(3){
+    transition-delay: 0.3s;
+}
+.word2 span:nth-child(4){
+    transition-delay: 0.4s;
+}
+.word2 span:nth-child(5){
+    transition-delay: 0.5s;
+}
+.word2 span:nth-child(6){
+    transition-delay: 0.6s;
+}
+.word2 span:nth-child(7){
+    transition-delay: 0.7s;
+}
+.word2 span:nth-child(8){
+    transition-delay: 0.8s;
+}
+.word2 span:nth-child(9){
+    transition-delay: 0.9s;
+}
