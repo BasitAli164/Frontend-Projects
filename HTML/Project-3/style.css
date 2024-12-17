@@ -7,10 +7,10 @@
     width: 5px;
 }
 ::-webkit-scrollbar-track{
-    background: #ffbd39;
+    background: #000;
 }
 ::-webkit-scrollbar-thumb{
-    background: #000;
+    background: #ffbd39;
 }
 :root{
     --page-bg-color:#000;
@@ -242,9 +242,10 @@ body{
     
 }
 .resumeHeading h2{
-    font-size: 50px;
+    font-size: 70px;
     letter-spacing: 1px;
     text-shadow: 0px 30px 3px rgb(204, 199, 199);
+    
 }
 .resumePara{
     margin: 0% 7%;
