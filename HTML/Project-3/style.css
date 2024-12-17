@@ -19,11 +19,11 @@ body{
 }
 .header-section{
     width: 100%;
-    height: 10%;
+    height: 30%;
 }
 .header-section nav{
     width: 100%;
-    height: auto;
+    height: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +34,8 @@ body{
     margin-left: 20px;
     cursor: pointer;
     margin-top: 10px ;
-    font-weight: 600;
+    font-weight: bolder;
+    font-size: 30px;
     
 
 }
@@ -48,18 +49,164 @@ body{
 .header-section nav ul li{
     list-style: none;
     margin-top: 10px;
+    margin-right: 10px;
 
     
 }
 .header-section nav ul li a{
     text-decoration: none;
     color: var(--page-text-color);
-    font-size: 20px;
+    font-size: 18px;
 }
 .header-section nav ul li a:hover{
-    
+    color: #ffbd39;
     text-decoration: underline;
     text-decoration-color: #ffbd39;
     
 }
+.home-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: var(--page-text-color);
+}
+.home-section .homeInfo{
+   
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.home-section .homeInfo .hello{
+    font-size: 20px;
+    color: #ffbd39;
+    letter-spacing: 2px;
+}
+.myself{
+    font-size: 70px;
+    letter-spacing: 2px;
 
+}
+
+.span{
+    color: #ffbd39;
+}
+.myself1{
+    font-size: 40px;
+
+}
+.profission{
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 30px;
+    margin-top: 20px
+}
+.btn button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    outline: none;
+    border: 1px dotted;
+    color: var(--page-text-color);
+    background: transparent;
+    box-shadow: 0px 0px 0px 1px #e9e9e9;
+    cursor: pointer;
+
+
+}
+.hireBtn:nth-child(1){
+    background-color: #ffbd39;
+    border: 1px dotted #ffbd39;
+}
+.homeImage{
+    width: 50%;
+    height: auto;
+    background-image: url(images/bg_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+.aboutImage{
+    width: 40%;
+    height: auto;
+    background-image: url(./images/bg_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.aboutInformation{
+    width: 60%;
+    height: auto;
+    color: var(--page-text-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutInformation .aboutme{
+    font-size: 80px;
+    margin-top: 20px;
+}
+.aboutInformation .aboutme span{
+    text-shadow: 0px 30px 5px rgb(204, 199, 199);
+    font-weight: bolder;
+}
+.aboutInfo{
+    display: flex;
+    gap: 100px;
+    width: 50%;
+}
+.titlePart{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    font-size: 20px;
+
+}
+.titleInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: #e9e9e9;
+    opacity: 0.6;
+}
+.cvPart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    gap: 10px;
+    
+}
+.cvPart span{
+    color: #ffbd39;
+    font-weight: bold;
+}
+.cvButton{
+    width: 30%;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    outline: none;
+    color: var(--page-text-color);
+    background: transparent;
+    box-shadow: 0px 0px 0px 1px #e9e9e9;
+    cursor: pointer;
+    background-color: #ffbd39;
+    border: 1px dotted #ffbd39;
+
+}
