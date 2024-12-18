@@ -24,14 +24,14 @@
 }
 .main a:hover{
     color: #fff;
-    transition: 0.8s;
+    transition: all 0.8s ease;
 }
 .main a span{
     background: #ff0000;
     position: absolute;
     z-index: -1;
     cursor: pointer;
-    transition: 0.8s ease-out;
+    transition: all 0.8s ease-out;
 
 }
 .to-right{
