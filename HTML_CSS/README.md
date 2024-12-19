@@ -18,7 +18,11 @@ Day-8(15/12/2024)
 Day-9(16/12/2024)
     Make a beautiful__Animated Back__Ground By ___Using HTNL_ CSS
 Day-10(17/12/2024)
-    Hover Effect Buttons
+  How_To_Add_Hover_Effect_On_Button_In_HTML_And_CSS___Animated_Background
+Day-11(18/12/2024)
+    Social_Media_Buttons___Amazing_Animation_On_Hover_Using_HTML___CSS
+Day-12(19/12/2024)
+    Responsive_Card_Slide_Left_Hover_Effect___CSS_Card_Hover_Effect_Using_HTML_CSS
 
    
 
