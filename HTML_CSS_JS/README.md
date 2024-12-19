@@ -9,4 +9,9 @@ Project-4(14/12/2024)
         How_To_Show_Password_Strength_Using_HTML_CSS_And_JavaScript_on_Website
 Project-5(16/12/2024)
         Make a CountDown Timer with help of HTML CSS and JavaScript
+Project-6(17/12/2024)
+        Random Paragraph Generator by using HTML CSS and JS
+Project-7(19/12/2024)
+        Random Color generator by using HTML CSS and JS
+        
         
