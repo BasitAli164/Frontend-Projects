@@ -3,23 +3,31 @@ console.log(slides)
 let counter=0;
 let heading=document.querySelector("#head")
 slides.forEach((item,index)=>{
-    item.style.left=`${index*100}%`
+    item.style.top=`${index*100}%`
 })
 
 
 const goPrev=()=>{
-    counter--;
-    heading.innerHTML=counter
-    slideImage()
+    if(counter<slides.length)
+        {
+        console.log(`couter is: ${counter} and slides lenght is: ${slides.length}`)
+       
+        counter--;
+        heading.innerHTML=counter
+        slideImage()
+    }
 }
 const goNext=()=>{
-    counter++;
     heading.innerHTML=counter
+    if(counter<slides.length-1){
+        console.log(`couter is: ${counter} and slides lenght is: ${slides.length}`)
+    counter++;
     slideImage()
+    }
 }
 const slideImage=()=>{
     slides.forEach((item)=>{
-        item.style.transform=`translateX(-${counter*100}%)`
+        item.style.transform=`translateY(-${counter*100}%)`
     })
 }
 console.log(heading)
