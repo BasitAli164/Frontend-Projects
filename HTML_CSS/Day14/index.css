@@ -1,27 +1,31 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
-:root{
+
+:root {
     --first-color: #673ab7;
-    --first-color-light:#fff;
+    --first-color-light: #fff;
     --facebook: #426782;
-    --twitter:#1da1f2;
-    --youtube:#ff0000;
-    --instagram:#e1306c;
+    --twitter: #1da1f2;
+    --youtube: #ff0000;
+    --instagram: #e1306c;
 }
-body{
+
+body {
     background: var(--first-color);
 }
-.main{
+
+.main {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-label{
+
+label {
     position: relative;
     background: var(--first-color-light);
     height: 50px;
@@ -30,18 +34,20 @@ label{
     line-height: 50px;
     text-align: center;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
-    display: block; 
+    display: block;
     color: var(--first-color);
     cursor: pointer;
-    box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease;
 }
-label:hover{
+
+label:hover {
     letter-spacing: 1px;
 }
-label::before{
+
+label::before {
     content: 'Cancel';
     position: absolute;
     height: 100%;
@@ -52,71 +58,83 @@ label::before{
     border-radius: 35px;
     opacity: 0;
 }
-#check{
+
+#check {
     display: none;
 }
-#check:checked ~label::before{
+
+#check:checked~label::before {
     opacity: 1;
 }
-.mediaIcons{
+
+.mediaIcons {
     position: absolute;
     left: 50%;
     top: -120px;
     transform: translate(-50%);
-     background: var(--first-color-light);
-     width: 250%;
-     height: 110%;
-     text-align: center;
-     display: flex;
-     justify-content: space-evenly;
-     border-radius: 35px;
-     padding: 4px 10px ;
-     z-index: 1;
-     opacity: 1;
-     pointer-events: none;
+    background: var(--first-color-light);
+    width: 250%;
+    height: 110%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 35px;
+    padding: 4px 10px;
+    z-index: 1;
+    opacity: 1;
+    pointer-events: none;
     opacity: 0;
-    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease;
     align-items: center;
 }
-.mediaIcons a{
+
+.mediaIcons a {
     text-decoration: none;
     margin: 0px 12px;
     color: var(--first-color);
     transition: all 0.3s ease;
 }
-.mediaIcons a li{
+
+.mediaIcons a li {
     list-style: none;
     font-size: 20px;
 }
-#check:checked ~ .mediaIcons{
+
+#check:checked~.mediaIcons {
     opacity: 1;
     pointer-events: auto;
     top: -100px;
 }
-.mediaIcons::before{
+
+.mediaIcons::before {
     content: "";
-    width: 18px;
-    height: 18px;
+    width: 28px;
+    height: 28px;
     position: absolute;
     left: 50%;
-    top: 45px;
+    top: 40px;
     background: var(--first-color-light);
     bottom: 9px;
     transform: translateX(-50%) rotate(45deg);
 }
-.mediaIcons a:hover{
+
+.mediaIcons a:hover {
     transform: translateY(-4px);
 }
-.mediaIcons a:nth-child(1):hover{
+
+.mediaIcons a:nth-child(1):hover {
     color: var(--facebook);
 }
-.mediaIcons a:nth-child(2):hover{
+
+.mediaIcons a:nth-child(2):hover {
     color: var(--twitter);
 }
-.mediaIcons a:nth-child(3):hover{
+
+.mediaIcons a:nth-child(3):hover {
     color: var(--instagram);
 }
-.mediaIcons a:nth-child(4):hover{
+
+.mediaIcons a:nth-child(4):hover {
     color: var(--youtube);
 }
