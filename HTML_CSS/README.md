@@ -25,6 +25,8 @@ Day-12(19/12/2024)
     Responsive_Card_Slide_Left_Hover_Effect___CSS_Card_Hover_Effect_Using_HTML_CSS
 Day-13(20/12/2024)
     3D_Social_Media_Icons_Hover_Effect___3D_Isometric_Social_Media_Icon_Hover_Effect
+Day-14(21/12/2024)
+    Animated_Share_Button_using_HTML___CSS___Social_Media_Icons___CSS_Animation_Effects
 
    
 
