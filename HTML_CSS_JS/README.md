@@ -13,5 +13,10 @@ Project-6(17/12/2024)
         Random Paragraph Generator by using HTML CSS and JS
 Project-7(19/12/2024)
         Random Color generator by using HTML CSS and JS
+Project-8(20/12/2024):
+        How_to_Create_Image_Slider_in_HTML,_CSS___Js
+Project-9(21/12/2024)
+        Build_Your_Own_Password_Generator_using_JavaScript_HTML_CSS
+        
         
         
