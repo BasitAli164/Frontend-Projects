@@ -6,7 +6,7 @@
 }
 input:focus-visible{
     outline:0;
-}
+} 
 .main{
     background: #3498db;
     min-height: 100vh;
