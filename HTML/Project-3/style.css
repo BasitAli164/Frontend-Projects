@@ -749,7 +749,7 @@ body{
     /* background: lightgrey; */
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 65px;
 }
 .contactHeadingPart{
     width: 100%;
@@ -790,13 +790,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+    
 }
 .contactIcon{
     margin-top: 10px;
     width: 50%;
     height: 40%;
-    /* border-radius: 25%; */
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -848,9 +848,7 @@ body{
     width: 45%;
     height: 80%;
     background-color: white;
-    /* opacity: 0.9; */
     margin-right: 100px;
-    border-radius: 5px;
     position: relative;
     
 }
@@ -887,7 +885,7 @@ body{
 .userInfo button{
     margin-top: 120px;
     width: 50%;
-    height: 120%;
+    height: 150%;
     border-radius: 50px;
     outline: none;
     border: none;
