@@ -1,0 +1,114 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #222;
+    font-family: serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side-wrapper{
+    background: #fff;
+   width: 400px;
+   margin: 20px auto;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 10px 10px 70px rgba(255,255,255,0.5);
+}
+.item-wrapper{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    padding: 4px;
+}
+.item-wrapper .line{
+    background:linear-gradient(to right, #f98ace 0%,#12ace9 50%,#434343 100%);
+    position: absolute;
+}
+.item-wrapper .line span{
+    background: #e3e3e3;
+    position: inherit;
+    display: block;
+    transition: all 0.5s ease-out;
+}
+.item-wrapper .line-top{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+}
+.item-wrapper .line-right{
+    top: 0;
+    right: 0;
+    width: 4px;
+    height: 100%;
+}
+.item-wrapper .line-bottom{
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+}
+.item-wrapper .line-left{
+    left: 0;
+    bottom: 0;
+    width: 4px;
+    height: 100%;
+}
+.item-wrapper .line-top span{
+    top: inherit;
+    left: inherit;
+    width: 0;
+    height: 100%;
+}
+.item-wrapper .line-right span{
+    top: inherit;
+    right: inherit;
+    width: 100%;
+    height: 0;
+}
+.item-wrapper .line-bottom span{
+    top: inherit;
+    right: inherit;
+    width: 0;
+    height: 100%;
+}
+.item-wrapper .line-left span{
+    left: inherit;
+    bottom: inherit;
+    width: 100%;
+    height: 0;
+}
+.item-wrapper:hover .line-top span,
+.item-wrapper:hover .line-bottom span{
+    width: 100%;
+    
+}
+.item-wrapper:hover .line-left span,
+.item-wrapper:hover .line-right span{
+    height: 100%;
+
+}
+.item-wrapper > .item{
+padding: 40px 30px;
+text-transform: uppercase;
+text-align: justify;
+}
+.item-wrapper > .item h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+.item-wrapper > .item >h2 > .title{
+    color: #6c63ff;
+    font-weight: 800;
+}
+.item-wrapper > .item > p{
+    padding: 30px 0px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
