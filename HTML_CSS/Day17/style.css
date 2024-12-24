@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.quotes{
+    width: 80vw;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 2;
+    box-sizing: border-box;
+
+}
+.quotes .box{
+    position: relative;
+    width: 25vw;
+    height: 50vh;
+    min-height: 320px;
+    background: #f2f2f2;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 2;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: -10px 25px 50px rgva(0,0,0,0.3);
+}
+.quotes .box::before{
+    content: '\201C';
+    position: absolute;
+    top: -20px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    font-size: 120px;
+    opacity: 0.3;
+    background: transparent;
+    pointer-events: none;
+}
+.quotes .box::after{
+    content: '\201D';
+    font-size: 120px;
+    position: absolute;
+    bottom: -10%;
+    right: 5%;
+    opacity: 0.3;
+    background: transparent;
+    pointer-events: none;
+    filter: invert(1);
+}
+.quotes .box p{
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.quotes .box h2{
+    position: absolute;
+    margin: 0;
+    padding: 0; 
+    bottom: 10%;
+    right: 10%;
+    font-size: 1.5rem;
+}
+.quotes .box:hover{
+    color: #f2f2f2;
+    box-shadow: 20px 50px 100px rgab(0,0,0,0.5);
+}
+.quotes .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.quotes .box.box1:hover,
+.quotes .box.box1:hover~.bg{
+    opacity: 1;
+    background: linear-gradient(135deg,#e2a9e5 15%, #2b94e5 100%);
+    
+}
+.quotes .box.box2:hover,
+.quotes .box.box2:hover~.bg{
+    opacity: 1;
+    background: linear-gradient(135deg,#632c65 15%, #56a5e2 100%);
+    
+}
+.quotes .box.box3:hover,
+.quotes .box.box3:hover~.bg{
+    opacity: 1;
+    background: linear-gradient(135deg,#4b384c 15%, #da5de2 100%);
+    
+}

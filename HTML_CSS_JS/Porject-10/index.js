@@ -1,5 +1,5 @@
 const addBtn=document.querySelector("#addBtn");
-const main=document.querySelector(".main")
+const main=document.querySelector(".main");
 
 
 addBtn.addEventListener(
@@ -15,7 +15,7 @@ const saveNote=()=>{
     notes.forEach((item)=>{
         return data.push(item.value);
     });
-    
+
 }
 const addNote=()=>{
     const note=document.createElement("div");
