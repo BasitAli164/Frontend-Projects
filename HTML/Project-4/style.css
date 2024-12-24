@@ -30,10 +30,11 @@
 
 ::-webkit-scrollbar-thumb {
     background: #78cc6d;
+    height: 5%;
 }
 
 ::-webkit-scrollbar-track {
-    background: #000;
+    background: #f2f2f2;
 }
 
 body {
@@ -447,16 +448,13 @@ h3 {
     font-size: 20px;
 }
 
-.form-btn {
-    margin-bottom: 30px;
-}
-
 .form-btn button {
     padding: 12px 30px;
     color: #fff;
     background: #78cc6d;
     border: 1.5px solid #e9e9e9;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .footer-section {
@@ -489,6 +487,7 @@ h3 {
 
 .footerbody span {
     color: #fff;
+    cursor: pointer;
 
 }
 
