@@ -28,6 +28,7 @@
 ::-webkit-scrollbar-thumb{
     background: #78cc6d;
 }
+
 ::-webkit-scrollbar-track{
     background: #000;
 }
@@ -117,12 +118,17 @@ h3{
     padding: 2px;
 }
 .aboutPargarph>p{
+    width: 90%;
     text-align: justify;
     color: var(--text-color);
+    margin-left: 20px;
 }
 .introduction{
     display: flex;
     gap: 50px;
+    margin-left: 20px;
+
+
 }
 .introLeftPart,
 .introRightPart{
@@ -159,6 +165,8 @@ h3{
     display: flex;
     width: 100%;
     gap: 80px;
+    margin-left: 20px;
+
 }
 .skillLeftPart,
 .skillRightPart{
@@ -168,10 +176,6 @@ h3{
     gap: 30px;
 
 }
-.skillLeftPart{
-    margin-left: 20px;
-}
-
 .skillportion{
     display: flex;
     justify-content: space-between;
@@ -213,4 +217,90 @@ h3{
     width: 60%;
     height: 100%;
     background: var(--underline-color);
+}
+.experience-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.experienceDetail{
+    width: 100%;
+    border-left: 1px solid #78cc6d;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+
+}
+.experienceInfo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 10px 2px 25px;
+
+}
+.experienceHeading{
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.experienceSubHeading{
+    color: var(--text-color);
+}
+.experienceSubHeading span{
+    font-size: 15px;
+}
+.experiencePara{
+    color: var(--text-color);
+    text-align: justify;
+}
+.service-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.serviceDetail{
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+
+}
+.serviceLeftPart,
+.serviceRightPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.serviceDetailInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.serviceCircle{
+    width: 70px;
+    height: 70px;
+    border: 3px solid #78cc6d;
+    border-radius: 35px;
+
+}
+.serviceDetailInfo:hover .serviceCircle{
+    background: #78cc6d;
+}
+.serviceHeading{
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+.serviceParagraph{
+    color: var(--text-color);
+    text-align: center;
 }
