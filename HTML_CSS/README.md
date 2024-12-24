@@ -1,4 +1,4 @@
-# Pure HTML and CSS Projects
+# Pure HTML and CSS mini Projects
 Day-1(08/12/2024)
     Vertical_Split_Layout_Text_Effect_With_Mix_Blend_Mode___CSS_Blend_Mode
 Day-2(09/12/2024)
@@ -31,6 +31,8 @@ Day-15(22/12/2024)
     Button_Hover_Effect___HTML___CSS_Full_Tutorial_In_Hindi___Button_Hover_Effects
 Day-16(23/12/2024)
     Content_Box_Hover_Effects_HTML5___CSS3___Border_Animation_On_Hover_Effects
+Day-17(24/12/2024)
+    Content_Box_Hover_Effects_Using_HTML___CSS
    
 
     
