@@ -304,3 +304,40 @@ h3{
     color: var(--text-color);
     text-align: center;
 }
+.portfolio-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.portfolioButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.portfolioButtons button{
+    padding: 5px 10px;
+    /* outline: none;   */
+    background: transparent;
+    border: 1px solid #78cc6d;
+    color: #78cc6d;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.portfolioButtons button:hover{
+    color: #000;
+    background: #78cc6d;
+}
+.portfolioDetail{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolioImage{
+    width: 40%;
+
+}
+.portfoliobg-1{
+    background-image: url();
+}
