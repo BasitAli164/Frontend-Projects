@@ -11,7 +11,6 @@ addBtn.addEventListener(
 
 const saveNote=()=>{
     const notes1=document.querySelectorAll(".note textarea");
-    console.log("Notes1 is:",notes1.value)
     const data=[];
     notes1.forEach((item)=>{
         return data.push(item.value,"1st time ");
@@ -21,8 +20,8 @@ const saveNote=()=>{
     }else{
         
         localStorage.setItem("note",JSON.stringify(data))
+
     }
-   
 
 }
 
