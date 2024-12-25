@@ -34,7 +34,7 @@ Day-16(23/12/2024)
 Day-17(24/12/2024)
     Content_Box_Hover_Effects_Using_HTML___CSS
 Day-18(25/12/2024)
-    Create_a_Custom_Toggle_Switch_with_Pure_CSS
+    Create_a_Custom_Toggle_Switch_with_Pure_CSS || Fill_Text_Hover_Effects___CSS_Animation_Effects
    
 
     
