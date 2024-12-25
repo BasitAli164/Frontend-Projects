@@ -267,3 +267,11 @@ body{
 .qualitySubTitle span{
     font-size: 14px;
 }
+.experiencePara,
+.educationPara{
+    text-align: justify;
+    color: grey;
+    opacity: 0.9;
+    font-size: 15px;
+
+}
