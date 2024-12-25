@@ -79,6 +79,7 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 .aboutHeadingPart{
@@ -100,4 +101,79 @@ body{
     font-size: 50px;
     color: #0bceaf;
     font-weight: bolder;
+}
+.aboutDetail{
+    width: 80%;
+    display: flex;
+    gap: 50px;
+}
+.aboutDetialImage{
+    width: 50%;
+    height: 100%;
+}
+.aboutDetialImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.aboutDetailInfo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.aboutHeadingAndPara{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.aboutHeadingAndPara>h1{
+
+}
+.aboutHeadingAndPara>p{
+    text-align: justify;
+    color: grey;
+    opacity: 0.9;
+    letter-spacing: 0.5;
+    word-spacing: 2px;
+}
+.aboutPersonalDetail{
+    display: flex;
+    gap: 70px;
+}
+.aboutPersonLeft,
+.aboutPersonRight{
+    display: flex;
+    gap: 40px;
+    
+}
+.aboutPersonalKeys,
+.aboutPersonalValue{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.aboutPersonalValue span{
+    opacity: 0.5;
+}
+.aboutDetailBtn{
+    display: flex;
+    gap: 50px;
+}
+.aboutDetailBtn button{
+    padding: 12px 30px;
+    border-radius: 50px;
+    background: transparent;
+    color: #0bceaf;
+    border: 1px solid #0bceaf;
+    cursor: pointer;
+}
+.aboutDetailBtn button:hover{
+    background: #0bceaf;
+    color: #fff;
 }
