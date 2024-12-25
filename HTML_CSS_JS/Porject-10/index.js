@@ -15,6 +15,8 @@ const saveNote=()=>{
     notes.forEach((item)=>{
         return data.push(item.value);
     });
+    localStorage.setItem("note",JSON.stringify(data))
+   
 
 }
 const addNote=()=>{

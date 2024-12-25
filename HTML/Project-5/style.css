@@ -185,6 +185,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    margin-bottom: 100px;
 }
 .qualityHeadingPart{
     width: 100%;
@@ -274,4 +275,95 @@ body{
     opacity: 0.9;
     font-size: 15px;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: #0bceaf;
+    padding: 100px;
+}
+
+.footerHead {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.footerHead div {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.footerbody {
+    display: flex;
+    gap: 20px;
+}
+
+.footerbody span {
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.footerTail {
+    color: #fff;
+}
+
+.footerTail p span {
+    font-weight: bold;
 }
