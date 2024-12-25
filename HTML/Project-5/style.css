@@ -172,6 +172,8 @@ body{
     color: #0bceaf;
     border: 1px solid #0bceaf;
     cursor: pointer;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
 }
 .aboutDetailBtn button:hover{
     background: #0bceaf;
