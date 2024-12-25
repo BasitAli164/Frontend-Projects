@@ -7,38 +7,70 @@ addBtn.addEventListener(
     function(){
        addNote();
     }
-)
+);
 
 const saveNote=()=>{
-    const notes=document.querySelectorAll(".note textarea");
+    const notes1=document.querySelectorAll(".note textarea");
+    console.log("Notes1 is:",notes1.value)
     const data=[];
-    notes.forEach((item)=>{
-        return data.push(item.value);
+    notes1.forEach((item)=>{
+        return data.push(item.value,"1st time ");
     });
-    localStorage.setItem("note",JSON.stringify(data))
+    if(data.length==0){
+        localStorage.removeItem("note")
+    }else{
+        
+        localStorage.setItem("note",JSON.stringify(data))
+    }
    
 
 }
-const addNote=()=>{
+
+const addNote=(text="")=>{
     const note=document.createElement("div");
     note.classList.add("note");
     note.innerHTML=`
         <div class="tool">
                 <img class="delete" src="delete.png" alt="" width="50">
-                <img class="saveNotes" src="edit.png" alt="" width="50">
+                <img id="saveNotes" src="edit.png" alt="" width="50">
             </div>
-            <textarea ></textarea>
+            <textarea >${text}</textarea>
     `;
     note.querySelector(".delete").addEventListener(
         'click',
         function(){
             note.remove();
+            saveNote();
         }
     )
-    note.querySelector('.saveNotes').addEventListener(
+    note.querySelector('#saveNotes').addEventListener(
         "click",
         saveNote()
     )
+    note.querySelector("#saveNotes").addEventListener(
+        'focusout',
+        function(){
+            saveNote()
+        }
+    )
     main.appendChild(note)
+    saveNote();
 
 }
+    (
+    
+        function(){
+            const getNotes=JSON.parse(localStorage.getItem("note"))
+            if(getNotes===null){
+                addNote();
+            }else{
+                
+                getNotes.forEach((item)=>{
+                    addNote(item)
+                })
+                
+            }
+
+    
+        }
+    )()
