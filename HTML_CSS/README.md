@@ -33,6 +33,8 @@ Day-16(23/12/2024)
     Content_Box_Hover_Effects_HTML5___CSS3___Border_Animation_On_Hover_Effects
 Day-17(24/12/2024)
     Content_Box_Hover_Effects_Using_HTML___CSS
+Day-18(25/12/2024)
+    Create_a_Custom_Toggle_Switch_with_Pure_CSS
    
 
     
