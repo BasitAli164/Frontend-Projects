@@ -181,5 +181,89 @@ body{
 }
 .quality-section{
     width: 100%;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.qualityHeadingPart{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.qualityHeadingPart>h1{
+    position: absolute;
+    top: 70px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: #0bceaf;
+    font-size: 38px;
+}
+.qualityHeadingPart>h2{
+    font-size: 150px;
+    -webkit-text-stroke: 2px #dee2e6;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.qualityDetail{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.qualityEducation,
+.qualityExperience{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.educationHeading,
+.experienceHeading{
+    font-size: 27px;
+    opacity: 0.8;
+}
+.educationDetail,
+.experienceDetail{
+    border-left: 1.5px solid #0bceaf;
+    margin-left: 12px;
+}
+.educationBox1,
+.experienceBox1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.educationBox2,
+.experienceBox2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.educationBox3,
+.experienceBox3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.qualityTitle{
+    font-size: 23px;
+    opacity: 0.9;
+}
+.qualitySubTitle{
+    font-weight: 600;
+    color: grey;
+}
+.qualitySubTitle span{
+    font-size: 14px;
 }
