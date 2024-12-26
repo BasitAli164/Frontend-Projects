@@ -104,6 +104,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
+    text-transform: uppercase;
 }
 
 .portHeadingPart>h2 {
@@ -391,7 +392,7 @@ body {
     border-radius: 50px;
 }
 
-.service-section{
+.service-section {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -399,59 +400,135 @@ body {
     align-items: center;
     margin-bottom: 50px;
 }
-.serviceDetail{
+
+.serviceDetail {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 75px;
     align-items: center;
-    
+
 }
-.serviceBox{
+
+.serviceBox {
     width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    
+
 }
-.seriviceHeading{
+
+.seriviceHeading {
     display: flex;
     align-items: center;
     gap: 25px;
 
 }
-.serviceCircle{
+
+.serviceCircle {
     width: 50px;
     height: 50px;
     background: #0bceaf;
     border-radius: 25px;
 
 }
-.serviceBody{
+
+.serviceBody {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: center;
 }
-.servicePara{
+
+.servicePara {
     opacity: 0.7;
     text-align: justify;
 
 }
-.serviceLink{
+
+.serviceLink {
     color: #0bceaf;
 }
-
-
-
-
-
-
-
-
-
+.portfolio-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.portfolioBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.portfolioBtns button{
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid #0bceaf;
+    background: transparent;
+    color: #0bceaf;
+}
+.portfolioBtns button:hover{
+    color: #fff;
+    background: #0bceaf;
+    cursor: pointer;
+}
+.portfolioContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.portfolioBox{
+    width: 30%;
+    height: 100%;
+    padding: 150px;
+}
+.portfolioBox:hover::after{
+    content: attr();
+}
+.portfolioBox1{
+    background-image: url('./img/portfolio-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioBox2{
+    background-image: url('./img/portfolio-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioBox3{
+    background-image: url('./img/portfolio-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioBox4{
+    background-image: url('./img/portfolio-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioBox5{
+    background-image: url('./img/portfolio-5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioBox6{
+    background-image: url('./img/portfolio-6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .footer-section {
     width: 100%;
