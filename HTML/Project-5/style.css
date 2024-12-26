@@ -21,7 +21,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background: #0bceaf;
-    height: 2%;
+    height: auto;
 }
 
 .header-section {
