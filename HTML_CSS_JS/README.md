@@ -17,6 +17,10 @@ Project-8(20/12/2024):
         How_to_Create_Image_Slider_in_HTML,_CSS___Js
 Project-9(21/12/2024)
         Build_Your_Own_Password_Generator_using_JavaScript_HTML_CSS
+Project-10(25/12/2024)
+        Build_Your_Own_Notes_Taking_App_using_JavaScript
+Project-11(27/12/2024)
+        Create_a_To-Do_List_App_using_JavaScript
         
         
         
