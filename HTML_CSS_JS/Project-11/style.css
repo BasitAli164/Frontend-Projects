@@ -3,3 +3,52 @@
     margin: 0;
     box-sizing: border-box;
 }
+.main{
+    width: 100%;
+    height: 100vh;
+    background: #3498ab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.box{
+    width: 500px;
+    min-height: 400px;
+    background: #fff;
+    border-radius: 5%;
+    padding: 15px;
+}
+#item{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 0 2px grey;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+}
+#todoBox{
+    margin-top: 20px;
+    list-style: none;
+    position: relative;
+}
+#todoBox li{
+    color: #fff;
+    background: #2c3e50;
+    padding: 20px;
+    border-radius: 2px;    
+    margin-top: 10px;
+}
+#todoBox li i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+}
+.done{
+    text-decoration: line-through;
+    color: #000;
+    background: #;
+}

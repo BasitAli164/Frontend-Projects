@@ -35,8 +35,9 @@ Day-17(24/12/2024)
     Content_Box_Hover_Effects_Using_HTML___CSS
 Day-18(25/12/2024)
     Create_a_Custom_Toggle_Switch_with_Pure_CSS || Fill_Text_Hover_Effects___CSS_Animation_Effects
-Day--19(26/12/2024)
+Day-19(26/12/2024)
     CSS_Card_Hover_Effects_HTML___CSS___Card_Hover_Animation_CSS___CSS_Animation_Effect
-   
+Day-20(27/12/2024)
+    Glowing_Gradient_Button_Animation_Effects_on_Hover_Using_Html5___CSS3___CSS_Animation_Effects
 
     
