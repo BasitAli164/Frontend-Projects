@@ -20,7 +20,7 @@ const addToDo=(item)=>{
     listItem.addEventListener(
         'click',
         function(){
-            this.classList.toggle("");
+            this.classList.toggle("done");
         }
     )
 
