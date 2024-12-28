@@ -5,7 +5,7 @@
 }
 body{
     min-height: 100vh;
-    background: #f0eded;
+    background: #555151;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,5 +55,13 @@ body{
     -moz-transform: rotate(-180deg);
     border-radius: 100%;
     transition: all 264ms ease-in;
+
+}
+.socailIcons a.socailSquare:hover img{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    color: #fff;
 
 }
