@@ -39,5 +39,6 @@ Day-19(26/12/2024)
     CSS_Card_Hover_Effects_HTML___CSS___Card_Hover_Animation_CSS___CSS_Animation_Effect
 Day-20(27/12/2024)
     Glowing_Gradient_Button_Animation_Effects_on_Hover_Using_Html5___CSS3___CSS_Animation_Effects
-
+Day-21(28/12/2024)
+    Social_Media_Icons_Hover_Effect_using_HTML___CSS___Font_Awesome_Icons
     
