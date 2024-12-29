@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #2f3238;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    outline: none;
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover,
+a:focus{
+    color: #528cb3;
+}
