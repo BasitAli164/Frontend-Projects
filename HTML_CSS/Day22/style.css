@@ -22,7 +22,6 @@ a:focus{
 .content{
     margin: 0 auto;
     max-width: 1000px;
-
 }
 .content > h2{
     clear: both;
@@ -30,4 +29,18 @@ a:focus{
     padding: 0% 1% 0%;
     color: #484b54;
     font-weight: 800;
+    font-size: 1.5em;
+}
+.grid{
+    position: relative;
+    margin: 0 auto;
+    padding: 1em 0 4em;
+    max-width: 1000px;
+    text-align: center;
+}
+.grid figure{
+    background: red;
+    position: relative;
+    float: left;
+    overflow: hidden;
 }
