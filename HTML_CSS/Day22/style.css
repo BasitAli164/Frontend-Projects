@@ -87,5 +87,23 @@ a:focus{
     opacity: 0;
 }
 .grid figure h2{
-    
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+.grid figure h2 span{
+    font-weight: 800;
+}
+.grid figure h2,
+.grid figure p{
+    margin: 0;
+}
+.grid figure p{
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+figure.effect{
+    background: #18a367;
+}
+figure.effect img{
+    height: 390px;
 }
