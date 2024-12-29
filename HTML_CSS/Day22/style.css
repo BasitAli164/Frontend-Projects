@@ -19,3 +19,15 @@ a:hover,
 a:focus{
     color: #528cb3;
 }
+.content{
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
+.content > h2{
+    clear: both;
+    margin: 0;
+    padding: 0% 1% 0%;
+    color: #484b54;
+    font-weight: 800;
+}
