@@ -198,6 +198,7 @@ figure.effect:hover img{
         display: inline-block;
         float: none;
         margin: 10px auto;
+        width: 100%;
     }
     
 }
