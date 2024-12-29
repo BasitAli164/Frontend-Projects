@@ -41,4 +41,6 @@ Day-20(27/12/2024)
     Glowing_Gradient_Button_Animation_Effects_on_Hover_Using_Html5___CSS3___CSS_Animation_Effects
 Day-21(28/12/2024)
     Social_Media_Icons_Hover_Effect_using_HTML___CSS___Font_Awesome_Icons
+Day-22
+    Awesome_Image_Hover_Effects___CSS_Creative_Image_Hover_Effects
     
