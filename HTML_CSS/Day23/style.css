@@ -45,7 +45,7 @@ body{
 
 }
 .socail_tooltip{
-    opacity: 0;
+    /* opacity: 0; */
     position: absolute;
     padding: 0.5rem 1rem;
     background: var(--first-color);
@@ -94,5 +94,19 @@ body{
 }
 .social_content:hover .social_tooltip_top{
     opacity: 1;
-    top: -3.35rem;
+    top: -0.9rem;
+}
+.social_tooltip_bottom{
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,100%);
+}
+.social_tooltip_bottom::after{
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    top: 1px;
+}
+.social_content:hover .social_tooltip_bottom{
+    opacity: 1;
+    bottom: 1rem;
 }
