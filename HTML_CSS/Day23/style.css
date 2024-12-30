@@ -45,7 +45,7 @@ body{
 
 }
 .socail_tooltip{
-    /* opacity: 0; */
+    opacity: 0; 
     position: absolute;
     padding: 0.5rem 1rem;
     background: var(--first-color);
@@ -122,5 +122,5 @@ body{
 }
 .social_content:hover .social_tooltip_right{
     opacity: 1;
-    
+    right: 1rem;
 }
