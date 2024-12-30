@@ -110,3 +110,17 @@ body{
     opacity: 1;
     bottom: 1rem;
 }
+
+.social_tooltip_right{
+    right: 0;
+    transform: translateX(100%);
+}
+.social_tooltip_right::after{
+    top: 50%;
+    left: -13px;
+    transform: translate(50%,-50%) rotate(45deg);
+}
+.social_content:hover .social_tooltip_right{
+    opacity: 1;
+    
+}
