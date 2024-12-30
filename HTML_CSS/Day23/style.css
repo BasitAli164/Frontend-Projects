@@ -32,10 +32,10 @@ body{
 
 .social_content{
     position: relative;
-    padding: 0.5rem;
-    margin: 0px 1rem;
+    padding: 1.5rem;
+    margin: 0px 1.5rem;
     background: var(--first-color-light);
-    border-radius: 1rem;
+    border-radius: 50px;
     box-shadow: -2px -2px 8px #fafafa, 2px 2px 8px rgba(12,13,63,0.5);
     cursor: pointer;
    
@@ -68,9 +68,6 @@ body{
 .social_content{
     transition: 3s;
 }
-.scoial_content:hover{
-    background: var(--first-color);
-}
 .social_tooltip_left{
     left: 0;
     transform: translateX(-100%);
@@ -82,6 +79,20 @@ body{
 }
 .social_content:hover .social_tooltip_left{
     opacity: 1;
-    left: .2rem;
+    left: 1rem;
 
+}
+.social_tooltip_top{
+    top: -2.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.social_tooltip_top::after{
+    left: 50%;
+    transform: translate(-50%,50%) rotate(45deg);
+    bottom: 1px;
+}
+.social_content:hover .social_tooltip_top{
+    opacity: 1;
+    top: -3.35rem;
 }
