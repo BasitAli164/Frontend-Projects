@@ -42,13 +42,30 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background: red;
-
+    align-items: center;
+    overflow: hidden;
+    padding-top: 35px;   
     
+    
+}
+.logoPart{
+    padding-left: 60px; 
+    cursor: pointer;
 }
 .navBarlist{
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
-    gap: 80px;
+    gap: 55px;
+    padding-left: 40px;
+}
+.navBarlist li a{
+    
+    font-size: 18px;
+    color: var(--text-primary-color);
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out ;
+
+}
+.navBarlist li a:hover{
+    color:var(--text-hover-color)
 }
