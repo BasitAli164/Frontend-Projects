@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 :root{
     --text-primary-color:#fefefd;
@@ -27,4 +29,26 @@ body{
     line-height: 1.80857;
     font-weight: normal;
     font-family: sans-serif;
+}
+.header-section{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/banner-bg.png) center no-repeat ;    
+    background-size: cover;
+
+    
+}
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: red;
+
+    
+}
+.navBarlist{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 80px;
 }
