@@ -45,4 +45,6 @@ Day-22
     Awesome_Image_Hover_Effects___CSS_Creative_Image_Hover_Effects
 Day--23
     Social_Media_Icons_Tooltip_Using_HTML_And_CSS___Social_Icons_Hover_Effects
+Day-24
+    Responsive_Profile_Card_UI_Design_using_HTML5___CSS3
     
