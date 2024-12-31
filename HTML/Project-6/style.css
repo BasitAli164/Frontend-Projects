@@ -17,6 +17,7 @@
     --button-hover-color1:#ffc107;
     --button-hover-color2-:#292929;
     --bg-primary-color:#ffffff;
+    --footer-bg-color:#252f2d;
     
 
 
@@ -24,6 +25,9 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background: var(--whiteColor);
-
+    color:#666666;
+    font-size: 14px;
+    line-height: 1.80857;
+    font-weight: normal;
+    font-family: sans-serif;
 }
