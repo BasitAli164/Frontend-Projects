@@ -3,8 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --text-primary-color:#fefefd;
+    --text-secondary-color:#292929;
+    --text-hover-color:#ffc107;
+    --underline-primary-color:#292929;
+    --underline-secondary-color:#fefefd;
+    --heading-color:#ffc107;
+    --box-shadow:0px 0px 20px 0px;
+    --button-first-color:#292929;
+    --button-second-color:#fefefd;
+    --button-third-color:#fa7e23;
+    --button-hover-color1:#ffc107;
+    --button-hover-color2-:#292929;
+    --bg-primary-color:#ffffff;
+    
+
+
+}
 body{
     width: 100%;
     min-height: 100vh;
-    
+    background: var(--whiteColor);
+
 }
