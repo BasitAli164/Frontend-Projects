@@ -1,73 +1,122 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
 }
-:root{
-    --text-primary-color:#fefefd;
-    --text-secondary-color:#292929;
-    --text-hover-color:#ffc107;
-    --underline-primary-color:#292929;
-    --underline-secondary-color:#fefefd;
-    --heading-color:#ffc107;
-    --box-shadow:0px 0px 20px 0px;
-    --button-first-color:#292929;
-    --button-second-color:#fefefd;
-    --button-third-color:#fa7e23;
-    --button-hover-color1:#ffc107;
-    --button-hover-color2-:#292929;
-    --bg-primary-color:#ffffff;
-    --footer-bg-color:#252f2d;
+
+:root {
+    --text-primary-color: #fefefd;
+    --text-secondary-color: #292929;
+    --text-hover-color: #ffc107;
+    --underline-primary-color: #292929;
+    --underline-secondary-color: #fefefd;
+    --heading-color: #ffc107;
+    --box-shadow: 0px 0px 20px 0px;
+    --button-first-color: #292929;
+    --button-second-color: #fefefd;
+    --button-third-color: #fa7e23;
+    --button-hover-color1: #ffc107;
+    --button-hover-color2-: #292929;
+    --bg-primary-color: #ffffff;
+    --footer-bg-color: #252f2d;
 }
-body{
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background: #292929;
+}
+::-webkit-scrollbar-track{
+    height: 5px;
+    background: #fa7e23;
+}
+
+body {
     width: 100%;
     min-height: 100vh;
-    color:#666666;
+    color: #666666;
     font-size: 14px;
     line-height: 1.80857;
     font-weight: normal;
     font-family: sans-serif;
 }
-.header-section{
+
+.header-section {
     width: 100%;
-    height: 100vh;
-    background: url(./images/banner-bg.png) center no-repeat ;    
+    height: 120vh;
+    background: url(./images/banner-bg.png) center no-repeat;
     background-size: cover;
 
-    
+
 }
-.navBar{
+
+.navBar {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    padding-top: 35px;   
-    
-    
+    padding-top: 40px;
+
+
 }
-.logoPart{
+
+.logoPart {
     width: 30%;
-    padding-left: 58px; 
+    padding-left: 73px;
     cursor: pointer;
 }
-.navBarlist{
+
+.navBarlist {
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
-.navBarlist li a{
-    
+
+.navBarlist li a {
+
     font-size: 18px;
     color: var(--text-primary-color);
     text-transform: uppercase;
-    transition: all 0.8s ease-in-out ;
+    transition: all 0.8s ease-in-out;
 
 }
-.navBarlist li a:hover{
-    color:var(--text-hover-color)
+
+.navBarlist li a:hover {
+    color: var(--text-hover-color);
+    opacity: 0.8;
+}
+
+.banerPart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 142px;
+    padding-left: 120px;
+
+}
+
+.introAbout {
+    width: 100%;
+    padding-top: 80px;
+    color: var(--bg-primary-color);
+}
+
+.introAbout h3 {
+    line-height: normal;
+    font-size: 28px;
+}
+
+.introAbout h1 {
+    font-size: 55px;
+}
+
+.playerIcon img {
+    width: 75px;
+    box-shadow: 0px 0px 20px #ffc107;
+    border-radius: 50px;
 }
