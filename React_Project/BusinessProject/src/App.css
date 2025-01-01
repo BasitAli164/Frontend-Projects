@@ -19,6 +19,8 @@
     --blue-color-bg:rgb(97 104 255/9%);
     --border-color-light: rgba(255,255,255,0.20);
     --box-shadow:0 1rem 3rem rgb(0 0 0 /12%);
+    --dark-layer-color:linear-gradient( to top, rgb(21 21 21/67%),rgb(23 23 23/17%));
+    
     /* Font Family */
     --primary-font:"Poppins", serif;
 }
