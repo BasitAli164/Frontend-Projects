@@ -5,7 +5,7 @@
     list-style: none;
     text-decoration: none;
     font-family: "Poppins", serif;
-  font-weight: 500;
+    font-weight: 500;
 }
 
 :root {
@@ -24,13 +24,16 @@
     --bg-primary-color: #ffffff;
     --footer-bg-color: #252f2d;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 5px;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background: #292929;
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
     height: 5px;
     background: #fa7e23;
 }
@@ -107,9 +110,10 @@ body {
     align-items: center;
     justify-content: space-between;
 
-   
+
 }
-.introAbout .itself{
+
+.introAbout .itself {
     padding-top: 120px;
 }
 
@@ -124,12 +128,14 @@ body {
     color: var(--bg-primary-color);
     font-weight: 600;
 }
-.socailMediaIcons ul{
+
+.socailMediaIcons ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding-right: 30px;
 }
+
 .socailMediaIcons ul li a {
     display: block;
     width: 30px;
@@ -138,21 +144,20 @@ body {
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
 }
-.socailMediaIcons ul li a:hover{
+
+.socailMediaIcons ul li a:hover {
     background: var(--bg-primary-color);
 }
-.socailMediaIcons ul li a i{
+
+.socailMediaIcons ul li a i {
     color: #292929;
     font-size: 18px;
     padding-top: 5px;
 }
 
-.playerIcon img {
-    width: 75px;
-    box-shadow: 0px 0px 20px #ffc107;
-    border-radius: 50px;
-}
-.footer-section{
+
+
+.footer-section {
     width: 100%;
     height: 40vh;
     display: flex;
@@ -161,14 +166,16 @@ body {
     padding-top: 50px;
     justify-content: space-between;
 }
-.footerIcon ul{
+
+.footerIcon ul {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    
+
 }
-.footer-section ul li{
+
+.footer-section ul li {
     display: block;
     width: 75px;
     height: 75px;
@@ -178,27 +185,53 @@ body {
     align-items: center;
     justify-content: center;
 }
-.footer-section ul li:hover{
+
+.footer-section ul li:hover {
     background: var(--bg-primary-color);
 }
-.footer-section ul li:hover a i{
+
+.footer-section ul li:hover a i {
     color: var(--text-secondary-color);
 
 }
 
-.footer-section ul li a i{
+.footer-section ul li a i {
     color: var(--text-primary-color);
     font-size: 20px;
 
 }
-.footerText{
-    text-align: center  ;
+
+.footerText {
+    text-align: center;
 }
-.footerText p{
+
+.footerText p {
     font-size: 18px;
     color: var(--text-primary-color);
     padding-bottom: 23px;
     letter-spacing: 0.2px;
     word-spacing: 1px;
     font-weight: 300;
+}
+
+@media (max-width:850px)  {
+    .navBar{
+        padding-top: 10px;
+        align-items: flex-start;
+    }
+    .navBarlist{
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 20px;
+        padding-right: 20px;
+    }
+    .navBarlist li a{
+        color: darkgray;
+        font-weight: 700;
+    }
+    .logoPart{
+        padding-left: 10px;
+       
+    }
+    
 }
