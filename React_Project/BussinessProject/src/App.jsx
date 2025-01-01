@@ -5,7 +5,7 @@ import ImageGenerator from './components/imageGenerator/ImageGenerator'
 const App = () => {
   return (
     <div>
-      <ImageGenerator/>
+     <h1>Business app</h1>
     </div>
   )
 }
