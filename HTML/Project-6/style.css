@@ -103,18 +103,47 @@ body {
 }
 
 .introAbout {
-    width: 100%;
-    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+.introAbout .itself{
+    padding-top: 85px;
+}
+
+.introAbout .itself h3 {
+    line-height: normal;
+    font-size: 28px;
     color: var(--bg-primary-color);
 }
 
-.introAbout h3 {
-    line-height: normal;
-    font-size: 28px;
-}
-
-.introAbout h1 {
+.introAbout .itself h1 {
     font-size: 55px;
+    color: var(--bg-primary-color);
+}
+.socailMediaIcons ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 30px;
+}
+.socailMediaIcons ul li a {
+    display: block;
+    width: 30px;
+    background: #b0b3b2;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.socailMediaIcons ul li a:hover{
+    background: var(--bg-primary-color);
+}
+.socailMediaIcons ul li a i{
+    color: #292929;
+    font-size: 18px;
+    padding-top: 5px;
 }
 
 .playerIcon img {
