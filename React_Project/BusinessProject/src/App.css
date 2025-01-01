@@ -6,6 +6,19 @@
 :root{
     /* Background Color */
     --primary-color:#990033;
+    --secondary-color:#ffc2b4;
+    --primary-nav-color:#e21056;
+    --primary-bg:rgb(153 0 51 /14%);
+    --font-color:#b7b7b7;
+    --bg-color:#171717;
+    --bg-dark-color:#0c0b0b;
+    --white-color:#fdfffc;
+    --green-color:#0abf53;
+    --green-color-bg:rgb(10 191 83/70%);
+    --blue-color:#6168ff;
+    --blue-color-bg:rgb(97 104 255/9%);
+    --border-color-light: rgba(255,255,255,0.20);
+    --box-shadow:0 1rem 3rem rgb(0 0 0 /12%);
     /* Font Family */
     --primary-font:"Poppins", serif;
 }
