@@ -159,6 +159,7 @@ body {
     flex-direction: column;
     background: var(--footer-bg-color);
     padding-top: 50px;
+    justify-content: space-between;
 }
 .footerIcon ul{
     display: flex;
@@ -177,9 +178,25 @@ body {
     align-items: center;
     justify-content: center;
 }
+.footer-section ul li:hover{
+    background: var(--bg-primary-color);
+}
+.footer-section ul li:hover a i{
+    color: var(--text-secondary-color);
+
+}
 
 .footer-section ul li a i{
     color: var(--text-primary-color);
     font-size: 20px;
+
+}
+.footerText{
+    text-align: center  ;
+}
+.footerText p{
+    font-size: 18px;
+    color: var(--text-primary-color);
+    padding-bottom: 20px;
 
 }
