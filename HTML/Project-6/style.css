@@ -73,6 +73,9 @@ body {
     padding-left: 73px;
     cursor: pointer;
 }
+.logoPart img{
+    width: 50%;
+}
 
 .navBarlist {
     width: 70%;
@@ -214,7 +217,15 @@ body {
     font-weight: 300;
 }
 
-@media (max-width:850px)  {
+@media screen and (max-width:800px) and (min-width:400px) {
+   
+    .logoPart{
+        padding-left: 10px;
+       
+    }
+    .logoPart img{
+        width: 65%;
+    }
     .navBar{
         padding-top: 10px;
         align-items: flex-start;
@@ -222,16 +233,39 @@ body {
     .navBarlist{
         flex-direction: column;
         align-items: flex-end;
-        gap: 20px;
+        gap: 10px;
         padding-right: 20px;
+        justify-content: space-between;
     }
     .navBarlist li a{
         color: darkgray;
         font-weight: 700;
+        font-size: 12px;
     }
-    .logoPart{
-        padding-left: 10px;
-       
+   .banerPart{
+    width: 100%;
+    gap:10px;
+    padding-left: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(2%,100%);
+
+   }
+   .introAbout{
+    align-items: flex-start;
+   }
+    .introAbout .itself{
+        padding-top: 0px;
     }
-    
+    .introAbout .itself h2{
+        font-size: 18px;
+    }
+    .introAbout .itself h1{
+        font-size: 38px;
+    }
+    .socailMediaIcons ul{
+        padding-top: 50px;
+    }
 }
+
