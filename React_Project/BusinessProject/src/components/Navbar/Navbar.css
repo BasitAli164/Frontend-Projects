@@ -1,0 +1,54 @@
+/* Navbar Css*/
+#site_header{
+    position: relative;
+    z-index: 5;
+    background-color: white;
+    &.sticky{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        width: 100%;
+        height: auto;
+        background-color: var(--bg-color);
+        padding: 0.500rem 0 1rem;
+        transform: translateY(0px);
+        transition: all 0.3s ease-in-out;
+        animation: navbar 0.3s linear forwards;
+    }
+
+    background-origin: var(--bg-color);
+    padding: 0.500rem 0 1rem;
+    transform: translateY(0px);
+    transition: all 0.3s ease-in-out;
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .navbar_brand img{
+            max-width: 80%;
+        }
+        .navbar_Toggler{
+         display: none;
+         & svg{
+            line-height: 2.5rem;
+            margin: right 15px;
+            
+         }       
+        }
+    }
+
+}
+@keyframes navbar {
+    0%,100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-100px);
+
+    }
+    
+}
