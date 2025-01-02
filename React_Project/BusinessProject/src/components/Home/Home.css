@@ -3,10 +3,10 @@
     position: relative;
     overflow: hidden;
     min-height: calc(100vh-84px);
-    padding: 8rem 0 0;
+    padding: 5.5rem 0 0;
 
     @media screen and (max-width:767px) {
-        padding: 3rem 0 0;
+        padding: 2rem 0 0;
         
     }
     .banner_image{
@@ -40,6 +40,52 @@
         justify-content: space-between;
         position: relative;
         z-index: 3;
+
+        @media screen and (max-width:992px) {
+            flex-direction: column-reverse;
+            
+        }
+        .col{
+            width: calc(100%/2-15px);
+            height: auto;
+            position: relative;
+            @media screen and (max-width:992px) {
+                width: fit-content;
+                padding: 2rem;
+                
+            }
+            @media screen and (max-width:767px) {
+                padding: 1.5rem;
+                
+            }
+        }
+        .title{
+            width: 80%;
+            font-size: 3rem;
+            line-height: 4rem;
+            font-weight: 200;
+            text-transform: uppercase;
+
+            & span{
+                font-weight: 800;
+            }
+        @media screen and (max-width:767px) {
+            width: 100%;
+            font-size: 2.5rem;
+            
+        }
+        @media screen and (max-width:992px) {
+            width: 100%;
+            margin-top: 10rem;
+            text-align: center;
+            line-height: 3.5rem ;
+            
+        }
+    }
+    & p{
+            width: 80%;
+    }
+
         
     }
 }
