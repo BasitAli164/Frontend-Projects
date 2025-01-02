@@ -1,12 +1,13 @@
 import React from 'react'
-import Form from './Project1/Pages/Form/Form'
+import './App.css'
+import HoverCard from './Projects/Project2/HoverCard'
 
 const App = () => {
   return (
     <>
 
-    {/*1st Mini Project*/}
-    <Form/>
+
+    <HoverCard/>
     
 
     </>
