@@ -78,7 +78,7 @@ html,body{
                
     }
     .btn{
-        padding: 0.857rem;
+        padding: 0.857rem 2.571rem;
         font-size: 1.143rem;
         font-weight: 600;
         box-shadow: 0 0 0.5rem 1rem rgb(16,16,15);
@@ -88,7 +88,10 @@ html,body{
         cursor: pointer;
         background: var(--primary-color);
         transition: all 0.3s ease-in-out;
+        border-radius: 2.143rem;
+        color: var(--white-color);
 
+        
         &:hover{
             outline-offset: .625rem;
 
