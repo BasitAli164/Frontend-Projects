@@ -252,12 +252,12 @@ body {
         }
         .playIcon{
             position: absolute;
-            top: 340px;
-            left: 80px;
+            top: 325px;
+            left: 100px;
             & img{
-                animation: playIcon 10s linear infinite;
-                width: 8%;
-                position: fixed;
+                animation: playIcon 8s linear infinite;
+                width: 75%;
+                position: sticky;
             }
         
         }
