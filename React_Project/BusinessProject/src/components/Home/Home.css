@@ -1,5 +1,5 @@
 /* Home CSS*/
-#home{
+#home {
     position: relative;
     overflow: hidden;
     min-height: calc(100vh - 84px);
@@ -7,9 +7,10 @@
 
     @media screen and (max-width:767px) {
         padding: 2rem 0 0;
-        
+
     }
-    .banner_image{
+
+    .banner_image {
         position: absolute;
         overflow: hidden;
         background: url(../../assets/banner/banner.png) no-repeat center;
@@ -22,7 +23,7 @@
         transform: scale(1.1);
         animation: wave 3s linear infinite;
 
-        &::before{
+        &::before {
             content: "";
             position: absolute;
             top: 0;
@@ -31,10 +32,11 @@
             min-height: 100%;
             z-index: 2;
             background: var(--dark-layer-color);
-            
+
         }
     }
-    .banner_outer{
+
+    .banner_outer {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -43,23 +45,27 @@
 
         @media screen and (max-width:992px) {
             flex-direction: column-reverse;
-            
+
         }
-        .col{
+
+        .col {
             width: calc(100%/2-15px);
             height: auto;
             position: relative;
+
             @media screen and (max-width:992px) {
                 width: fit-content;
                 padding: 2rem;
-                
+
             }
+
             @media screen and (max-width:767px) {
                 padding: 1.5rem;
-                
+
             }
         }
-        .title{
+
+        .title {
             width: 80%;
             font-size: 4rem;
             line-height: 5rem;
@@ -67,23 +73,26 @@
             text-transform: uppercase;
             margin-bottom: 1rem;
 
-            & span{
+            & span {
                 font-weight: 800;
             }
-        @media screen and (max-width:767px) {
-            width: 100%;
-            font-size: 2.5rem;
-            
+
+            @media screen and (max-width:767px) {
+                width: 100%;
+                font-size: 2.5rem;
+
+            }
+
+            @media screen and (max-width:992px) {
+                width: 100%;
+                margin-top: 10rem;
+                text-align: center;
+                line-height: 3.5rem;
+
+            }
         }
-        @media screen and (max-width:992px) {
-            width: 100%;
-            margin-top: 10rem;
-            text-align: center;
-            line-height: 3.5rem ;
-            
-        }
-    }
-    & p{
+
+        & p {
             width: 80%;
             margin: 0;
             padding: 0;
@@ -94,75 +103,95 @@
             @media screen and (max-width:992px) {
                 width: 100%;
                 text-align: center;
-                
-            }
-    }
-    .sub_banner_image{
-        background: var(--secondary-color);
-        border-radius: 0 3rem;
-    }
-    & img{
-        border-radius: 0 3.57rem;
-        margin-top: -2rem;
-        margin-left: -2rem;
-        max-width: 100%;
 
-    }
-    .banner_style_1{
-        display: flex;
-        align-items: center;
-        box-shadow: 0 1rem 3rem rgb(0 0 0 /12%);
-        background: var(--bg-color);
-        position: absolute;
-        right: 32px;
-        bottom: -28px;
-        padding: 15px 20px;
-        border-radius: 8px;
-        width: max-content;
-         height: max-content;
-         & h4{
-            margin: 0;
-            font-size: 20.6016px;
-         }
-         & svg{
-            line-height: 40px;
-            margin-right: 15px;
-            text-align: center;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            & path{
-                fill: var(--green-color );
-            }
-         }
-    }
-    .banner_style_2{
-        right: 0;
-        left: 0;
-        bottom: -100px;
-        & svg{
-            & path{
-                fill: var(--primary-color);
             }
         }
-    }
-    .banner_style_3{
-        right: 0;
-        left: -199px;
-        bottom: 0px;
-        top: 26px;
-        & svg{
-            & path{
-                color: var(--blue-color);
+
+        .sub_banner_image {
+            background: var(--secondary-color);
+            border-radius: 0 3rem;
+        }
+
+        & img {
+            border-radius: 0 3.57rem;
+            margin-top: -2rem;
+            margin-left: -2rem;
+            max-width: 100%;
+
+        }
+
+        .banner_style_1 {
+            display: flex;
+            align-items: center;
+            box-shadow: 0 1rem 3rem rgb(0 0 0 /12%);
+            background: var(--bg-color);
+            position: absolute;
+            right: 32px;
+            bottom: -28px;
+            padding: 15px 20px;
+            border-radius: 8px;
+            width: max-content;
+            height: max-content;
+
+            & h4 {
+                margin: 0;
+                font-size: 20.6016px;
+            }
+
+            & svg {
+                line-height: 40px;
+                margin-right: 15px;
+                text-align: center;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+
+                & path {
+                    fill: var(--green-color);
+                }
             }
         }
-        @media screen and (max-width:992px) {
-            left: -20px;
-            
+
+        .banner_style_2 {
+            right: 0;
+            left: 0;
+            bottom: -100px;
+
+            & svg {
+                & path {
+                    fill: var(--primary-color);
+                }
+            }
         }
 
-    }
+        .banner_style_3 {
+            right: 0;
+            left: -199px;
+            bottom: 0px;
+            top: 26px;
 
-        
+            & svg {
+                & path {
+                    color: var(--blue-color);
+                }
+            }
+
+            @media screen and (max-width:992px) {
+                left: -20px;
+
+            }
+
+        }
+
+
     }
+}
+@keyframes wave {
+    0%,
+    100%{
+        transform: translate(0px,0px);
+    }   
+    50%{
+        transform: translate(-10px,-10px);
+    } 
 }
