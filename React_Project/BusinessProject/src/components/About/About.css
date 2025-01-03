@@ -29,4 +29,33 @@
             color: var(--font-color);
         }
     }
+    .about_box_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 64px;
+        /* flex-wrap: wrap; */
+
+        @media screen and (max-width:992px) {
+            justify-content: center;
+            
+        }
+        @media screen and (max-width:767px) {
+            flex-direction: column;
+            
+        }
+        .about_box{
+            width: calc(100%/3-1rem);
+            padding: 1rem;
+            box-sizing: border-box;
+            text-align: center;
+             @media screen and (max-width:992px) {
+                width: 50%;                
+             }
+             @media screen and (max-width:767px) {
+                width: 100%;
+                
+             }
+        }
+    }
 }
