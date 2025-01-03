@@ -1,15 +1,11 @@
 import React from 'react'
 import './App.css'
-import HoverCard from './Projects/Project2/HoverCard'
+import Project3 from './Projects/Project3/Project3'
 
 const App = () => {
   return (
-    <>
-
-
-    <HoverCard/>
-    
-
+    <> 
+    <Project3/>  
     </>
   )
 }
