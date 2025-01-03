@@ -156,6 +156,10 @@
                 color: var(--blue-color);
             }
         }
+        @media screen and (max-width:992px) {
+            left: -20px;
+            
+        }
 
     }
 
