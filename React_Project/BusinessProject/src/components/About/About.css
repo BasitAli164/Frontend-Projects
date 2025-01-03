@@ -76,6 +76,20 @@
                  }
 
              }
+             & h5{
+                font-weight: 700;
+                color: var(--white-color);
+                font-size: 27.4288px;
+                line-height: 38.8576px;
+                margin:1.67rem;
+
+             }
+             & p{
+                font-size: 19.4288px;
+                line-height: 32px;
+                color: var(--font-color);
+                font-weight:500;
+             }
         }
     }
 }
