@@ -432,6 +432,7 @@ body {
                 justify-content: space-around;
                 align-items: center;
 
+
                 .image1 {
                     position: relative;
 
@@ -457,10 +458,9 @@ body {
                             border-radius: 5px;
                             outline: none;
                             border: none;
-                            font-size: 11px;
+                            font-size: 8px;
                             background: var(--button-second-color);
                             color: var(--text-secondary-color);
-                            font-weight: 500;
                             cursor: pointer;
 
                             &:hover {
@@ -475,9 +475,10 @@ body {
                         }
                     }
                 }
-
+                
                 
             }
+            
         }
         .btn {
             width: 100%;
