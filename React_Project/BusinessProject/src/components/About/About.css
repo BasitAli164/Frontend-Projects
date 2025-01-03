@@ -70,6 +70,11 @@
                     color: var(--green-color);
                     background: var(--green-color-bg);
                  }
+                 &.blue_icon{
+                    color: var(--blue-color);
+                    background: var(--blue-color-bg);
+                 }
+
              }
         }
     }
