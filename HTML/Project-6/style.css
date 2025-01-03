@@ -50,222 +50,33 @@ body {
 
 .header-section {
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     background: url(./images/banner-bg.png) center no-repeat;
     background-size: cover;
-
-
-}
-
-.navBar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    padding-top: 40px;
-
-
-}
-
-.logoPart {
-    width: 30%;
-    padding-left: 73px;
-    cursor: pointer;
-}
-.logoPart img{
-    width: 50%;
-}
-
-.navBarlist {
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-}
-
-.navBarlist li a {
-
-    font-size: 18px;
-    color: var(--text-primary-color);
-    text-transform: uppercase;
-    transition: all 0.8s ease-in-out;
-
-}
-
-.navBarlist li a:hover {
-    color: var(--text-hover-color);
-    opacity: 0.8;
-}
-
-.banerPart {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 87px;
-    padding-left: 120px;
-
-}
-
-.introAbout {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-
-}
-
-.introAbout .itself {
-    padding-top: 120px;
-}
-
-.introAbout .itself h3 {
-    line-height: normal;
-    font-size: 28px;
-    color: var(--bg-primary-color);
-}
-
-.introAbout .itself h1 {
-    font-size: 55px;
-    color: var(--bg-primary-color);
-    font-weight: 600;
-}
-
-.socailMediaIcons ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-right: 30px;
-}
-
-.socailMediaIcons ul li a {
-    display: block;
-    width: 30px;
-    background: #b0b3b2;
-    text-align: center;
-    border-radius: 5px;
-    transition: all 0.5s ease-in-out;
-}
-
-.socailMediaIcons ul li a:hover {
-    background: var(--bg-primary-color);
-}
-
-.socailMediaIcons ul li a i {
-    color: #292929;
-    font-size: 18px;
-    padding-top: 5px;
-}
-
-
-
-.footer-section {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    background: var(--footer-bg-color);
-    padding-top: 50px;
-    justify-content: space-between;
-}
-
-.footerIcon ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-
-}
-
-.footer-section ul li {
-    display: block;
-    width: 75px;
-    height: 75px;
-    border-radius: 37.5px;
-    background: #3e412d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer-section ul li:hover {
-    background: var(--bg-primary-color);
-}
-
-.footer-section ul li:hover a i {
-    color: var(--text-secondary-color);
-
-}
-
-.footer-section ul li a i {
-    color: var(--text-primary-color);
-    font-size: 20px;
-
-}
-
-.footerText {
-    text-align: center;
-}
-
-.footerText p {
-    font-size: 18px;
-    color: var(--text-primary-color);
-    padding-bottom: 23px;
-    letter-spacing: 0.2px;
-    word-spacing: 1px;
-    font-weight: 300;
-}
-
-@media screen and (max-width:800px) and (min-width:400px) {
-   
-    .logoPart{
-        padding-left: 10px;
-       
-    }
-    .logoPart img{
-        width: 65%;
-    }
     .navBar{
-        padding-top: 10px;
-        align-items: flex-start;
-    }
-    .navBarlist{
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 10px;
-        padding-right: 20px;
+        width: 100%;
+        display: flex;
         justify-content: space-between;
-    }
-    .navBarlist li a{
-        color: darkgray;
-        font-weight: 700;
-        font-size: 12px;
-    }
-   .banerPart{
-    width: 100%;
-    gap:10px;
-    padding-left: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(2%,100%);
+        align-items: center;
 
-   }
-   .introAbout{
-    align-items: flex-start;
-   }
-    .introAbout .itself{
-        padding-top: 0px;
+        .logoPart{
+            & img{
+                width: 100%;
+            }
+        }
+        & nav{
+            & ul{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                & li{
+                    list-style: none;
+                }
+                
+            }
+        }
     }
-    .introAbout .itself h2{
-        font-size: 18px;
-    }
-    .introAbout .itself h1{
-        font-size: 38px;
-    }
-    .socailMediaIcons ul{
-        padding-top: 50px;
-    }
+
+
 }
 
