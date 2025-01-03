@@ -56,6 +56,21 @@
                 width: 100%;
                 
              }
+             .about_icon{
+                font-size: 36.5712px;
+                width: 91.4288px;
+                height: 91px;
+                margin: auto;
+                line-height: 91.4288px;
+                border-radius: 50%;
+                color: var(--primary-color);
+                background: var(--primary-bg);
+                text-align: center;
+                 &.green_icon{
+                    color: var(--green-color);
+                    background: var(--green-color-bg);
+                 }
+             }
         }
     }
 }
