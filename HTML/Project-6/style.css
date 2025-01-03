@@ -300,6 +300,10 @@ body {
 
 
 }
+.main-section{
+    width: 100%;
+    
+}
 .footer-section{
     max-width: 100%;
     display: flex;
@@ -363,6 +367,8 @@ body {
     }
 
 }
+
+/* Play Icon Animation in Header part  */
 @keyframes playIcon {
     0%{
         background-color: #ffc107;
