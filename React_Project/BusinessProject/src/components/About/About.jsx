@@ -1,16 +1,16 @@
 import React from 'react'
 import './About.css'
-import {FontAwesomIcon} from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBusinessTime,faChartPie,faTruckFast,faUserClock,faHouseLaptop,faPhone} from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
     //Icons
-    const businessIcon=<FontAwesomIcon icon={faBusinessTime}/>
-    const ChartPieIcon=<FontAwesomIcon icon={faChartPie}/>
-    const truckFastIcon=<FontAwesomIcon icon={faTruckFast}/>
-    const userClockIcon=<FontAwesomIcon icon={faUserClock}/>
-    const houseLaptopIcon=<FontAwesomIcon icon={faHouseLaptop}/>
-    const phoneIcon=<FontAwesomIcon icon={faPhone}/>
+    const businessIcon=<FontAwesomeIcon icon={faBusinessTime}/>
+    const ChartPieIcon=<FontAwesomeIcon icon={faChartPie}/>
+    const truckFastIcon=<FontAwesomeIcon icon={faTruckFast}/>
+    const userClockIcon=<FontAwesomeIcon icon={faUserClock}/>
+    const houseLaptopIcon=<FontAwesomeIcon icon={faHouseLaptop}/>
+    const phoneIcon=<FontAwesomeIcon icon={faPhone}/>
     
     
     
@@ -25,7 +25,31 @@ const About = () => {
             </div>
             <div className="about_box_wrapper">
                 <div className="about_box">
-                    <div className="about_icon"></div>
+                    <div className="about_icon">
+                    {businessIcon}
+                    </div>
+                    <div className="about_content">
+                        <h5>Development</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, earum!</p>
+                    </div>
+                </div>
+                <div className="about_box">
+                    <div className="about_icon green_icon">
+                    {ChartPieIcon}
+                    </div>
+                    <div className="about_content">
+                        <h5>Integration </h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, earum!</p>
+                    </div>
+                </div>
+                <div className="about_box">
+                    <div className="about_icon blue_icon">
+                    {truckFastIcon}
+                    </div>
+                    <div className="about_content">
+                        <h5>Branding</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, earum!</p>
+                    </div>
                 </div>
             </div>
         </div>
