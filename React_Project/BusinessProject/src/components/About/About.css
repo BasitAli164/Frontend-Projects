@@ -11,5 +11,22 @@
         text-align: center;
         max-width: 800px;
         margin: auto;
+        & h3{
+            font-size: 40px;
+            line-height: 51.424px;
+            font-weight: 700;
+            color: var(--white-color);
+            margin-bottom: 0;
+             @media screen and (max-width:767px) {
+                font-size: 28.8px;
+                line-height: 44.8px;
+                
+             }
+        }
+        & p{
+            font-size: 19.856px;
+            line-height: 32px;
+            color: var(--font-color);
+        }
     }
 }
