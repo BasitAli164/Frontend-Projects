@@ -332,10 +332,11 @@ body {
                 font-size: 50px;
                 font-weight: 700;
                 color: #000;
+
                 @media screen and (max-width:767px) {
                     font-size: 30px;
                     font-weight: 600;
-                    
+
                 }
 
             }
@@ -362,19 +363,21 @@ body {
                 padding: 50px;
                 border-radius: 50%;
                 text-align: center;
+
                 @media screen and (max-width:767px) {
                     padding: 25px;
-                    
+
                 }
 
                 & h4 {
                     margin-top: 10px;
                     font-size: 18px;
                     font-weight: 900;
+
                     @media screen and (max-width:767px) {
                         font-size: 16px;
                         font-weight: 600;
-                        
+
                     }
                 }
 
@@ -436,10 +439,11 @@ body {
                 font-size: 40px;
                 font-weight: 600;
                 color: #000;
+
                 @media screen and (max-width:767px) {
                     font-size: 30px;
                     font-weight: 600;
-                    
+
                 }
             }
 
@@ -577,10 +581,11 @@ body {
                     &.subHeading {
                         text-decoration: underline;
                     }
+
                     @media screen and (max-width:767px) {
                         font-size: 30px;
                         font-weight: 600;
-                        
+
                     }
                 }
 
@@ -828,10 +833,11 @@ body {
                     color: #ffc107;
                     text-decoration: none;
                 }
+
                 @media screen and (max-width:767px) {
                     font-size: 30px;
                     font-weight: 600;
-                    
+
                 }
             }
         }
@@ -934,9 +940,10 @@ body {
 
 
             }
+
             @media screen and (max-width:767px) {
                 margin: 10px 0;
-                
+
             }
         }
 
