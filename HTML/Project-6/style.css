@@ -737,7 +737,6 @@ body {
     }
     .contactForm{
         width: 80%;
-        border: 2px solid red;
         & form{
             display: flex;
             flex-direction: column;
@@ -751,10 +750,12 @@ body {
                 border: 1px solid #000;
                 opacity: 0.7;
                 font-size: 18px;
+                
                 &::placeholder{
                     color: #000;
                     font-size: 18px;
                 }
+
             }
             & textarea{
                 width: 75%;
@@ -774,6 +775,29 @@ body {
                 }
                 
             }
+        }
+    }
+    .btn {
+        width: 100%;
+        text-align: center;
+        margin: 50px 0px;
+
+        & button {
+            padding: 15px 45px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            font-size: 20px;
+            background: var(--button-third-color);
+            color: var(--text-primary-color);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all .3s linear  ;
+
+            &:hover {
+                background: var(--button-hover-color2-)
+            }
+
         }
     }
     
