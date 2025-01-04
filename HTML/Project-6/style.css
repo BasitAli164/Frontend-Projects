@@ -560,11 +560,10 @@ body {
         padding: 50px;
         
         @media screen and (max-width:767px) {
-            flex-wrap: wrap;
-            top: 0;
+            top: 200px;
             gap: 10px;
-            padding: 0;
-            position: static;
+            padding: 25px;
+            text-align: center;
                         
         }
         .cardDetail{
@@ -581,6 +580,11 @@ body {
 
             @media screen and (max-width:992px) {
                 flex-wrap: wrap;
+                
+            }
+            @media screen and (max-width:767px) {
+                gap: 10px;
+                width: 30%;
                 
             }
             
@@ -601,15 +605,19 @@ body {
                     @media screen and (max-width:922px) {
                         font-size: 20px;
                         font-weight: 400;
-                        position: sticky;
-                        margin-top: -40px;
+                        position: fixed;
+                        margin: 150px auto;
                         text-align: left;
                         
                     }
                     @media screen and (max-width:767px) {
                         font-size: 18px;
                         font-weight: 300px;
+                        margin: 90px 0 0 0;
                         
+                    }
+                    @media screen and (max-width:620px) {
+                        opacity: 0;               
                     }
                 }
             }
@@ -622,6 +630,10 @@ body {
                     text-align: justify;
                     line-height: normal;
                     
+                }
+                @media screen and (max-width:767px) {
+                    display: none;
+
                 }
             }
             &::after{
@@ -644,11 +656,13 @@ body {
                     
                  }
                  @media screen and (max-width:500px) {
-                    width: 50px;
-                    height: 15px;
-                    padding: 3px 10px;
+                    width: 30px;
+                    /* height: 10px; */
+                    padding: 0px 3px;
                     font-weight: normal;
                     text-align: center;
+                    content: 'Hello';
+                    font-size: 10px;
                     
                  }
             }   
@@ -664,7 +678,22 @@ body {
     .btn {
         width: 100%;
         text-align: center;
-        margin: 360px 0px 20px;
+        margin: 380px 0px 20px;
+
+        @media screen and (max-width:992px) {
+            margin: 150px 0px 10px;
+            
+        }
+        @media screen and (max-width:767px) {
+            margin: 130px 0px 10px;
+            
+        }
+        @media screen and (max-width:600px) {
+            margin: 65px 0px 10px;            
+        }
+        @media screen and (max-width:400px) {
+            margin: 10px 0px 10px;            
+        }
         
 
         & button {
