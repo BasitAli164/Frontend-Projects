@@ -92,4 +92,17 @@
              }
         }
     }
+    .about_box_detials{
+        display: flex;
+         justify-content: space-between;
+         margin-top: 160px;
+         flex-wrap: wrap;
+         @media screen and (max-width:1024px) {
+            flex-direction: column;
+            
+         }
+         .about_col{
+            width: calc(100%/2-1rem);
+         }
+    }
 }
