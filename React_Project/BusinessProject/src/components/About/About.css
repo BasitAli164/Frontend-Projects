@@ -145,10 +145,10 @@
                     background: var(--bg-color);
                     color: var(--white-color);
                     position: absolute;
-                    right: -60px;
-                    bottom: -100px;
+                    right: -150px;
+                    bottom: -37px;
                     z-index: 3;
-                    padding: 40px 45.7136px 43.4288px;
+                    padding: 10px 15.7136px 13.4288px;
                     box-shadow: var(--box-shadow);
                     border-radius: 34.3872px;
                     @media screen and (max-width:1024px) {
@@ -157,10 +157,10 @@
                     }
                     & h6{
                         font-size: 22.8576px;
-                        line-height: 34.2864px;
+                        line-height: 24.2864px;
                         font-weight: 700;
                         margin-top: 0;
-                        margin-bottom: 11.4288px;
+                        margin-bottom: 9.4288px;
 
                     }
                     & p{
@@ -171,11 +171,64 @@
                     & a{
                         font-size: 25.1424px;
                         font-weight: 600;
-                        line-height: 36.5712px;
-                        margin-top: 23.0176px;
+                        line-height: 23.5712px;
+                        margin-top: 18.0176px;
                         display: block;
                         color: var(--font-color);
+                        & span{
+                            margin-left: 11.4288px;
+                        }
                     }
+            }
+            & h3{
+                font-weight: 600;
+                color: var(--white-color);
+                font-size: 37.4288px;
+                line-height: 38.8576px;
+                margin: 1.7rem 0;
+            }
+            & p{
+                font-size: 19.4288px;
+                line-height: 32px;
+                color: var(--font-color);
+                font-weight: 500;
+                margin-bottom: 28px;
+            }
+            .grid_info{
+                display: grid;
+                grid-auto-flow: column;
+                justify-content: flex-start;
+                grid-gap: 1.4286rem;
+                margin-bottom: 48px;
+                .icon{
+                    font-size: 22.8576px;
+                    width: 68.5712px;
+                    height: 68.5712px;
+                    margin: auto;
+                    line-height: 68.5712px;
+                    border-radius: 50%;
+                     color: var(--primary-color);
+                    background: var(--primary-bg);
+                    text-align: center;
+                    &.green_icon{
+                        color: var(--green-color);
+                        background: var(--green-color-bg);
+                    }
+                
+                }
+                .detail{
+                    & h4{
+                        font-size: 24px;
+                        line-height: 36px;
+                        font-weight: 600;
+                        color: var(--white-color);
+                        margin: 0;
+                    }
+                    & p{
+                        margin: 0;
+                        font-size: 1rem;
+                    }
+                }
             }
          }
     }

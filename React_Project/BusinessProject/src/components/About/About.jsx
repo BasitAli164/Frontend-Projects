@@ -75,7 +75,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="grid_info">
-                        <div className="icon">{houseLaptopIcon}</div>
+                        <div className="icon green_icon">{houseLaptopIcon}</div>
                         <div className="detail">
                             <h4>Open a business account online</h4>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, pariatur!</p>
