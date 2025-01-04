@@ -96,13 +96,38 @@
         display: flex;
          justify-content: space-between;
          margin-top: 160px;
-         flex-wrap: wrap;
+         /* flex-wrap: wrap; */
          @media screen and (max-width:1024px) {
             flex-direction: column;
             
          }
          .about_col{
             width: calc(100%/2-1rem);
+            padding: 16px;
+            box-sizing: border-box;
+            position: relative;
+            @media screen and (max-width:1024px) {
+                width: 100%;                
+            }
+            &.more_space{
+                padding-left: 160px;
+                @media screen and (max-width:1024px) {
+                    padding-left: 16px;
+                    
+                }
+            }
+            .about_img{
+                 &::after{
+                    overflow: hidden;
+                    content: url(../../assets/about/layer_2.png);
+                    z-index: 1;
+                    position: absolute;
+                    top: -70px;
+                    right: 70px;
+                    max-width: 100%
+                 }
+
+            }
          }
     }
 }
