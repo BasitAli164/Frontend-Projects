@@ -766,6 +766,14 @@ body {
                     color: #000;
                     font-size: 18px;
                 }
+                @media screen and (max-width:767px) {
+                    padding: 5px;
+                    font-size: 15px;
+                    &::placeholder{
+                        font-size: 14px;
+                    }
+                    
+                }
 
             }
             & textarea{
@@ -783,6 +791,16 @@ body {
                     color: #000;
                     position: absolute;
                     left: 10px;
+                }
+                @media screen and (max-width:767px) {
+                    padding: 10px;
+                    font-size: 15px;
+                    &::placeholder{
+                        font-size: 14px;
+
+                    }
+                    
+                    
                 }
                 
             }
@@ -811,11 +829,7 @@ body {
 
         }
     }
-    @media screen and (max-width:992px) and (min-width:767px) {
-        background: rebeccapurple;
-        margin-top: 100px;
-        
-    }
+   
    }
 
 }
