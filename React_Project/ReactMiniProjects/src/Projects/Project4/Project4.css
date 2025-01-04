@@ -86,6 +86,8 @@ main{
                 text-shadow: 0px 2px 2px #000;
                 color: #fff;
                 opacity: 0;
+                transform: scalex(0);
+                transition: 1.5s;
             }
         }
 
