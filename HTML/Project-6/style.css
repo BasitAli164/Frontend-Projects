@@ -192,7 +192,7 @@ body {
                 }
 
                 @media screen and (max-width:992px) {
-                    top: 160px;
+                    top: 100px;
 
 
                 }
@@ -505,7 +505,6 @@ body {
     }
    .blog-section{
     width: 100%;
-    /* height: 150vh; */
     display: flex;
     flex-direction: column;
     position: relative;
@@ -539,6 +538,12 @@ body {
                 line-height: 1px;
                 word-spacing: 3px;
                 letter-spacing: 1px;
+                @media screen and (max-width:922px) {
+                word-spacing: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                    
+                }
 
             }
         }
@@ -553,6 +558,15 @@ body {
         gap: 50px;
         top: 200px;
         padding: 50px;
+        
+        @media screen and (max-width:767px) {
+            flex-wrap: wrap;
+            top: 0;
+            gap: 10px;
+            padding: 0;
+            position: static;
+                        
+        }
         .cardDetail{
             width: 100%;
             display: flex;
@@ -564,6 +578,11 @@ body {
             border-radius: 10px;
             box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
             transform: scale(1.1);
+
+            @media screen and (max-width:992px) {
+                flex-wrap: wrap;
+                
+            }
             
             .cardImage{
                 position: relative;
@@ -579,6 +598,19 @@ body {
                     left: 10px;
                     bottom: 10px;
                     font-weight: 600;
+                    @media screen and (max-width:922px) {
+                        font-size: 20px;
+                        font-weight: 400;
+                        position: sticky;
+                        margin-top: -40px;
+                        text-align: left;
+                        
+                    }
+                    @media screen and (max-width:767px) {
+                        font-size: 18px;
+                        font-weight: 300px;
+                        
+                    }
                 }
             }
             & p{
@@ -586,6 +618,11 @@ body {
                 font-size: 16px;
                 color: #000;
                 line-height: 25px;
+                @media screen and (max-width:992px) {
+                    text-align: justify;
+                    line-height: normal;
+                    
+                }
             }
             &::after{
                 content: "JUN 05";
@@ -598,8 +635,30 @@ body {
                 top: 0;
                 text-align: center;
                 font-weight: 600;
+                 @media screen and (max-width:767px) {
+                    width: 50px;
+                    height: 25px;
+                    padding: 5px 15px;
+                    font-weight: normal;
+                    text-align: left;
+                    
+                 }
+                 @media screen and (max-width:500px) {
+                    width: 50px;
+                    height: 15px;
+                    padding: 3px 10px;
+                    font-weight: normal;
+                    text-align: center;
+                    
+                 }
             }   
            
+        }
+
+        @media screen and (max-width:992px) {
+            width: 100%;
+            gap: 35px;
+            
         }
     }
     .btn {
