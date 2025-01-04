@@ -454,11 +454,11 @@ body {
 
                         & button {
                             margin-top: 40px;
-                            padding: 15px 30px;
+                            padding: 15px 35px;
                             border-radius: 5px;
                             outline: none;
                             border: none;
-                            font-size: 8px;
+                            font-size: 9px;
                             background: var(--button-second-color);
                             color: var(--text-secondary-color);
                             cursor: pointer;
