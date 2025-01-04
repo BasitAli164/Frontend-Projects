@@ -681,7 +681,7 @@ body {
         margin: 380px 0px 20px;
 
         @media screen and (max-width:992px) {
-            margin: 150px 0px 10px;
+            margin: 250px 0px 10px;
             
         }
         @media screen and (max-width:767px) {
@@ -800,7 +800,11 @@ body {
 
         }
     }
-    
+    @media screen and (max-width:992px) and (min-width:767px) {
+        background: rebeccapurple;
+        margin-top: 100px;
+        
+    }
    }
 
 }
