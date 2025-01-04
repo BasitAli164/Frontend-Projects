@@ -564,10 +564,12 @@ body {
             border-radius: 10px;
             box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
             transform: scale(1.1);
+            
             .cardImage{
                 position: relative;
                 & img{
                     width: 100%;
+                   
 
                 }
                 & h3{
@@ -585,6 +587,41 @@ body {
                 color: #000;
                 line-height: 25px;
             }
+            &::after{
+                content: "JUN 05";
+                width: 50px;
+                height: 30px;
+                padding: 10px 40px;
+                background: #ffc107;
+                color: #fff;
+                position: absolute;
+                top: 0;
+                text-align: center;
+                font-weight: 600;
+            }   
+           
+        }
+    }
+    .btn {
+        width: 100%;
+        text-align: center;
+        margin-top: 360px;
+
+        & button {
+            padding: 15px 45px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            font-size: 20px;
+            background: var(--button-first-color);
+            color: var(--text-primary-color);
+            font-weight: 600;
+            cursor: pointer;
+
+            &:hover {
+                background: var(--button-hover-color1)
+            }
+
         }
     }
     
