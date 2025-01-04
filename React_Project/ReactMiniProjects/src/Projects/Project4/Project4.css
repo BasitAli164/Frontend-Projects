@@ -10,7 +10,7 @@ main{
         height: 100vh;
         .slide{
             position: relative;
-            -webkit-box-flex: 1;
+            /* -webkit-box-flex: 1; */
             flex: 1;
             cursor: pointer;
             filter: grayscale(1);
