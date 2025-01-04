@@ -503,6 +503,35 @@ body {
             }
         }
     }
+    .blog-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        background: url();
+        .headingpart{
+            width: 100%;
+            & h3{
+                display: inline-block;
+                font-size: 60px;
+                font-weight: 600;
+                color: #000 ;
+                &.title{
+                    color: #ffc107;
+
+                }
+                &.subHeading{
+                    text-decoration: underline;
+                    
+                }
+            }
+            & p{
+                font-size: 20px;
+                color: #000;
+            }
+        }
+    }
 
 }
 
