@@ -5,7 +5,7 @@ import { faBusinessTime, faChartPie, faTruckFast, faUserClock, faHouseLaptop, fa
 import aboutImage from '../../assets/about/about_img.jpg'
 
 const About = () => {
-    //Icons
+    //Icon
     const businessIcon = <FontAwesomeIcon icon={faBusinessTime} />
     const ChartPieIcon = <FontAwesomeIcon icon={faChartPie} />
     const truckFastIcon = <FontAwesomeIcon icon={faTruckFast} />
