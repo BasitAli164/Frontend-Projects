@@ -88,14 +88,14 @@ body{
                 width: 100%;
                 position: relative;
                 & input{
-                    width: 200%;
-                    padding: 20px 0px 20px 40px;
+                    width: 360%;
+                    padding: 20px 0px 20px 80px;
                     border-radius: 50px;
                     border: none;
                     outline: none;
                     text-align: left;
                     position: absolute;
-                    left: -200px;
+                    left: -350px;
                     font-size: 20px;
                     z-index: 1;
                     @media screen and (max-width:992px) {
@@ -135,12 +135,16 @@ body{
                 position: relative;
                 z-index: 10;
                 .searchIcon{
+                    width: 13%;
                     position: absolute;
-                    top: 10px;
-                    left: 0;
+                    top: 14px;
+                    left: -20rem;
+                    border-radius: 50px;
                     & img{
-                        width: 50%;
-                        border-radius: 25px;
+                        display: inline-block;
+                        width: 100%;
+                        border-radius: 12.5px;
+                        position: sticky;
                         
                     };
                 }
