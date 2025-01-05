@@ -221,12 +221,14 @@ body {
                     position: relative;
                     left: 430px;
                     top: 3px;
+                    
 
 
                     & img {
                         width: 50%;
                         height: 75%;
                         border-radius: 50px;
+                        cursor: pointer;
 
                         @media screen and (max-width:992px) {
                             width: 40%;
