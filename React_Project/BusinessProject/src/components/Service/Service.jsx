@@ -12,7 +12,7 @@ const Service = () => {
     const coinIcon=<FontAwesomeIcon icon={faCoins}/>
   return (
     <>
-    <div className="services">
+    <div id="services">
         <div className="container">
             <div className="title_heading">
                 <h3>What's Serivces We Are Offering to Our Customers</h3>
@@ -28,8 +28,6 @@ const Service = () => {
                         <a href="#" className='read'>Read More</a>
                     </div>
                 </div>
-            </div>
-            <div className="service_wrapper">
                 <div className="service_box">
                     <div className="service_icon blue_icon">{chartIcon}</div>
                     <h4 className="number">02</h4>
@@ -39,8 +37,6 @@ const Service = () => {
                         <a href="#" className='read'>Read More</a>
                     </div>
                 </div>
-            </div>
-            <div className="service_wrapper">
                 <div className="service_box">
                     <div className="service_icon blue_icon">{copyIcon}</div>
                     <h4 className="number">03</h4>
@@ -50,8 +46,6 @@ const Service = () => {
                         <a href="#" className='read'>Read More</a>
                     </div>
                 </div>
-            </div>
-            <div className="service_wrapper">
                 <div className="service_box">
                     <div className="service_icon blue_icon">{markerIcon}</div>
                     <h4 className="number">04</h4>
@@ -61,8 +55,6 @@ const Service = () => {
                         <a href="#" className='read'>Read More</a>
                     </div>
                 </div>
-            </div>
-            <div className="service_wrapper">
                 <div className="service_box">
                     <div className="service_icon blue_icon">{userGearIcon}</div>
                     <h4 className="number">05</h4>
@@ -72,8 +64,6 @@ const Service = () => {
                         <a href="#" className='read'>Read More</a>
                     </div>
                 </div>
-            </div>
-            <div className="service_wrapper">
                 <div className="service_box">
                     <div className="service_icon blue_icon">{coinIcon}</div>
                     <h4 className="number">06</h4>
