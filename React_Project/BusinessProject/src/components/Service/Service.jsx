@@ -29,7 +29,7 @@ const Service = () => {
                     </div>
                 </div>
                 <div className="service_box">
-                    <div className="service_icon blue_icon">{chartIcon}</div>
+                    <div className="service_icon ">{chartIcon}</div>
                     <h4 className="number">02</h4>
                     <div className="service_content">
                         <h5>Business Strategy  </h5>
@@ -38,7 +38,7 @@ const Service = () => {
                     </div>
                 </div>
                 <div className="service_box">
-                    <div className="service_icon blue_icon">{copyIcon}</div>
+                    <div className="service_icon green_icon">{copyIcon}</div>
                     <h4 className="number">03</h4>
                     <div className="service_content">
                         <h5>Report Analysis</h5>
@@ -47,7 +47,7 @@ const Service = () => {
                     </div>
                 </div>
                 <div className="service_box">
-                    <div className="service_icon blue_icon">{markerIcon}</div>
+                    <div className="service_icon ">{markerIcon}</div>
                     <h4 className="number">04</h4>
                     <div className="service_content">
                         <h5>Decision Maker </h5>
@@ -56,7 +56,7 @@ const Service = () => {
                     </div>
                 </div>
                 <div className="service_box">
-                    <div className="service_icon blue_icon">{userGearIcon}</div>
+                    <div className="service_icon green_icon">{userGearIcon}</div>
                     <h4 className="number">05</h4>
                     <div className="service_content">
                         <h5>Customer Oriented </h5>

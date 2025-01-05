@@ -98,11 +98,11 @@
                 text-align: center;
                 &.green_icon{
                     color: var(--green-color);
-                    background: var(--green-bg);
+                    background: var(--green-color-bg);
                 }
                 &.blue_icon{
                     color: var(--blue-color);
-                    background: var(--blue-bg);
+                    background: var(--blue-color-bg);
                 }
 
             }
