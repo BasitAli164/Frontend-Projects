@@ -4,7 +4,7 @@ import './Project5.css'
 const Project5 = () => {
   return (
     <div className='main'>
-    <div className="container-">
+    <div className="container">
         <input type="radio" name="progree" id="five" value="five"  className='radio'/>
         <label htmlFor="five" className='label'>5%</label>
         <input type="radio" name="progree" id="five" value="twentyfive"  className='twentyfive'/>
