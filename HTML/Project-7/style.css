@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #3c394d;
+    font-family: sans-serif;
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        .headingPart{
+            /* position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%,-50%); */
+            & h1{
+                color: #c7bfff;
+                font-size: 100px;
+                letter-spacing: -2px;
+                font-weight: 500;
+                text-align: center;
+            }
+
+        }
+        .inputPart{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            flex-direction: column;
+
+            .inputflied{
+                width: 100%;
+                position: relative;
+                & input{
+                    width: 200%;
+                    padding: 20px 0px 20px 40px;
+                    border-radius: 50px;
+                    border: none;
+                    outline: none;
+                    text-align: left;
+                    position: absolute;
+                    left: -200px;
+                    font-size: 20px;
+                    z-index: 1;
+                &::placeholder{
+                    width: 100%;
+                    font-size: 20px;
+                }
+                }
+            }
+            .inputIcons{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                position: relative;
+                z-index: 10;
+                & img{
+                    width: 10%;
+                }
+            }
+
+        }
+        .iconParts{
+            display: flex;
+            .IconContainer{
+                .threeDot{
+                    & img{
+                        width: 5%;
+                    }
+                }
+                .icon{
+                    & img{
+                        width: 25%;
+                    }
+                }
+            }
+        }
+        
+    }
+}
