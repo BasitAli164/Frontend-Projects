@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import Project4 from './Projects/Project4/Project4'
+import Project5 from './Projects/Project5/Project5'
 
 const App = () => {
   return (
     <> 
-    <Project4/>  
+    <Project5/>
     </>
   )
 }
