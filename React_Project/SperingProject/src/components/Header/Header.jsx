@@ -6,9 +6,8 @@ import menuIcon from '../../assets/images/menu.png'
 import { Link } from 'react-scroll'
 const Header = () => {
     const [toggle, setToggle] = useState(true);
-    const [width, setWidth]=useState(window.innerWidth)
     
-    
+
     
     
     const togglingFunction = () => {
