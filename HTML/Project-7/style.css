@@ -269,17 +269,26 @@ body {
         .iconParts {
             display: flex;
             flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
 
             .IconContainer {
+                display: flex;
+                flex-direction: column;
+                border: 2px solid red;
+                align-items: flex-end;
+                text-align: center;
+                
                 .threeDot {
                     & img {
-                        width: 5%;
+                        width: 30%;
                     }
                 }
 
                 .icon {
                     & img {
-                        width: 25%;
+                        width: 30%;
                     }
                 }
             }
