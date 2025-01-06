@@ -114,7 +114,26 @@
 
         & img{
             width: 110%;
+            @media screen and (min-width:1300px) {
+                width: 150%;
+                
+            }
+            @media screen and (max-width:992px) {
+                width: 100%;
+                
+            }
             
+        }
+        & li{
+            font-size: 25px;
+            @media screen and (min-width:1300px) {
+                font-size: 43px;
+                
+            }
+            @media screen and (max-width:767px) {
+                font-size: 20px;
+                
+            }
         }
         
     }
