@@ -1,0 +1,39 @@
+#header{
+    width: 100%;
+    background: var(--bg-primary-color);
+    .logoContainer{
+        width: 25%;
+        .logo{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            & img{
+                width: 25%;
+                @media screen and (max-width:992) {
+                    width: 20%;
+                    
+                }
+                    
+            }
+            & h2{
+                font-size: 35px;
+                color: var(--white-color);
+            }
+            @media screen and (max-width:1024px) {
+                width: 100%;
+                
+            }
+        }
+        @media screen and (max-width:1024px) {
+            width: 25%;
+            
+        }
+    }
+    @media screen and (max-width:1280px) {
+        width: 100%;
+        
+    }
+
+}
