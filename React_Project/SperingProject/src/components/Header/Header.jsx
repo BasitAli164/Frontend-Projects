@@ -8,19 +8,13 @@ const Header = () => {
     const [toggle, setToggle] = useState(true);
     const [width, setWidth]=useState(window.innerWidth)
     useEffect(()=>{
-        console.log("width is: outside: ",width)
-
-        if(width<767){
-            console.log("width is: inside: ",width)
-            setWidth(width)
-            console.log("width is 2: inside: ",width)
-            if(toggle==true){
-                setToggle(!toggle)
-
-            }
+        setWidth(width)
+        if(width < 767){
+            setToggle(!toggle)
         }
+        
 
-    },[width,toggle])
+    },[width])
     
     
     const togglingFunction = () => {
@@ -97,10 +91,10 @@ const Header = () => {
                 <div className='menu'>
                                 {
                                 
-                                toggle === true ?
+                                toggle === false || width<767 ?
 
-                                    <li className='xIcon' onClick={togglingFunction} >X</li> :
-                                    <img onClick={togglingFunction} src={menuIcon} alt="" />
+                                <img onClick={togglingFunction} src={menuIcon} alt="" />:
+                                    <li className='xIcon' onClick={togglingFunction} >X</li> 
                                 }
                             </div>
 
