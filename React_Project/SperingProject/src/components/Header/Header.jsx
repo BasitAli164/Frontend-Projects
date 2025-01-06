@@ -23,61 +23,66 @@ const Header = () => {
                     {
                         toggle == true ?
                             <div className='menuItems'>
-                                
-                                    <div className="menuList">
-                                        <ul>
-                                            <li> <Link
-                                                activeClass="active"
-                                                to="home"
-                                                spy={true}
-                                                smooth={true}
 
-                                            >
-                                                Home
-                                            </Link></li>
-                                            <li> <Link
-                                                to="home"
-                                                spy={true}
-                                                smooth={true}
+                                <div className="menuList">
+                                    <ul>
+                                        <li> <Link
+                                            activeClass="active"
+                                            to="home"
+                                            spy={true}
+                                            smooth={true}
 
-                                            >
-                                                About
-                                            </Link></li>
-                                            <li> <Link
-                                                to="home"
-                                                spy={true}
-                                                smooth={true}
+                                        >
+                                            Home
+                                        </Link></li>
+                                        <li> <Link
+                                            to="home"
+                                            spy={true}
+                                            smooth={true}
 
-                                            >
-                                                Work
-                                            </Link></li>
-                                            <li> <Link
-                                                to="home"
-                                                spy={true}
-                                                smooth={true}
+                                        >
+                                            About
+                                        </Link></li>
+                                        <li> <Link
+                                            to="home"
+                                            spy={true}
+                                            smooth={true}
 
-                                            >
-                                                Category
-                                            </Link></li>
+                                        >
+                                            Work
+                                        </Link></li>
+                                        <li> <Link
+                                            to="home"
+                                            spy={true}
+                                            smooth={true}
 
-                                        </ul>
-                                    </div>
-                                    <div className="menuIcons">
-                                        <ul>
-                                            <li><span>Login</span></li>
-                                            <li><img src={searchIcon} alt="Search" /></li>
-                                            {
-                                                toggle == true ? <li className='xIcon' onClick={togglingFunction} style={{ color: "#fff", fontSize: 30, cursor: "default" }}>X</li> : ""
-                                            }
-                                        </ul>
-                                    </div>
-                                
+                                        >
+                                            Category
+                                        </Link></li>
+
+                                    </ul>
+                                </div>
+                                <div className="menuIcons">
+                                    <ul>
+                                        <li><span>Login</span></li>
+                                        <li><img src={searchIcon} alt="Search" /></li>
+
+                                    </ul>
+                                </div>
+
                             </div>
                             :
-                            <div className='menu'>
-                                <img onClick={togglingFunction} src={menuIcon} alt="" />
-                            </div>
+                           <></>
                     }
+                     <div className='menu'>
+                                {
+                                
+                                toggle === true ?
+
+                                    <li className='xIcon' onClick={togglingFunction} style={{ color: "#fff", fontSize: 30, cursor: "default" ,marginRight:30}}>X</li> :
+                                    <img onClick={togglingFunction} src={menuIcon} alt="" />
+                                }
+                            </div>
                 </div>
 
 
