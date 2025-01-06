@@ -125,13 +125,17 @@
             
         }
         & li{
-            font-size: 25px;
+            font-size: 35px;
             @media screen and (min-width:1300px) {
                 font-size: 43px;
                 
             }
             @media screen and (max-width:767px) {
                 font-size: 20px;
+                
+            }
+            @media screen and (max-width:992px) {
+                font-size: 25px;
                 
             }
         }
