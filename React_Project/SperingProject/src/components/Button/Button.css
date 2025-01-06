@@ -21,7 +21,7 @@
     border: none;
     outline: none;
     font-size: 1.132rem;
-    transition:  0.4s ;
+    transition:  0.4s;
     cursor: pointer;
     text-align: center;
     &:hover{
