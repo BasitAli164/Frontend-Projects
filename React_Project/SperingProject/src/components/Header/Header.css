@@ -1,25 +1,35 @@
 #header{
     width: 100%;
     background: var(--bg-primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     .logoContainer{
         width: 25%;
+        
         .logo{
             width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-left: -60px;
+            background-color: rebeccapurple;
            
             & img{
                 width: 15%;
                 @media screen and (max-width:1024px) {
-                    width: 25%;   
+                    width: 20%;   
                 }
                 @media screen and (max-width:992px) {
-                    width: 23%;                    
+                    width: 17%;                    
                 }
                     
                 @media screen and (max-width:767px) and (min-width:300px) {
-                    width: 25%;                    
+                    width: 20%;                    
+                }
+                @media screen and (max-width:300px) {
+                    width: 50%;
+                    
                 }
               
                     
@@ -32,17 +42,38 @@
                 }
                     
                 @media screen and (max-width:767px) and (min-width:300px) {
-                    font-size: 23px;
+                    font-size: 20px;
+                }
+                @media screen and (max-width:300px) {
+                    display: none;
+                    
                 }
             }
+            @media screen and (max-width:1230px){
+                width: 100%;
+                margin-left: -40px;       
+
+        
+            }
             @media screen and (max-width:1024px) {
+                margin-left: -20px;
                 width: 100%;
                 
             }
-            @media screen and (max-width:480px) and (min-width:300px) {
+            @media screen and (max-width:992px)  {
                 width: 100%;
-                margin-left: 20px;
+                margin-left: -20px;
 
+                
+            }
+            @media screen and (max-width:767px) and (min-width:300px) {
+                width: 100%;
+                margin-left: 10px;
+
+                
+            }
+            @media screen and (max-width:300px) {
+                margin-left: 0px;
                 
             }
         }
@@ -51,16 +82,41 @@
             
         }
     }
+    .toggler{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;        
+        background: red;
+        width: 70%;
+        margin-right: 20px;
+        transition: all 5s;
+        
+        .menuItems{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            /* justify-content: space-evenly; */
+            .menuList{
+                width: 70%;
+                & ul{
+                    display: flex;
+                    justify-content: flex-start;
+                    gap: 80px;
+                }
+            }
+            .menuIcons{
+                width: 30%;
+                & ul{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    gap: 2.5rem;
+                }
+            }
+        }
+    }
 
-
-
-
-
-
-
-
-
-    
+   
     @media screen and (max-width:922px) {
         width: 100%;
         
