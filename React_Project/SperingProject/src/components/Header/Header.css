@@ -95,24 +95,41 @@
                     }
                     @media screen and (max-width:600px) {
                         position: absolute;
-                        left: 150px;  
+                        /* left: 150px;   */
                         top: 18px;  
+                        right: -60px;
                         flex-direction: column;
-                        padding: 50px;
-                        text-align: center;
-                        
+                        padding: 21px;
+                        text-align: center;                       
                         
                     }
-                    @media screen and (max-width:500) {
+                    @media screen and (max-width:535px) {
                         position: absolute;
-                        left: 100px;  
+                        /* left: 150px;   */
                         top: 18px;  
+                        right: -60px;
                         flex-direction: column;
-                        padding: 50px;
-                        text-align: center;
-                        
+                        padding: 21px;
+                        text-align: center;                       
                         
                     }
+                    @media screen and (max-width:499px) {
+                        position: absolute;
+                        /* left: 150px;   */
+                        top: 18px;  
+                        right: -40px;
+                        flex-direction: column;
+                        padding: 21px;
+                        text-align: center;                       
+                        
+                    }
+              
+                    @media screen and (max-width:498px) {
+                        display: none;
+                        
+                    }
+                    
+                   
                    
                 }
             }
