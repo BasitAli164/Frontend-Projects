@@ -69,6 +69,7 @@
             display: flex;
             align-items: center;
 
+
             .menuList{
                 width: 70%;
                 & ul{
@@ -84,6 +85,12 @@
                         }
 
                     }
+                    @media screen and (max-width:992px) {
+                        gap: 20px;
+                        justify-content: center;
+                        
+                    }
+                   
                 }
             }
             .menuIcons{
@@ -92,7 +99,7 @@
                     display: flex;
                     justify-content: flex-end;
                     align-items: center;
-                    gap: 2.5rem;
+                    gap: 40px;
                     margin-right: 80px;
                     & li{
                         list-style: none;
@@ -100,15 +107,35 @@
                             font-size: 18px;
                             cursor: pointer;
                         }
+                        & img{
+                            width: 100%;
+                            @media screen and (max-width:992px) {
+                                margin-top: 6px;
+                                width: 75%;
+                                
+                            }
+                        }
                         
                     }
+                    @media screen and (max-width:992px) {
+                        justify-content: center;
+                        gap: 30px;
+                        margin-right: 5px;
+                        
+                    }
+                    @media screen and (max-width:600px) {
+                        display: none;
+                        
+                    }
+
                     
                     
                 }
                 
             }
+
         }
-       
+        
     }
     .menu{
 
