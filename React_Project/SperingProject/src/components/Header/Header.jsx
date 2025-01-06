@@ -7,14 +7,8 @@ import { Link } from 'react-scroll'
 const Header = () => {
     const [toggle, setToggle] = useState(true);
     const [width, setWidth]=useState(window.innerWidth)
-    useEffect(()=>{
-        setWidth(width)
-        if(width < 767){
-            setToggle(!toggle)
-        }
-        
-
-    },[width])
+    
+    
     
     
     const togglingFunction = () => {
@@ -91,10 +85,10 @@ const Header = () => {
                 <div className='menu'>
                                 {
                                 
-                                toggle === false || width<767 ?
+                                toggle === true ?
 
-                                <img onClick={togglingFunction} src={menuIcon} alt="" />:
-                                    <li className='xIcon' onClick={togglingFunction} >X</li> 
+                                    <li className='xIcon' onClick={togglingFunction} >X</li> :
+                                    <img onClick={togglingFunction} src={menuIcon} alt="" />
                                 }
                             </div>
 
