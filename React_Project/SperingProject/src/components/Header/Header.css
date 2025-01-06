@@ -13,7 +13,6 @@
             justify-content: center;
             align-items: center;
             margin-left: -60px;
-            background-color: rebeccapurple;
            
             & img{
                 width: 15%;
@@ -86,16 +85,17 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;        
-        background: red;
+        /* background: red; */
         width: 70%;
         margin-right: 20px;
-        transition: all 5s;
         
         .menuItems{
             width: 100%;
             display: flex;
             align-items: center;
             /* justify-content: space-evenly; */
+            transition: all .5s;
+
             .menuList{
                 width: 70%;
                 & ul{
@@ -112,6 +112,14 @@
                     align-items: center;
                     gap: 2.5rem;
                 }
+            }
+        }
+        .menu{
+            text-align: center;
+            transition: all 5s;
+
+            & img{
+                width: 110%;
             }
         }
     }
