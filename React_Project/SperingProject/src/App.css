@@ -50,6 +50,7 @@
 html,body{
     font-size: 14px;
     font-family: var( --primary-font);
+    padding: 100px;
     
 }
 /* Custome Scrollbar */
