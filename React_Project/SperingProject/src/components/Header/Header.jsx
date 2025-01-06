@@ -6,9 +6,26 @@ import menuIcon from '../../assets/images/menu.png'
 import { Link } from 'react-scroll'
 const Header = () => {
     const [toggle, setToggle] = useState(true);
+    const [width, setWidth]=useState(window.innerWidth)
+    useEffect(()=>{
+        console.log("width is: outside: ",width)
+
+        if(width<767){
+            console.log("width is: inside: ",width)
+            setWidth(width)
+            console.log("width is 2: inside: ",width)
+            if(toggle==true){
+                setToggle(!toggle)
+
+            }
+        }
+
+    },[width,toggle])
+    
     
     const togglingFunction = () => {
         setToggle(!toggle)
+       
     }
 
     return (
