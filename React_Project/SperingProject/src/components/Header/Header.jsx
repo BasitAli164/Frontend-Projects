@@ -67,7 +67,7 @@ const Header = () => {
                                             <li><span>Login</span></li>
                                             <li><img src={searchIcon} alt="Search" /></li>
                                             {
-                                                toggle == true ? <li onClick={togglingFunction} style={{ color: "#fff", fontSize: 40, cursor: "default" }}>X</li> : ""
+                                                toggle == true ? <li className='xIcon' onClick={togglingFunction} style={{ color: "#fff", fontSize: 30, cursor: "default" }}>X</li> : ""
                                             }
                                         </ul>
                                     </div>
