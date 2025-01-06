@@ -30,6 +30,11 @@
     --danger-color: #dc3545;
     --light-color: #f8f9fa;
     --dark-color: #343a40;
+    --font-primary-color:#0c0c0c;
+    --font-secondary-color:#e9e9e9;
+    --btn-primary-bg-color:#ff4f5a;
+    --btn-secondary-bg-color:#1a2e35;
+    --btn-bg:#ffffff;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
     --breakpoint-md: 768px;
@@ -40,8 +45,9 @@
     --primary-font:"Poppins", serif;
 }
 html,body{
-    font-size: 16px;
+    font-size: 14px;
     font-family: var( --primary-font);
+    
 }
 /* Custome Scrollbar */
  ::-webkit-scrollbar{
