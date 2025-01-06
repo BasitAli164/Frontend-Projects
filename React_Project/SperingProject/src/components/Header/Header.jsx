@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Header.css'
 import logo from '../../assets/images/logo.png'
 import searchIcon from "../../assets/images/search-icon.png"
@@ -6,6 +6,7 @@ import menuIcon from '../../assets/images/menu.png'
 import { Link } from 'react-scroll'
 const Header = () => {
     const [toggle, setToggle] = useState(true);
+    
     const togglingFunction = () => {
         setToggle(!toggle)
     }
