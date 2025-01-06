@@ -1,12 +1,11 @@
 #header{
     width: 100%;
-    background: var(--bg-primary-color);
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: var( --bg-primary-color);
     .logoContainer{
         width: 15%;
-        background-color: aquamarine;
         
         .logo{
             width: 100%;
@@ -60,7 +59,6 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;        
-        background: red;
         width: 70%;
         margin-right: 20px;
         
@@ -76,7 +74,6 @@
                 & ul{
                     display: flex;
                     justify-content: flex-start;
-                    background-color: red;
                     gap: 40px;
                     & li{
                         list-style: none;
@@ -146,6 +143,7 @@
                         & span{
                             font-size: 18px;
                             cursor: pointer;
+                            color: var(--white-color);
                         }
                         & img{
                             width: 100%;
@@ -193,6 +191,8 @@
         }
         & li{
             font-size: 35px;
+            color: var(--white-color);
+            cursor: default;
             @media screen and (min-width:1300px) {
                 font-size: 43px;
                 
