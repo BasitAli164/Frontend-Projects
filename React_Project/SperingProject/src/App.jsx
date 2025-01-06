@@ -5,7 +5,8 @@ import Button from './components/Button/Button'
 const App = () => {
   return (
     <div>
-      <Button btnText="About" btnName="redish"/>
+      <Button btnText="About Us" btnName="redish"/>
+      <Button btnText="Hire me" btnName="blackish"/>
       <h1>New Project</h1>
     </div>
   )
