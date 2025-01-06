@@ -3,16 +3,16 @@
     background: var(--bg-primary-color);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     .logoContainer{
-        width: 25%;
+        width: 15%;
+        background-color: aquamarine;
         
         .logo{
             width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-left: -60px;
            
             & img{
                 width: 15%;
@@ -23,11 +23,11 @@
                     width: 17%;                    
                 }
                     
-                @media screen and (max-width:767px) and (min-width:300px) {
+                @media screen and (max-width:767px)  {
                     width: 20%;                    
                 }
-                @media screen and (max-width:300px) {
-                    width: 50%;
+                @media screen and (max-width:500px) {
+                    width: 35%;
                     
                 }
               
@@ -37,47 +37,22 @@
                 font-size: 35px;
                 color: var(--white-color);
                 @media screen and (max-width:992px) {
-                   font-size: 30px;               
+                   font-size: 25px;               
                 }
                     
-                @media screen and (max-width:767px) and (min-width:300px) {
+                @media screen and (max-width:767px)  {
                     font-size: 20px;
                 }
-                @media screen and (max-width:300px) {
+              
+                @media screen and (max-width:500px) {
                     display: none;
-                    
+    
                 }
             }
-            @media screen and (max-width:1230px){
-                width: 100%;
-                margin-left: -40px;       
-
-        
-            }
-            @media screen and (max-width:1024px) {
-                margin-left: -20px;
-                width: 100%;
-                
-            }
-            @media screen and (max-width:992px)  {
-                width: 100%;
-                margin-left: -20px;
-
-                
-            }
-            @media screen and (max-width:767px) and (min-width:300px) {
-                width: 100%;
-                margin-left: 10px;
-
-                
-            }
-            @media screen and (max-width:300px) {
-                margin-left: 0px;
-                
-            }
+           
         }
         @media screen and (max-width:1024px) {
-            width: 25%;
+            width: 15%;
             
         }
     }
@@ -85,7 +60,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;        
-        /* background: red; */
+        background: red;
         width: 70%;
         margin-right: 20px;
         
@@ -133,22 +108,15 @@
                 
             }
         }
-        .menu{
-            text-align: center;
-            position: relative;
+       
+    }
+    .menu{
 
-            & img{
-                width: 110%;
-                
-            }
-            .xIcon{
-                position: absolute;
-                top:-25px;
-                left: -20px;
-                
-                
-            }
+        & img{
+            width: 110%;
+            
         }
+        
     }
 
    

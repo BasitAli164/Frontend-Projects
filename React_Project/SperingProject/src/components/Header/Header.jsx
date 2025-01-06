@@ -75,16 +75,17 @@ const Header = () => {
                             :
                            <></>
                     }
-                     <div className='menu'>
+                    
+                </div>
+                <div className='menu'>
                                 {
                                 
                                 toggle === true ?
 
-                                    <li className='xIcon' onClick={togglingFunction} style={{ color: "#fff", fontSize: 30, cursor: "default" ,marginRight:30}}>X</li> :
+                                    <li className='xIcon' onClick={togglingFunction} >X</li> :
                                     <img onClick={togglingFunction} src={menuIcon} alt="" />
                                 }
                             </div>
-                </div>
 
 
             </header>
