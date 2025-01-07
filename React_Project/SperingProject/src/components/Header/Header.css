@@ -85,7 +85,7 @@
                             font-size: 16px;
                             cursor: pointer;
                             @media screen and (min-width:1300px) {
-                                font-size: 30px;
+                                font-size: 25px;
                                 
                             }
                         }
@@ -152,7 +152,7 @@
                             cursor: pointer;
                             color: var(--white-color);
                             @media screen and (min-width:1300px) {
-                                font-size: 30px;
+                                font-size: 25px;
                                 
                             }
 
@@ -165,7 +165,7 @@
                                 
                             }
                             @media screen and (min-width:1300px) {
-                                    width:150%;                                
+                                    width:  130%;                                
                             }
                         }
                         
@@ -209,7 +209,7 @@
             color: var(--white-color);
             cursor: default;
             @media screen and (min-width:1300px) {
-                font-size: 63px;
+                font-size: 43px;
                 
             }
             @media screen and (max-width:767px) {
