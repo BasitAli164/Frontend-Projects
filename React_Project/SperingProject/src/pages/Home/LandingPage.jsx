@@ -6,40 +6,40 @@ import prevIcon from '../../assets/images/prev.png';
 import nextIcon from '../../assets/images/next.png';
 
 const LandingPage = () => {
-    const [count, setCount]=useState(1);
-   
+    const [count, setCount] = useState(1);
+
     setTimeout(() => {
-        if(count<3){
-            setCount(count+1)
+        if (count < 3) {
+            setCount(count + 1)
 
         }
-        
+
     }, 3000);
     return (
         <>
             <main id='landingPage'>
-<div className="leftPart">
+                <div className="leftPart">
                     <div className="headings">
-                    <h1>You Can <br /> Hire Freelancer <br />Here</h1>
-                    <p>It is a long established fact that a reader will be distracted by the <br /> readable content of a page</p>
-                   
-                   <div className="btn">
-                   <Button btnText="About Us" btnName="redish"/>
-                    <Button btnText="About Us" />
+                        <h1>You Can <br /> Hire Freelancer <br />Here</h1>
+                        <p>It is a long established fact that a reader will be distracted by the <br /> readable content of a page</p>
 
-                   </div>
+                        <div className="btn">
+                            <Button btnText="About Us" btnName="redish" />
+                            <Button btnText="About Us" />
 
-                   <div className="landingIcons">
-                    <div className="prevIcon">
-                        <img src={prevIcon} alt="" />
+                        </div>
+
+                        <div className="landingIcons">
+                            <div className="prevIcon">
+                                <img src={prevIcon} alt="" />
+                            </div>
+                            <div className="nextIcon">
+                                <img src={nextIcon} alt="" />
+                            </div>
+                        </div>
                     </div>
-                    <div className="nextIcon">
-                        <img src={nextIcon} alt="" />
-                    </div>
-                   </div>
-                   </div>
                 </div>
-                <div                div className="rightPart">
+                <div div className="rightPart">
                     <img src={sliderImage} alt="SliderImage" />
                     <div>
                         <span>{count}</span>
