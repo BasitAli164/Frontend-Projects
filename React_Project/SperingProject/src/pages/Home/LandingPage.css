@@ -1,0 +1,39 @@
+#landingPage{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .leftPart{
+        width: 60%;
+        height: 100vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        background: var(  --bg-primary-color);
+        position: relative;
+        .headings{
+           position: absolute;
+           left: 100px;
+           text-align: justify;
+          
+
+        }
+        
+        
+    }
+    .rightPart{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        background: var(--bg-secondary-color);
+        justify-content: center;
+        height: 100vh;
+
+        & img{
+            width: 50%;
+        }
+    }
+}

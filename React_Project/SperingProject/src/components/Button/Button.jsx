@@ -6,7 +6,7 @@ const Button = ({btnText,btnName}) => {
     <>
     {btnName=="redish"?
         <button className='redishbtn' >{btnText}</button>:
-        <button className='blackishbtn' >{btnText}</button>
+        <button  className='blackishbtn' >{btnText}</button>
     }      
     </>
   )

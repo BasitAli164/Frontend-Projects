@@ -3,9 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: var( --bg-primary-color);
     position: sticky;
     top: 0;
+    z-index: 9999;
     .logoContainer{
         width: 15%;
         
