@@ -20,8 +20,8 @@ const LandingPage = () => {
             <main id='landingPage'>
                 <div className="leftPart">
                     <div className="headings">
-                        <h1>You Can <br /> Hire Freelancer <br />Here</h1>
-                        <p>It is a long established fact that a reader will be distracted by the <br /> readable content of a page</p>
+                        <h1>You Can  Hire Freelancer Here</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
 
                         <div className="btn">
                             <Button btnText="About Us" btnName="redish" />
@@ -42,7 +42,7 @@ const LandingPage = () => {
                 <div div className="rightPart">
                     <img src={sliderImage} alt="SliderImage" />
                     <div>
-                        <span>{count}</span>
+                        <span>0{count}</span>
                     </div>
                 </div>
             </main>
