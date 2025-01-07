@@ -3,8 +3,11 @@ import './Header.css'
 import logo from '../../assets/images/logo.png'
 import searchIcon from "../../assets/images/search-icon.png"
 import menuIcon from '../../assets/images/menu.png'
+import '../../pages/Home/LandingPage'
 import { Link } from 'react-scroll'
+import { useNavigate } from 'react-router-dom'
 const Header = () => {
+    const navigate=useNavigate();
     const [toggle, setToggle] = useState(false);    
     const togglingFunction = () => {
         setToggle(!toggle)
@@ -32,6 +35,7 @@ const Header = () => {
                                             to="home"
                                             spy={true}
                                             smooth={true}
+                                            onClick={()=>navigate('/')}
 
                                         >
                                             Home
