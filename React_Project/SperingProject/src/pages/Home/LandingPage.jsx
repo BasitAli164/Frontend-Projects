@@ -32,8 +32,10 @@ const LandingPage = () => {
                    </div>
                 </div>
                 <div className="rightPart">
-                    <img src={sliderImage} alt="" />
-                    <span>03</span>
+                    <img src={sliderImage} alt="SliderImage" />
+                    <div>
+                        <span>3</span>
+                    </div>
                 </div>
             </main>
 
