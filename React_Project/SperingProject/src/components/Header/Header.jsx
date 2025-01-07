@@ -5,7 +5,7 @@ import searchIcon from "../../assets/images/search-icon.png"
 import menuIcon from '../../assets/images/menu.png'
 import { Link } from 'react-scroll'
 const Header = () => {
-    const [toggle, setToggle] = useState(true);    
+    const [toggle, setToggle] = useState(false);    
     const togglingFunction = () => {
         setToggle(!toggle)
        
