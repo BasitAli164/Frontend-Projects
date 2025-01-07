@@ -13,20 +13,22 @@
         background: var(  --bg-primary-color);
         position: relative;
         .headings{
+
            position: absolute;
            left: 100px;
+           top: 200px;
            text-align: justify;
            & h1{
             color: var(--white-color);
             font-family: sans-serif;
-            font-size: 50px;
+            font-size: 40px;
            }
            & p{
-            font-size: 20px;
+            font-size: 18px;
             color: var(--white-color);
            }
            .btn{
-            margin-top: 50px;
+            margin-top: 20px;
            }
           
 
@@ -35,10 +37,10 @@
             display: flex;
             gap: 20px;
             position: absolute;
-            bottom: -135px;
+            bottom: -100px;
             z-index: 20;
             .prevIcon,.nextIcon{
-                padding: 20px;
+                padding: 10px;
                 text-align: center;
                 background: var(--bg-secondary-color);
                 border-radius: 50%;
@@ -67,10 +69,10 @@
         }
         & div{ 
             & span{
-            font-size: 30px;
+            font-size: 20px;
             color: var(--white-color);
             position:absolute;
-            bottom: 0px;
+            bottom: 30px;
             right: 10px;
 
           } 

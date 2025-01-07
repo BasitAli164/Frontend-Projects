@@ -3,12 +3,11 @@ import './Header.css'
 import logo from '../../assets/images/logo.png'
 import searchIcon from "../../assets/images/search-icon.png"
 import menuIcon from '../../assets/images/menu.png'
-import '../../pages/Home/LandingPage'
 import { Link } from 'react-scroll'
 import { useNavigate } from 'react-router-dom'
 const Header = () => {
     const navigate=useNavigate();
-    const [toggle, setToggle] = useState(false);    
+    const [toggle, setToggle] = useState(true);    
     const togglingFunction = () => {
         setToggle(!toggle)
        
@@ -41,25 +40,29 @@ const Header = () => {
                                             Home
                                         </Link></li>
                                         <li> <Link
-                                            to="home"
+                                            to="about"
                                             spy={true}
                                             smooth={true}
-
-                                        >
+                                            onClick={()=>navigate('/about')}
+                                            
+                                            >
                                             About
                                         </Link></li>
                                         <li> <Link
-                                            to="home"
+                                            to="work"
                                             spy={true}
                                             smooth={true}
+                                            onClick={()=>navigate('/work')}
 
                                         >
                                             Work
                                         </Link></li>
                                         <li> <Link
-                                            to="home"
+                                            to="category"
                                             spy={true}
                                             smooth={true}
+                                            onClick={()=>navigate('/category')}
+
 
                                         >
                                             Category

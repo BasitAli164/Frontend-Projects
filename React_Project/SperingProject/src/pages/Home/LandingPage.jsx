@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './LandingPage.css';
 import Button from '../../components/Button/Button';
 import sliderImage from '../../assets/images/slider-img.png';
@@ -6,11 +6,19 @@ import prevIcon from '../../assets/images/prev.png';
 import nextIcon from '../../assets/images/next.png';
 
 const LandingPage = () => {
+    const [count, setCount]=useState(1);
+   
+    setTimeout(() => {
+        if(count<3){
+            setCount(count+1)
 
+        }
+        
+    }, 3000);
     return (
         <>
             <main id='landingPage'>
-                <div className="leftPart">
+<div className="leftPart">
                     <div className="headings">
                     <h1>You Can <br /> Hire Freelancer <br />Here</h1>
                     <p>It is a long established fact that a reader will be distracted by the <br /> readable content of a page</p>
@@ -31,10 +39,10 @@ const LandingPage = () => {
                    </div>
                    </div>
                 </div>
-                <div className="rightPart">
+                <div                div className="rightPart">
                     <img src={sliderImage} alt="SliderImage" />
                     <div>
-                        <span>3</span>
+                        <span>{count}</span>
                     </div>
                 </div>
             </main>
