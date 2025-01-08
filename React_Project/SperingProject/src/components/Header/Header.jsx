@@ -30,8 +30,8 @@ const Header = () => {
                                     <li className='mx-1 text-slate-200 text-[16px] md:mx-4' ><Link className="md:text-lg" to="/category">Category</Link></li>
                                 </ul>
                             </div>
-                            <div className='hidden sm:flex ml-42 space-x-5'>
-                                <div><button className='text-lg text-slate-100 bg-transparent '>Login</button></div>
+                            <div className='hidden sm:flex ml-42 space-x-5 xl: ml-40 space-x-10'>
+                                <div><button className='text-lg text-slate-100 bg-transparent  '>Login</button></div>
                                 <div><img className='sm:mt-2 ' src={serachIcon} alt="SearchIcon" /></div>
                             </div>
                         </> :
