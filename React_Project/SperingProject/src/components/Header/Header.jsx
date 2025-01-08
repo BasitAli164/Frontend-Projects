@@ -7,9 +7,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
     const [toggle, setToggle] = useState(true);
     const handleChanges = () => {
-        console.log(" before",toggle)
         setToggle(!toggle)
-        console.log("after ",toggle)
 
     }
     return (
@@ -58,17 +56,15 @@ const Header = () => {
            {
             toggle==true?
             <>
-             <div>
                     <ul className='flex flex-col justify-center items-center sm:hidden'>
                         <li className='my-2 text-slate-950 text-[16px] '><Link className="md:text-lg" to='/'>Home</Link></li>
                         <li className='my-2 text-slate-950 text-[16px] '><Link className="md:text-lg" to='/about'>About</Link></li>
                         <li className='my-2 text-slate-950 text-[16px] '><Link className="md:text-lg" to='/work'>Work</Link></li>
                         <li className='my-2 text-slate-950 text-[16px] ' ><Link className="md:text-lg" to="/category">Category</Link></li>
                     </ul>
-                </div>
            
             </>:
-            <></>
+            ""
            }
         </>
     )
