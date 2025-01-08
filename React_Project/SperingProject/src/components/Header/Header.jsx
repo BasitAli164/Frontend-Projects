@@ -57,17 +57,17 @@ const Header = () => {
                 toggle == true ?
                     <>
 
-                        <ul className='flex flex-col justify-center items-center sm:hidden'>
-                            <li className='my-2 text-slate-950 text-[16px] '>
+                        <ul className='flex flex-col justify-center items-center bg-gray-800 sm:hidden'>
+                            <li className='my-2 text-slate-100 font-semibold text-[16px] '>
                                 <Link className="md:text-lg" to='/'>Home</Link>
                             </li>
-                            <li className='my-2 text-slate-950 text-[16px] '>
+                            <li className='my-2 text-slate-100 font-semibold text-[16px] '>
                                 <Link className="md:text-lg" to='/about'>About</Link>
                             </li>
-                            <li className='my-2 text-slate-950 text-[16px] '>
+                            <li className='my-2 text-slate-100 font-semibold text-[16px] '>
                                 <Link className="md:text-lg" to='/work'>Work</Link>
                             </li>
-                            <li className='my-2 text-slate-950 text-[16px] ' >
+                            <li className='my-2 text-slate-100 font-semibold text-[16px] ' >
                                 <Link className="md:text-lg" to="/category">Category</Link>
                             </li>
                         </ul>
