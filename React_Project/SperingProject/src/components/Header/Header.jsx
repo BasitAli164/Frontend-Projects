@@ -1,5 +1,6 @@
 import React from 'react'
 import logoImage from "../../assets/images/logo.png"
+import serachIcon from '../../assets/images/search-icon.png'
 
 const Header = () => {
   return (
@@ -15,10 +16,12 @@ const Header = () => {
                 <li className='list-none text-md font-normal  md: text-lg  text-slate-200 '>About</li>
                 <li className='list-none text-md font-normal  md: text-lg  text-slate-200 '>Work</li>
                 <li className='list-none text-md font-normal  md: text-lg  text-slate-200 '>Category</li>
-                <li></li>
             </ul>
          </div>
-         <div>login and search button</div>
+         <div className='w-50 bg-slate-500 md: flex justify-center items-center   '>
+            <button>Login</button>
+            <img src={serachIcon} alt="" />
+         </div>
          <div>exchange button </div>
     </div>
       
