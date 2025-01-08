@@ -7,7 +7,10 @@ import { Link } from 'react-router-dom'
 const Header = () => {
     const [toggle, setToggle] = useState(true);
     const handleChanges = () => {
+        console.log(" before",toggle)
         setToggle(!toggle)
+        console.log("after ",toggle)
+
     }
     return (
         <>
@@ -39,15 +42,34 @@ const Header = () => {
                 <div className='mr-5'>
                     {
                         toggle == true ?
-                            <div><img onClick={handleChanges} src={menuIcon} alt="menuIcon" /></div>
+                            <div>
+                                <img className='' onClick={handleChanges} src={menuIcon} alt="menuIcon" />
+                            </div>
                             :
                             <div>
-                                <span className='text-xl text-slate-100 font-bold cursor-default' onClick={handleChanges}>X</span>
+                                <span className='hidden sm:block text-xl text-slate-100 font-bold cursor-default' onClick={handleChanges}>X</span>
+                                <img className='sm:hidden' onClick={handleChanges} src={menuIcon} alt="menuIcon" />
+
                             </div>
 
                     }
                 </div>
             </div>
+           {
+            toggle==true?
+            <>
+             <div>
+                    <ul className='flex flex-col justify-center items-center sm:hidden'>
+                        <li className='my-2 text-slate-950 text-[16px] '><Link className="md:text-lg" to='/'>Home</Link></li>
+                        <li className='my-2 text-slate-950 text-[16px] '><Link className="md:text-lg" to='/about'>About</Link></li>
+                        <li className='my-2 text-slate-950 text-[16px] '><Link className="md:text-lg" to='/work'>Work</Link></li>
+                        <li className='my-2 text-slate-950 text-[16px] ' ><Link className="md:text-lg" to="/category">Category</Link></li>
+                    </ul>
+                </div>
+           
+            </>:
+            <></>
+           }
         </>
     )
 }
