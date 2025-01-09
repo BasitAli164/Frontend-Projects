@@ -29,15 +29,7 @@ const Home = () => {
           <Button2 btnText="Get a job"/>
         </div>
         </div>
-        <div className='flex justify-center items-center gap-x-10 relative'>
-          <div className='absolute top-[173px] right-[350px] w-16 h-16 rounded-full p-5 bg-[#1cbbb4]
-          xl:right-[275px] lg:right-[175px'>
-            <img className='w-full' src={nextIcon} alt="nextIcon" />
-          </div>
-          {/* <div className='absolute top-[165px] right-[250px] w-16 h-1w-16 rounded-full p-5 bg-[#1cbbb4]'>
-          <img className='w-full' src={prevIcon} alt="prevIcon" />
-          </div> */}
-        </div>
+      
       </section>
       <section className='w-full h-[50%] bg-[#1cbbb4] sm:w-[40%] sm:h-[85vh] sm:flex'>
         <div className='flex justify-center items-center sm:flex sm:justify-center sm:items-center'>
