@@ -10,8 +10,8 @@ const About = () => {
         <div className='w-full h-1/2 flex items-center justify-center overflow-hidden  sm:w-[45%] sm:overflow-visible'>
           <img className='w-[50%] sm:w-[85%]' src={experienceImage} alt="Experience_Image" />
         </div>
-        <div className='w-full flex flex-col justify-center items-center sm:w-[50%]'>
-        <h2 className='text-black text-2xl font-bold sm:text-[21px] sm:leading-[130px] md:text-[29px] lg:text-[33px]  xl:text-[42px]   '>Best Experinced Freelancer Here</h2>
+        <div className='w-full flex flex-col justify-center  sm:w-[50%]'>
+        <h2 className='text-black text-2xl font-bold sm:text-[21px] sm:leading-[130px] md:text-[25px] lg:text-[33px]  xl:text-[42px]   '>Best Experinced Freelancer Here</h2>
           <p className='text-black text-md text-justify sm:text-[18px] font-normal  '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
           <div className='sm:mt-14'>
             <Button1 btnText="Read More" />
