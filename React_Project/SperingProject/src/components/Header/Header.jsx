@@ -57,7 +57,7 @@ const Header = () => {
                 toggle == true ?
                     <>
 
-                        <ul className='flex flex-col justify-center items-center bg-gray-800 sm:hidden'>
+                        <ul className='flex flex-col justify-center items-center bg-slate-500 sm:hidden'>
                             <li className='my-2 text-slate-100 font-semibold text-[16px] '>
                                 <Link className="md:text-lg" to='/'>Home</Link>
                             </li>

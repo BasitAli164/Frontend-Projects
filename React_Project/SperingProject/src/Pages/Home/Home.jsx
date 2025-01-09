@@ -1,15 +1,25 @@
 import React from 'react'
+import {Button1,Button2} from '../../components/Button/Button'
 
 const Home = () => {
   return (
     <>
-    <main className='w-screen flex justify-between items-center flex-wrap'>
-    <section className='w-3/5 bg-slate-500 flex flex-col '>
-        <div>Heading</div>
-        <div>Parargrap</div>
-        <div>Buttons</div>
+    <main className='w-full h-screen flex flex-col  justify-between  md:flex-row '>
+    <section className='w-full h-[50%]  bg-slate-500 flex  justify-center items-center md:w-[60%] md:h-screen  '>
+        <div>
+        <div>
+          <h2>You Can Hire Freelancer Here</h2>
+        </div>
+        <div>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
+        </div>
+        <div>
+          <Button1 btnText="About Us"/>
+          <Button2 btnText="Get a job"/>
+        </div>
+        </div>
       </section>
-      <section>
+      <section className='w-full h-[50%] bg-indigo-700 md:w-[40%] md:h-screen md:flex md:items-center md:justify-center'>
         <div>Image</div>
         <div>counter</div>
       </section>
