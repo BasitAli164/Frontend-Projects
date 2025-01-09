@@ -11,7 +11,7 @@ const Header = () => {
 
     }
     return (
-        <>
+        <div className='bg-indigo-300'>
             <div className='w-full h-auto flex justify-between items-center'>
                 <div>
                     <div className='ml-10 flex justify-center items-center'>
@@ -76,7 +76,7 @@ const Header = () => {
                     </> :
                     ""
             }
-        </>
+        </div>
     )
 }
 
