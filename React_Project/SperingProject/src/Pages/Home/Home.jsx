@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
     <main className='w-full h-screen flex flex-col  justify-between  md:flex-row '>
-    <section className='w-full h-[50%]  bg-slate-500 flex  justify-center items-center md:w-[60%] md:h-screen  '>
+    <section className='w-full h-[50%]  bg-[#1a2e35] justify-center items-center md:w-[60%] md:h-screen  '>
         <div>
         <div>
           <h2>You Can Hire Freelancer Here</h2>
@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         </div>
       </section>
-      <section className='w-full h-[50%] bg-indigo-700 md:w-[40%] md:h-screen md:flex md:items-center md:justify-center'>
+      <section className='w-full h-[50%] bg-[#1cbbb4] md:w-[40%] md:h-screen md:flex md:items-center md:justify-center'>
         <div>Image</div>
         <div>counter</div>
       </section>

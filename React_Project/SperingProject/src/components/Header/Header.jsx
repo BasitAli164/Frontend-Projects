@@ -11,7 +11,7 @@ const Header = () => {
 
     }
     return (
-        <div className='bg-indigo-300'>
+        <div className='bg-slate-600'>
             <div className='w-full h-auto flex justify-between items-center'>
                 <div>
                     <div className='ml-10 flex justify-center items-center'>
@@ -57,7 +57,7 @@ const Header = () => {
                 toggle == true ?
                     <>
 
-                        <ul className='flex flex-col justify-center items-center bg-slate-500 sm:hidden'>
+                        <ul className='flex flex-col justify-center items-center bg-[#1a2e35] sm:hidden'>
                             <li className='my-2 text-slate-100 font-semibold text-[16px] '>
                                 <Link className="md:text-lg" to='/'>Home</Link>
                             </li>
