@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import {Button1,Button2} from '../../components/Header/Button/Button'
 import sliderImage from '../../assets/images/slider-img.png'
+import nextIcon from '../../assets/images/next.png'
+import prevIcon from '../../assets/images/prev.png'
 
 const Home = () => {
   const [count ,setCount]=useState(1);
@@ -29,12 +31,13 @@ const Home = () => {
         </div>
       </section>
       <section className='w-full h-[50%] bg-[#1cbbb4] sm:w-[40%] sm:h-[85vh] sm:flex'>
-        <div className='flex justify-center items-center'>
-          <img className='w-56' src={sliderImage} alt="" />
+        <div className='flex justify-center items-center sm:flex sm:justify-center sm:items-center'>
+          <img className='w-56 sm:w-3/4' src={sliderImage} alt="" />
         </div>
         <div className='relative'>
-          <h1 className='absolute right-3 bottom-3 sm:fixed sm:bottom-10 sm:right-5 lg:bottom-20 lg:right-2 lg:text-2xl'>0{count}</h1>
+          <h1 className='absolute right-3 bottom-3 sm:fixed sm:bottom-10 sm:right-5 lg:bottom-20  lg:right-2 lg:text-2xl'>0{count}</h1>
         </div>
+       
       </section>
     </main>
     </>
