@@ -1,11 +1,12 @@
 import React from 'react'
 import { Button1, Button2 } from '../../components/Header/Button/Button'
 import experienceImage from '../../assets/images/experience-img.jpg'
+import aboutImage from '../../assets/images/about-img.jpg'
 
 const About = () => {
   return (
     <>
-    <section className='bg-white w-full h-screen '>
+    <section className='bg-white w-full ] '>
       <div className='w-full h-screen flex flex-col justify-center items-center   sm:flex-row '>
         <div className='w-full h-1/2 flex items-center justify-center overflow-hidden  sm:w-[45%] sm:overflow-visible'>
           <img className='w-[50%] sm:w-[85%]' src={experienceImage} alt="Experience_Image" />
@@ -21,13 +22,13 @@ const About = () => {
 </p>
         </div>
       </div>
-      <div>
-        <div>
-          <img src="" alt="" />
+      <div className='w-full h-screen bg-white flex flex-col justify-center items-center'>
+        <div >
+          <img className='' src={aboutImage} alt="About Image" />
         </div>
-        <div>
-          <h2>About Spering Company</h2>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you</p>
+        <div className='h-screen w-full'>
+          <h2 className='text-slate-950'>About Spering Company</h2>
+          <p className='text-slate-950' >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you</p>
           <div>  
            <Button1 btnText="Read More"/>
           </div>
