@@ -3,7 +3,14 @@ import {Button1,Button2} from '../../components/Header/Button/Button'
 import sliderImage from '../../assets/images/slider-img.png'
 
 const Home = () => {
-  const [count ,setCount]=useState(1)
+  const [count ,setCount]=useState(1);
+  setTimeout(() => {
+    if(count<3){
+
+      setCount(count+1)
+    }
+    
+  }, 3000);
   return (
     <>
     <main className='w-full flex flex-col  justify-between  sm:flex-row '>
@@ -26,7 +33,7 @@ const Home = () => {
           <img className='w-56' src={sliderImage} alt="" />
         </div>
         <div className='relative'>
-          <h1 className='absolute right-0 bottom-0 sm:fixed sm:bottom-10 lg:bottom-20 lg:right-2 lg:text-2xl'>0{count}</h1>
+          <h1 className='absolute right-3 bottom-3 sm:fixed sm:bottom-10 sm:right-5 lg:bottom-20 lg:right-2 lg:text-2xl'>0{count}</h1>
         </div>
       </section>
     </main>
