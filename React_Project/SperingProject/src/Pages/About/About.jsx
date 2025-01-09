@@ -26,9 +26,11 @@ const About = () => {
           <img src="" alt="" />
         </div>
         <div>
-          <h2></h2>
-          <p></p>
-          <Button1 btnText="Read More"/>
+          <h2>About Spering Company</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you</p>
+          <div>  
+           <Button1 btnText="Read More"/>
+          </div>
         </div>
       </div>
 
