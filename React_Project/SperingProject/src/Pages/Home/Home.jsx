@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
     <main className='w-full flex flex-col  justify-between  sm:flex-row '>
-    <section className='w-full h-auto p-10  bg-[#1a2e35] flex justify-center items-center sm:w-[60%] sm:h-[85vh] sm:items-center sm:justify-center '>
+    <section className='w-full h-auto p-10  bg-[#1a2e35] flex flex-col justify-center items-center sm:w-[60%] sm:h-[85vh] sm:items-center sm:justify-center '>
         <div className='flex flex-col justify-center items-start gap-5 md:gap-10 lg:text-center lg:gap-y-10'>
         <div>
           <h2 className='text-2xl font-bold sm:text-3xl sm:font-medium sm:leading-10 xl:text-5xl'>You Can Hire Freelancer Here</h2>
@@ -28,6 +28,15 @@ const Home = () => {
           <Button1 btnText="About Us" />
           <Button2 btnText="Get a job"/>
         </div>
+        </div>
+        <div className='flex justify-center items-center gap-x-10 relative'>
+          <div className='absolute top-[173px] right-[350px] w-16 h-16 rounded-full p-5 bg-[#1cbbb4]
+          xl:right-[275px] lg:right-[175px'>
+            <img className='w-full' src={nextIcon} alt="nextIcon" />
+          </div>
+          {/* <div className='absolute top-[165px] right-[250px] w-16 h-1w-16 rounded-full p-5 bg-[#1cbbb4]'>
+          <img className='w-full' src={prevIcon} alt="prevIcon" />
+          </div> */}
         </div>
       </section>
       <section className='w-full h-[50%] bg-[#1cbbb4] sm:w-[40%] sm:h-[85vh] sm:flex'>
