@@ -21,6 +21,17 @@ const About = () => {
 </p>
         </div>
       </div>
+      <div>
+        <div>
+          <img src="" alt="" />
+        </div>
+        <div>
+          <h2></h2>
+          <p></p>
+          <Button1 btnText="Read More"/>
+        </div>
+      </div>
+
     </section>
       
     </>
