@@ -13,7 +13,7 @@ const About = () => {
         <div className='w-full flex flex-col justify-center items-center sm:w-[55%]'>
         <h2 className='text-black text-2xl font-bold  '>Best Experinced Freelancer Here</h2>
           <p className='text-black text-md text-justify '>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
-          <div>
+          <div className='ml-10'>
             <Button1 btnText="Read More" />
             <Button2 btnText= "Hire" />
           </div>

@@ -15,11 +15,11 @@ const Button2=({btnText,condition})=>{
         {
           condition==true?
           <>
-          <button className='px-12 py-2 text-md mt-4 md:m-3 md:px-10 md:py-2 md:text-lg text-slate-950 bg-slate-50 
+          <button className='px-12 mx-4 py-2 text-md mt-4 md:m-3 md:px-10 md:py-2 md:text-lg text-slate-950 bg-slate-50 
         hover:bg-transparent hover:text-slate-50 hover:border hover:border-solid hover:border-slate-50'>{btnText}</button> 
           </>:
           <>
-          <button className='px-12 py-2 text-md mt-4 md:m-3 md:px-16 md:py-2 md:text-lg text-slate-50 bg-[#1a2e35] 
+          <button className='px-12 mx-4 py-2 text-md mt-4 md:m-3 md:px-16 md:py-2 md:text-lg text-slate-50 bg-[#1a2e35] 
         hover:bg-transparent hover:text-slate-950 hover:border hover:border-solid hover:border-[#1a2e35]'>{btnText}</button> 
           </>
         }         
