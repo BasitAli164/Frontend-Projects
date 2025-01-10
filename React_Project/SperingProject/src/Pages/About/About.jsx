@@ -6,11 +6,11 @@ const About = () => {
   return (
     <>
     <section className='bg-white w-full h-screen '>
-      <div className='w-full flex flex-col  items-center justify-center sm:flex-row '>
-        <div className='w-7/12 bg-red-300 flex items-center justify-center mt-5'>
-          <img className='w-full' src={experienceImage} alt="Experience_Image" />
+      <div className='w-full h-screen flex flex-col   sm:flex-row '>
+        <div className='w-full h-1/2 flex items-center justify-center overflow-hidden o sm:w-[45%]'>
+          <img className='w-[50%]' src={experienceImage} alt="Experience_Image" />
         </div>
-        <div>
+        <div className='w-full sm:w-[55%]'>
         <h2 className='text-black'>Best Experinced Freelancer Here</h2>
           <p className='text-black'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
           <div>
