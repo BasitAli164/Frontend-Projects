@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <main className='w-full flex flex-col  justify-between  sm:flex-row '>
-        <section className='w-full h-auto p-10  bg-[#1a2e35] flex flex-col justify-center items-center sm:w-[60%] sm:h-[85vh] sm:items-center sm:justify-center '>
+        <section className='w-full h-[50vh] p-10  bg-[#1a2e35] flex flex-col justify-center items-center sm:w-[60%] sm:h-[91vh] sm:items-center sm:justify-center '>
           <div className='flex flex-col justify-center items-start gap-5 md:gap-10 lg:text-center lg:gap-y-10'>
             <div>
               <h2 className='text-2xl font-bold sm:text-3xl sm:font-medium sm:leading-10 xl:text-5xl'>You Can Hire Freelancer Here</h2>
@@ -31,12 +31,12 @@ const Home = () => {
           </div>
 
         </section>
-        <section className='w-full h-[50%] bg-[#1cbbb4] sm:w-[40%] sm:h-[85vh] sm:flex'>
+        <section className='w-full h-[50vh] bg-[#1cbbb4] sm:w-[40%] sm:h-[91vh] sm:flex'>
           <div className='flex justify-center items-center sm:flex sm:justify-center sm:items-center'>
-            <img className='w-56 sm:w-3/4' src={sliderImage} alt="" />
+            <img className='w-56 mt-20 sm:w-3/4 ' src={sliderImage} alt="" />
           </div>
           <div className='relative'>
-            <h1 className='absolute right-3 bottom-3 sm:fixed sm:bottom-10 sm:right-5 lg:bottom-20  lg:right-2 lg:text-2xl'>0{count}</h1>
+            <h1 className='absolute right-5 top-[35px] sm:fixed sm:bottom-10 sm:right-5 lg:bottom-5  lg:right-4 lg:text-2xl'>0{count}</h1>
           </div>
 
         </section>
