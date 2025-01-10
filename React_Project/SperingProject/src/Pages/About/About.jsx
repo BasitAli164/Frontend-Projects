@@ -22,16 +22,18 @@ const About = () => {
 </p>
         </div>
       </div>
-      <div className='w-full h-screen bg-white flex flex-col justify-center items-center'>
-        <div >
+      <div className='w-full h-auto bg-white flex flex-col justify-center items-center'>
+        <div className='w-full h-auto flex justify-center' >
           <img className='' src={aboutImage} alt="About Image" />
         </div>
-        <div className='h-screen w-full'>
-          <h2 className='text-slate-950'>About Spering Company</h2>
-          <p className='text-slate-950' >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you</p>
+        <div className='h-auto w-full flex flex-col items-center '>
+         <div className='max-w-[1170px] flex flex-col items-center  p-5 gap-[20px]'>
+         <h2 className='text-slate-950 font-bold text-[40px] text-center md:text-left '>About Spering Company</h2>
+          <p className='text-slate-950 text-[16px] text-justify md:text-[18px]' >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you</p>
           <div>  
            <Button1 btnText="Read More"/>
           </div>
+         </div>
         </div>
       </div>
 
