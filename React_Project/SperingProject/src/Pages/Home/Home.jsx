@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div className='space-x-8 space-y-5 sm:space-y-20  '>
               <Button1 btnText="About Us" />
-              <Button2 btnText="Get a job" />
+              <Button2 btnText="Get a job" condition={true} />
             </div>
           </div>
 
@@ -36,7 +36,7 @@ const Home = () => {
             <img className='w-56 mt-20 sm:w-3/4 ' src={sliderImage} alt="" />
           </div>
           <div className='relative'>
-            <h1 className='absolute right-5 top-[35px] sm:fixed  sm:top-[93%] sm:right-5 lg:bottom-5  lg:right-4 lg:text-2xl'>0{count}</h1>
+            <h1 className='absolute right-5 top-[35px] sm:sticky  sm:top-[93%] sm:right-5 lg:bottom-5  lg:right-4 lg:text-2xl'>0{count}</h1>
           </div>
 
         </section>
