@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Work from './Pages//Work/Work'
 import Category from './Pages/Category/Category'
+import Fotter from './components/Fotter/Fotter'
 const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const App = () => {
       <Route path='/category' element={<Category/>} />
 
     </Routes>
+    <Fotter/>
       
     </Router>
    
