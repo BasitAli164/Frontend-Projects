@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <>
     <footer  className='flex flex-col justify-center items-center bg-[#1a2e35]'>
-    <div className='w-[1170px] h-auto flex flex-col items-center border-4 border-slate-900 mt-16'>
+    <div className='w-[1170px] h-auto flex flex-col items-center border-4 border-slate-900 mt-40'>
       <div className='w-full flex justify-between'>
         <div className='flex justify-center items-center cursor-pointer'>
           <img className='w-[30%]' src={logoImage} alt="Logo-Icon" />
@@ -30,8 +30,8 @@ const Footer = () => {
           <img className='w-[10%] cursor-pointer' src={youtubeIcon} alt="youtube-Icon" />
         </div>
       </div>
-      <div>
-        <div>
+      <div className='grid grid-cols-4'>
+        <div className='ml-10'>
           <h2>USEFULL LINK</h2>
           <ul>
             <li><Link to='/'>Home</Link></li>
@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className='grid grid-cols-3 gap-[140px]'>
         <div>
           <img src={locationIcon} alt="Location-Icon" />
           <span>Location </span>
