@@ -57,9 +57,29 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div>Detail information </div>
+      <div>
+        <div>
+          <img src="" alt="Location-Icon" />
+          <span>Location </span>
+
+          </div>  
+          <div>
+          <img src="" alt="Mail-Icon" />
+          <span>demo@gmail.components </span>
+          
+          </div> 
+          <div>
+          <img src="" alt="Location-Icon" />
+          <span> Call +011234567890 </span>
+          
+          </div>   
+       </div>
 
     </div>
+    <div>
+      <p>© 2025 All Rights Reserved By Free Html Templates</p>
+    </div>
+
         
     </footer>      
     </>
