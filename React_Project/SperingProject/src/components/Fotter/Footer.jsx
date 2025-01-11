@@ -2,7 +2,7 @@ import React from 'react'
 import logoImage from "../../assets/images/logo.png"
 
 
-const Fotter = () => {
+const Footer = () => {
   return (
     <>
     <section className='w-full h-screen bg-slate-600'>
@@ -13,6 +13,9 @@ const Fotter = () => {
         <div>
           <img src={logoImage} alt="" />
           <h2>Spering</h2>
+        </div>
+        <div>
+          
         </div>
       </div>
       <div>More Information </div>
@@ -25,4 +28,4 @@ const Fotter = () => {
   )
 }
 
-export default Fotter
+export default Footer
