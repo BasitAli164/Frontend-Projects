@@ -16,21 +16,21 @@ const Footer = () => {
   return (
     <>
     <footer  className='flex flex-col justify-center items-center bg-[#1a2e35]'>
-    <div className='w-[1170px] h-auto  border-4 border-slate-900 mt-40'>
-      <div className='grid grid-cols-2 gap-[50%]'>
+    <div className='w-full sm:w-[1170px] h-auto  border-4 border-slate-900 mt-40'>
+      <div className='grid grid-rows-2 grid-flow-col sm:grid-cols-2 sm:gap-[50%]'>
         <div className='flex justify-center items-center cursor-pointer'>
-          <img className='w-[12%]' src={logoImage} alt="Logo-Icon" />
+          <img className='w-10 my-8 sm:w-[12%]' src={logoImage} alt="Logo-Icon" />
           <h2 className='text-[30px] font-bold'>Spering</h2>
         </div>
         <div className='flex justify-center items-center gap-5'>
-          <img className='w-[5%] cursor-pointer' src={facebookIcon} alt="facebook-Icon" />
-          <img className='w-[5%] cursor-pointer' src={twitterIcon} alt="twitter-Icon" />
-          <img className='w-[5%] cursor-pointer' src={linkedinIcon} alt="linkedin-Icon" />
-          <img className='w-[5%] cursor-pointer' src={instragramIcon} alt="instragram-Icon" />
-          <img className='w-[5%] cursor-pointer' src={youtubeIcon} alt="youtube-Icon" />
+          <img className='w-10 sm-w-[5%] cursor-pointer' src={facebookIcon} alt="facebook-Icon" />
+          <img className='w-10 sm-w-[5%] cursor-pointer' src={twitterIcon} alt="twitter-Icon" />
+          <img className='w-10 sm-w-[5%] cursor-pointer' src={linkedinIcon} alt="linkedin-Icon" />
+          <img className='w-10 sm-w-[5%] cursor-pointer' src={instragramIcon} alt="instragram-Icon" />
+          <img className='w-10 sm-w-[5%] cursor-pointer' src={youtubeIcon} alt="youtube-Icon" />
         </div>
       </div>
-      <div className='grid grid-cols-4 p-5'>
+      <div className='grid grid-rows-4 sm:grid-cols-4 sm:p-5'>
         <div>
           <h2>USEFULL LINK</h2>
           <ul>
