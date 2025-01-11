@@ -19,21 +19,21 @@ const Footer = () => {
     <div className='w-full sm:w-[1170px] h-auto  border-4 border-slate-900 mt-40'>
       <div className='grid grid-rows-2 grid-flow-col sm:grid-cols-2 sm:gap-[50%]'>
         <div className='flex justify-center items-center cursor-pointer'>
-          <img className='w-10 my-8 sm:w-[12%]' src={logoImage} alt="Logo-Icon" />
-          <h2 className='text-[30px] font-bold'>Spering</h2>
+          <img className='w-16 my-5  sm:w-[12%]' src={logoImage} alt="Logo-Icon" />
+          <h2 className='text-[40px] font-bold'>Spering</h2>
         </div>
         <div className='flex justify-center items-center gap-5'>
-          <img className='w-10 sm-w-[5%] cursor-pointer' src={facebookIcon} alt="facebook-Icon" />
-          <img className='w-10 sm-w-[5%] cursor-pointer' src={twitterIcon} alt="twitter-Icon" />
-          <img className='w-10 sm-w-[5%] cursor-pointer' src={linkedinIcon} alt="linkedin-Icon" />
-          <img className='w-10 sm-w-[5%] cursor-pointer' src={instragramIcon} alt="instragram-Icon" />
-          <img className='w-10 sm-w-[5%] cursor-pointer' src={youtubeIcon} alt="youtube-Icon" />
+          <img className='w-8 sm-w-[5%] cursor-pointer' src={facebookIcon} alt="facebook-Icon" />
+          <img className='w-8 sm-w-[5%] cursor-pointer' src={twitterIcon} alt="twitter-Icon" />
+          <img className='w-8 sm-w-[5%] cursor-pointer' src={linkedinIcon} alt="linkedin-Icon" />
+          <img className='w-8 sm-w-[5%] cursor-pointer' src={instragramIcon} alt="instragram-Icon" />
+          <img className='w-8 sm-w-[5%] cursor-pointer' src={youtubeIcon} alt="youtube-Icon" />
         </div>
       </div>
-      <div className='grid grid-rows-4 sm:grid-cols-4 sm:p-5'>
+      <div className='grid grid-rows-4 grid-flow-col gap-16 text-center sm:grid-cols-4 sm:p-5'>
         <div>
-          <h2>USEFULL LINK</h2>
-          <ul>
+          <h2 className='text-2xl font-bold'>USEFULL LINK</h2>
+          <ul className='mt-5'>
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/about'>About</Link></li>
             <li><Link to='/work'>Work</Link></li>
@@ -41,19 +41,19 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h2>OFFICES</h2>
-          <p>Readable content of a page when looking at its layoutreadable content of a page when looking at its layout</p>
+          <h2 className='text-2xl font-bold'>OFFICES</h2>
+          <p className='text-justify'>Readable content of a page when looking at its layoutreadable content of a page when looking at its layout</p>
         </div>
         <div>
-          <h2>Information</h2>
-          <p>Readable content of a page when looking at its layoutreadable content of a page when looking at its layout</p>
+          <h2 className='text-2xl font-bold'>Information</h2>
+          <p className='text-justify'>Readable content of a page when looking at its layoutreadable content of a page when looking at its layout</p>
         </div>
         <div>
-          <h2>Newsletter</h2>
-          <div>
-            <input type="text" placeholder='Email' />
+          <h2 className='text-2xl font-bold'>Newsletter</h2>
+          <div className='mt-4'>
+            <input className='h-10 w-[80%] border-none outline-none shadow-[0px_0px_1px_3px_white] text-xl text-slate-950 placeholder:text-xl' type="text" placeholder='Email' />
           </div>
-          <div>
+          <div className='mt-2'>
             <Button1 btnText="SUBSCRIBE"/>
           </div>
         </div>
