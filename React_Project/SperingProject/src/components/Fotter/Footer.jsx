@@ -1,12 +1,15 @@
-import React from 'react'
+import React from 'react';
 import logoImage from "../../assets/images/logo.png"
-import facebookIcon from '../../assets/images/fb.png'
-import twitterIcon from '../../assets/images/twitter.png'
-import linkedinIcon from '../../assets/images/linkedin.png'
-import instragramIcon from '../../assets/images/intragram.png'
-import youtubeIcon from '../../assets/images/youtube.png'
-import { Link } from 'react-router-dom'
-import { Button1 } from '../Header/Button/Button'
+import facebookIcon from '../../assets/images/fb.png';
+import twitterIcon from '../../assets/images/twitter.png';
+import linkedinIcon from '../../assets/images/linkedin.png';
+import instragramIcon from '../../assets/images/instagram.png';
+import youtubeIcon from '../../assets/images/youtube.png';
+import locationIcon from '../../assets/images/location.png';
+import mailIcon from '../../assets/images/mail.png';
+import callIcon from '../../assets/images/call.png';
+import { Link } from 'react-router-dom';
+import { Button1 } from '../Header/Button/Button';
 
 
 const Footer = () => {
@@ -18,15 +21,15 @@ const Footer = () => {
     >
       <div>
         <div>
-          <img src={logoImage} alt="" />
+          <img src={logoImage} alt="Logo-Icon" />
           <h2>Spering</h2>
         </div>
         <div>
-          <img src={facebookIcon} alt="facebookIcon" />
-          <img src={twitterIcon} alt="twitterIcon" />
-          <img src={linkedinIcon} alt="linkedinIcon" />
-          <img src={instragramIcon} alt="instragramIcon" />
-          <img src={youtubeIcon} alt="youtubeIcon" />
+          <img src={facebookIcon} alt="facebook-Icon" />
+          <img src={twitterIcon} alt="twitter-Icon" />
+          <img src={linkedinIcon} alt="linkedin-Icon" />
+          <img src={instragramIcon} alt="instragram-Icon" />
+          <img src={youtubeIcon} alt="youtube-Icon" />
         </div>
       </div>
       <div>
@@ -59,17 +62,17 @@ const Footer = () => {
       </div>
       <div>
         <div>
-          <img src="" alt="Location-Icon" />
+          <img src={locationIcon} alt="Location-Icon" />
           <span>Location </span>
 
           </div>  
           <div>
-          <img src="" alt="Mail-Icon" />
+          <img src={mailIcon} alt="Mail-Icon" />
           <span>demo@gmail.components </span>
           
           </div> 
           <div>
-          <img src="" alt="Location-Icon" />
+          <img src={callIcon} alt="Call-Icon" />
           <span> Call +011234567890 </span>
           
           </div>   
