@@ -16,22 +16,22 @@ const Footer = () => {
   return (
     <>
     <footer  className='flex flex-col justify-center items-center bg-[#1a2e35]'>
-    <div className='w-[1170px] h-auto flex flex-col items-center border-4 border-slate-900 mt-40'>
-      <div className='w-full flex justify-between'>
+    <div className='w-[1170px] h-auto  border-4 border-slate-900 mt-40'>
+      <div className='grid grid-cols-2 gap-[50%]'>
         <div className='flex justify-center items-center cursor-pointer'>
-          <img className='w-[30%]' src={logoImage} alt="Logo-Icon" />
+          <img className='w-[12%]' src={logoImage} alt="Logo-Icon" />
           <h2 className='text-[30px] font-bold'>Spering</h2>
         </div>
         <div className='flex justify-center items-center gap-5'>
-          <img className='w-[10%] cursor-pointer' src={facebookIcon} alt="facebook-Icon" />
-          <img className='w-[10%] cursor-pointer' src={twitterIcon} alt="twitter-Icon" />
-          <img className='w-[10%] cursor-pointer' src={linkedinIcon} alt="linkedin-Icon" />
-          <img className='w-[10%] cursor-pointer' src={instragramIcon} alt="instragram-Icon" />
-          <img className='w-[10%] cursor-pointer' src={youtubeIcon} alt="youtube-Icon" />
+          <img className='w-[5%] cursor-pointer' src={facebookIcon} alt="facebook-Icon" />
+          <img className='w-[5%] cursor-pointer' src={twitterIcon} alt="twitter-Icon" />
+          <img className='w-[5%] cursor-pointer' src={linkedinIcon} alt="linkedin-Icon" />
+          <img className='w-[5%] cursor-pointer' src={instragramIcon} alt="instragram-Icon" />
+          <img className='w-[5%] cursor-pointer' src={youtubeIcon} alt="youtube-Icon" />
         </div>
       </div>
-      <div className='grid grid-cols-4'>
-        <div className='ml-10'>
+      <div className='grid grid-cols-4 p-5'>
+        <div>
           <h2>USEFULL LINK</h2>
           <ul>
             <li><Link to='/'>Home</Link></li>
@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='grid grid-cols-3 gap-[140px]'>
+      <div>
         <div>
           <img src={locationIcon} alt="Location-Icon" />
           <span>Location </span>
