@@ -15,21 +15,19 @@ import { Button1 } from '../Header/Button/Button';
 const Footer = () => {
   return (
     <>
-    <footer  className='w-full h-screen bg-slate-600'>
-    <div className='max-w-[1170px] h-auto flex flex-col '
-    
-    >
-      <div>
-        <div>
-          <img src={logoImage} alt="Logo-Icon" />
-          <h2>Spering</h2>
+    <footer  className='flex flex-col justify-center items-center bg-[#1a2e35]'>
+    <div className='w-[1170px] h-auto flex flex-col items-center border-4 border-slate-900 mt-16'>
+      <div className='w-full flex justify-between'>
+        <div className='flex justify-center items-center cursor-pointer'>
+          <img className='w-[30%]' src={logoImage} alt="Logo-Icon" />
+          <h2 className='text-[30px] font-bold'>Spering</h2>
         </div>
-        <div>
-          <img src={facebookIcon} alt="facebook-Icon" />
-          <img src={twitterIcon} alt="twitter-Icon" />
-          <img src={linkedinIcon} alt="linkedin-Icon" />
-          <img src={instragramIcon} alt="instragram-Icon" />
-          <img src={youtubeIcon} alt="youtube-Icon" />
+        <div className='flex justify-center items-center gap-5'>
+          <img className='w-[10%] cursor-pointer' src={facebookIcon} alt="facebook-Icon" />
+          <img className='w-[10%] cursor-pointer' src={twitterIcon} alt="twitter-Icon" />
+          <img className='w-[10%] cursor-pointer' src={linkedinIcon} alt="linkedin-Icon" />
+          <img className='w-[10%] cursor-pointer' src={instragramIcon} alt="instragram-Icon" />
+          <img className='w-[10%] cursor-pointer' src={youtubeIcon} alt="youtube-Icon" />
         </div>
       </div>
       <div>
