@@ -5,6 +5,7 @@ import linkedinIcon from '../../assets/images/linkedin.png'
 import instagramIcon from '../../assets/images/instagram.png'
 import youtubeIcon from '../../assets/images/youtube.png'
 import {Link} from 'react-router-dom';
+import { Button1 } from '../Header/Button/Button'
 const Footer = () => {
   return (
     <>
@@ -25,25 +26,39 @@ const Footer = () => {
         </div>
         <div className='grid grid-rows-4 text-center gap-3 sm:grid-cols-4'>
           <div>
-            <h2 className='text-2xl font-bold uppercase tracking-wider'>Useful Link</h2>
+            <h2 className='text-2xl font-bold uppercase tracking-wider xl:text-4xl'>Useful Link</h2>
             <ul>
-              <li>
+              <li className='text-lg xl:text-3xl'>
                 <Link to='/'>Home</Link>
               </li>
-              <li>
+              <li className='text-lg xl:text-3xl'>
                 <Link to='/about'>About</Link>
               </li>
-              <li>
+              <li className='text-lg xl:text-3xl'>
                 <Link to='/work'>Work</Link>
               </li>
-              <li>
+              <li className='text-lg xl:text-3xl'>
                 <Link to='/category'>Category</Link>
               </li>
             </ul>
           </div>
-          <div>Office</div>
-          <div>Information</div>
-          <div>NewsLetter</div>
+          <div>
+            <h2 className='text-2xl font-bold uppercase tracking-wider xl:text-4xl'>Office</h2>
+            <p className='text-lg text-center sm:text-justify sm:text-xl'>Readable content of a page when looking at its layoutreadable content of a page when looking at its layout</p>
+          </div>
+          <div>
+          <h2 className='text-2xl font-bold uppercase tracking-wider xl:text-4xl'>Information</h2>
+          <p className='text-lg text-center sm:text-justify sm:text-xl'>Readable content of a page when looking at its layoutreadable content of a page when looking at its layout</p>
+          </div>
+          <div>
+          <h2 className='text-2xl font-bold uppercase tracking-wider xl:text-4xl'>Newsletter</h2>
+          <div>
+            <input className='w-[80%] p-4' type="text" placeholder='Email' />
+          </div>
+          <Button1 btnText="SUBSCRIBE"/>
+
+          </div>
+
         </div>
       </section>
       <section className='w-full text-center p-6 bg-white'>
