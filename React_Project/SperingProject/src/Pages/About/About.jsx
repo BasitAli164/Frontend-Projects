@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button1, Button2 } from '../../components/Header/Button/Button'
+import { Button1, Button2 } from '../../components/Button/Button'
 import experienceImage from '../../assets/images/experience-img.jpg'
 import aboutImage from '../../assets/images/about-img.jpg'
 

@@ -9,7 +9,7 @@ import locationIcon from '../../assets/images/location.png';
 import mailIcon from '../../assets/images/mail.png';
 import callIcon from '../../assets/images/call.png'
 import { Link } from "react-router-dom";
-import { Button1 } from "../Header/Button/Button";
+import { Button1 } from "../Button/Button";
 const Footer = () => {
   return (
     <>
@@ -109,15 +109,15 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center gap-5 sm:gap-0 sm:flex-row sm:justify-around mb-5 ">
-            <div className="flex">
+            <div className="flex cursor-pointer">
               <img className="w-[20px] mx-3" src={locationIcon} alt="Location-Icon" />
               <span className="text-lg mx-3">Location</span>
             </div>
-            <div className="flex">
+            <div className="flex cursor-pointer">
               <img className="w-[20px] mx-3" src={mailIcon} alt="Mail-Icon" />
               <span className="text-lg mx-3">demo@gmail.com</span>
             </div>
-            <div className="flex">
+            <div className="flex cursor-pointer">
               <img className="w-[20px] mx-3" src={callIcon} alt="Call-Icon" />
               <span className="text-lg mx-3">Call +01234783939</span>
             </div>

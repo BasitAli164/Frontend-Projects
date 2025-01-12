@@ -11,7 +11,7 @@ const Header = () => {
 
     }
     return (
-        <div className='bg-slate-600'>
+        <div className='bg-[#1a2e35]  py-3 shadow-lg'>
             <div className='w-full h-auto flex justify-between items-center'>
                 <div>
                     <div className='ml-10 flex justify-center items-center'>

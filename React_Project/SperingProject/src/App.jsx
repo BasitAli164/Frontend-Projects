@@ -6,7 +6,7 @@ import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Work from './Pages//Work/Work'
 import Category from './Pages/Category/Category'
-import Footer from './components/Fotter/Footer'
+import Footer from './components/Footer/Footer'
 const App = () => {
   return (
     <>
