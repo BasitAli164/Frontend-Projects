@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Button1, Button2 } from '../../components/Header/Button/Button'
 import sliderImage from '../../assets/images/slider-img.png'
-import nextIcon from '../../assets/images/next.png'
-import prevIcon from '../../assets/images/prev.png'
 
 const Home = () => {
   const [count, setCount] = useState(1);
@@ -12,7 +10,7 @@ const Home = () => {
       setCount(count + 1)
     }
 
-  }, 3000);
+  }, 3000); 
   return (
     <>
       <main className='w-full flex flex-col  justify-between  sm:flex-row '>
@@ -36,7 +34,7 @@ const Home = () => {
             <img className='w-56 mt-10 sm:w-3/4 ' src={sliderImage} alt="" />
           </div>
           <div className='relative'>
-            <h1 className='absolute right-5 top-[15px] sm:sticky  sm:top-[93%] sm:right-5 lg:bottom-5  lg:right-4 lg:text-2xl'>0{count}</h1>
+            <h1 className='absolute right-2 top-[-20px] text-sm sm:sticky  sm:top-[93%] sm:right-5 lg:bottom-5  lg:right-4 lg:text-2xl'>0{count}</h1>
           </div>
 
         </section>

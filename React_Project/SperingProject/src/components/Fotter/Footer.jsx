@@ -1,10 +1,10 @@
-import React from 'react';
 import logoImage from '../../assets/images/logo.png'
 import facebookIcon from '../../assets/images/fb.png'
 import twitterIcon from '../../assets/images/twitter.png'
 import linkedinIcon from '../../assets/images/linkedin.png'
 import instagramIcon from '../../assets/images/instagram.png'
 import youtubeIcon from '../../assets/images/youtube.png'
+import {Link} from 'react-router-dom';
 const Footer = () => {
   return (
     <>
@@ -23,7 +23,28 @@ const Footer = () => {
             <img className='mx-1 w-6 cursor-pointer sm:mx-4 sm:w-7' src={youtubeIcon} alt="Youtube-Icon" />
           </div>
         </div>
-        
+        <div>
+          <div>
+            <h2>Useful Link</h2>
+            <ul>
+              <li>
+                <Link to='/'>Home</Link>
+              </li>
+              <li>
+                <Link to='/about'>About</Link>
+              </li>
+              <li>
+                <Link to='/work'>Work</Link>
+              </li>
+              <li>
+                <Link to='/category'>Category</Link>
+              </li>
+            </ul>
+          </div>
+          <div>Office</div>
+          <div>Information</div>
+          <div>NewsLetter</div>
+        </div>
       </section>
       <section>copy Write</section>
     </footer>
@@ -33,3 +54,4 @@ const Footer = () => {
 }
 
 export default Footer
+
