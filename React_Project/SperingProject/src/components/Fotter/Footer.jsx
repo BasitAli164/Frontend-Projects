@@ -1,3 +1,4 @@
+import React from "react";
 import logoImage from "../../assets/images/logo.png";
 import facebookIcon from "../../assets/images/fb.png";
 import twitterIcon from "../../assets/images/twitter.png";

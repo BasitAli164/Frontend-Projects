@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { Button1, Button2 } from '../../components/Header/Button/Button'
 import sliderImage from '../../assets/images/slider-img.png'
 
