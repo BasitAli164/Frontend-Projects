@@ -54,8 +54,8 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className="grid grid-rows-4 text-center gap-3 sm:grid-cols-4  sm:h-[40vh] ">
-            <div >
+          <div className="grid grid-rows-4 text-center gap-3 sm:grid-cols-4 sm:gap-14  sm:h-[40vh] ">
+            <div className="text-left" >
               <h2 className="text-2xl font-bold uppercase tracking-wider sm:text-sm md:text-xl xl:text-2xl">
                 Useful Link
               </h2>
@@ -74,7 +74,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="text-left" >
               <h2 className="text-2xl font-bold uppercase tracking-wider sm:text-sm md:text-xl xl:text-2xl">
                 Office
               </h2>
@@ -83,7 +83,7 @@ const Footer = () => {
                 content of a page when looking at its layout
               </p>
             </div>
-            <div>
+            <div className="text-left" >
               <h2 className="text-2xl font-bold uppercase tracking-wider sm:text-sm md:text-xl xl:text-2xl">
                 Information
               </h2>
@@ -92,18 +92,18 @@ const Footer = () => {
                 content of a page when looking at its layout
               </p>
             </div>
-            <div className="flex flex-col gap-y-4 sm:gap-2">
+            <div className="flex flex-col gap-y-4 sm:gap-2 text-left">
               <h2 className="text-2xl font-bold uppercase tracking-wider sm:text-sm md:text-xl xl:text-2xl">
                 Newsletter
               </h2>
-              <div>
+              <div className="text-left" >
                 <input
                   className="w-[50%] p-2 sm:p-1 sm:w-[90%] xl:p-2 xl:w-[95%] xl:placeholder:text-xl placeholder:text-slate-800"
                   type="text"
                   placeholder="Email"
                 />
               </div>
-              <div className="mb-4">
+              <div className="mb-4 -ml-3">
                 <Button1 btnText="SUBSCRIBE" />
               </div>
             </div>
