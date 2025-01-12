@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className='w-full h-[100vh] flex flex-col items-center border-[3px] border-red-700 bg-[#1a2e35]'>
       <section className='w-full flex flex-col justify-center gap-20 sm:max-w-[90%] xl:max-w-[90%] bg-red-200 mt-10'>
         <div className='flex flex-col sm:flex-row gap-3 justify-between items-center '>
-          <div className='flex justify-center items-center '>
+          <div className='flex justify-center items-center gap-2'>
             <img className='w-10 sm:w-14 xl:w-20' src={logoImage} alt="Logo-Icon" />
             <h2 className='text-2xl sm:text-3xl font-bold xl:text-6xl'>Spering</h2>
           </div>
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <div className='grid grid-rows-4 text-center gap-3 sm:grid-cols-4'>
           <div>
-            <h2>Useful Link</h2>
+            <h2 className='text-2xl font-bold uppercase tracking-wider'>Useful Link</h2>
             <ul>
               <li>
                 <Link to='/'>Home</Link>
