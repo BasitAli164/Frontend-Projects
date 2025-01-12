@@ -28,27 +28,27 @@ const Footer = () => {
             </div>
             <div className="flex justify-center items-center gap-x-1 sm:flex-row ">
               <img
-                className="mx-1 w-8 my-2 cursor-pointer sm:mx-4 xl:w-10 "
+                className="mx-1 w-8 my-2 cursor-pointer sm:mx-4 sm:w-6 xl:w-8 "
                 src={facebookIcon}
                 alt="Facebook-Icon"
               />
               <img
-                className="mx-1 w-8 my-2 cursor-pointer sm:mx-4 xl:w-10 "
+                className="mx-1 w-8 my-2 cursor-pointer sm:mx-4 sm:w-6 xl:w-8 "
                 src={twitterIcon}
                 alt="Twitter-Icon"
               />
               <img
-                className="mx-1 w-8 my-2 cursor-pointer sm:mx-4 xl:w-10 "
+                className="mx-1 w-8 my-2 cursor-pointer sm:mx-4 sm:w-6 xl:w-8 "
                 src={linkedinIcon}
                 alt="LinkedIn-Icon"
               />
               <img
-                className="mx-1 w-8 my-2 cursor-pointer sm:mx-4 xl:w-10 "
+                className="mx-1 w-8 my-2 cursor-pointer sm:mx-4 sm:w-6 xl:w-8 "
                 src={instagramIcon}
                 alt="Instagram-Icon"
               />
               <img
-                className="mx-1 w-8 my-2 cursor-pointer sm:mx-4 xl:w-10 "
+                className="mx-1 w-8 my-2 cursor-pointer sm:mx-4 sm:w-6 xl:w-8 "
                 src={youtubeIcon}
                 alt="Youtube-Icon"
               />
