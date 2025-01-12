@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <>
       <footer className="w-full flex flex-col items-center  bg-[#1a2e35]">
-        <section className="w-full   flex flex-col justify-center gap-16 sm:max-w-[90%] xl:max-w-[90%] mt-10">
+        <section className="w-full sm:h-screen   flex flex-col justify-center gap-16 sm:max-w-[90%] xl:max-w-[90%] mt-10">
           <div className="flex flex-col sm:flex-row gap-3 justify-between items-center ">
             <div className="flex justify-center items-center gap-2">
               <img
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="grid grid-rows-4 text-center gap-3 sm:grid-cols-4 sm:gap-14  sm:h-[40vh] ">
-            <div className="text-left" >
+            <div className="sm:text-left" >
               <h2 className="text-2xl font-bold uppercase tracking-wider sm:text-sm md:text-xl xl:text-2xl">
                 Useful Link
               </h2>
@@ -74,7 +74,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="text-left" >
+            <div className="sm:text-left" >
               <h2 className="text-2xl font-bold uppercase tracking-wider sm:text-sm md:text-xl xl:text-2xl">
                 Office
               </h2>
@@ -83,7 +83,7 @@ const Footer = () => {
                 content of a page when looking at its layout
               </p>
             </div>
-            <div className="text-left" >
+            <div className="sm:text-left" >
               <h2 className="text-2xl font-bold uppercase tracking-wider sm:text-sm md:text-xl xl:text-2xl">
                 Information
               </h2>
@@ -92,18 +92,18 @@ const Footer = () => {
                 content of a page when looking at its layout
               </p>
             </div>
-            <div className="flex flex-col gap-y-4 sm:gap-2 text-left">
+            <div className="flex flex-col gap-y-4 sm:gap-2 sm:text-left">
               <h2 className="text-2xl font-bold uppercase tracking-wider sm:text-sm md:text-xl xl:text-2xl">
                 Newsletter
               </h2>
-              <div className="text-left" >
+              <div className="sm:text-left" >
                 <input
-                  className="w-[50%] p-2 sm:p-1 sm:w-[90%] xl:p-2 xl:w-[95%] xl:placeholder:text-xl placeholder:text-slate-800"
+                  className="w-[80%] p-2 sm:p-1 sm:w-[90%] xl:p-2 xl:w-[95%] xl:placeholder:text-xl placeholder:text-slate-800"
                   type="text"
                   placeholder="Email"
                 />
               </div>
-              <div className="mb-4 -ml-3">
+              <div className="mb-4 sm:-ml-3">
                 <Button1 btnText="SUBSCRIBE" />
               </div>
             </div>
