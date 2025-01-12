@@ -97,7 +97,7 @@ const Footer = () => {
               </h2>
               <div>
                 <input
-                  className="w-[80%] p-2 sm:p-1 xl:p-2 xl:w-[95%] xl:placeholder:text-xl"
+                  className="w-[50%] p-2 sm:p-1 sm:w-[90%] xl:p-2 xl:w-[95%] xl:placeholder:text-xl placeholder:text-slate-800"
                   type="text"
                   placeholder="Email"
                 />
