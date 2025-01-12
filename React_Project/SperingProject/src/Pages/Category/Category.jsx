@@ -12,9 +12,7 @@ const Category = () => {
       <section className="w-full  bg-[#1cbbb4] flex  justify-center">
         <div className="flex flex-col  items-center w-full sm:w-[90%] ">
           <div className="mt-20 text-center">
-            <h1 className="text-5xl font-semibold ">
-              Category
-            </h1>
+            <h1 className="text-5xl font-semibold ">Category</h1>
             <div className="w-52 h-1 bg-slate-200 mt-5"></div>
           </div>
           <div className="w-full sm:w-[80%] flex flex-wrap gap-28 justify-center sm:justify-between items-center mt-10 mb-20">
