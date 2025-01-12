@@ -10,20 +10,20 @@ const Footer = () => {
     <>
     <footer className='w-full h-[50vh] flex flex-col items-center border-[3px] border-red-700 bg-[#1a2e35]'>
       <section className='w-full sm:max-w-[1170px] bg-red-200 mt-10'>
-        <div className='grid grid-rows-2 gap-y-3  sm:grid-cols-2 sm:gap-x-[400px] bg-red-300'>
-          <div className='flex justify-center items-center'>
-            <img className='w-10 sm:w-20' src={logoImage} alt="Logo-Icon" />
-            <h2 className='text-3xl sm:text-4xl font-bold '>Spering</h2>
+        <div className='flex flex-col sm:flex-row gap-3 justify-between items-center bg-red-300'>
+          <div className='flex justify-center items-center bg-red-700'>
+            <img className='w-10 sm:w-14' src={logoImage} alt="Logo-Icon" />
+            <h2 className='text-2xl sm:text-3xl font-bold '>Spering</h2>
           </div>
-          <div className='flex justify-center items-center gap-x-1 sm:flex-row '>
-            <img className='mx-1 w-6 cursor-pointer sm:mx-4 sm:w-7' src={facebookIcon} alt="Facebook-Icon" />
-            <img className='mx-1 w-6 cursor-pointer sm:mx-4 sm:w-7' src={twitterIcon} alt="Twitter-Icon" />
-            <img className='mx-1 w-6 cursor-pointer sm:mx-4 sm:w-7' src={linkedinIcon} alt="LinkedIn-Icon" />
-            <img className='mx-1 w-6 cursor-pointer sm:mx-4 sm:w-7' src={instagramIcon} alt="Instagram-Icon" />
-            <img className='mx-1 w-6 cursor-pointer sm:mx-4 sm:w-7' src={youtubeIcon} alt="Youtube-Icon" />
+          <div className='flex justify-center items-center gap-x-1 sm:flex-row bg-blue-600'>
+            <img className='mx-1 w-6 cursor-pointer sm:mx-4 sm:w-11' src={facebookIcon} alt="Facebook-Icon" />
+            <img className='mx-1 w-6 cursor-pointer sm:mx-4 sm:w-11' src={twitterIcon} alt="Twitter-Icon" />
+            <img className='mx-1 w-6 cursor-pointer sm:mx-4 sm:w-11' src={linkedinIcon} alt="LinkedIn-Icon" />
+            <img className='mx-1 w-6 cursor-pointer sm:mx-4 sm:w-11' src={instagramIcon} alt="Instagram-Icon" />
+            <img className='mx-1 w-6 cursor-pointer sm:mx-4 sm:w-11' src={youtubeIcon} alt="Youtube-Icon" />
           </div>
         </div>
-        <div>
+        <div className='grid grid-rows-4 text-center gap-3 sm:grid-cols-4'>
           <div>
             <h2>Useful Link</h2>
             <ul>

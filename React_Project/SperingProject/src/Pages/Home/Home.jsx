@@ -34,7 +34,7 @@ const Home = () => {
             <img className='w-56 mt-10 sm:w-3/4 ' src={sliderImage} alt="" />
           </div>
           <div className='relative'>
-            <h1 className='absolute right-2 top-[-20px] text-sm sm:sticky  sm:top-[93%] sm:right-5 lg:bottom-5  lg:right-4 lg:text-2xl'>0{count}</h1>
+            <h1 className='absolute right-2 top-[40px] text-sm sm:sticky  sm:top-[93%] sm:right-5 lg:bottom-5  lg:right-4 lg:text-2xl'>0{count}</h1>
           </div>
 
         </section>
