@@ -58,8 +58,9 @@ const Work = () => {
       
       </div>
      </div>
-
+    
     </section>
+
     </>
   )
 }

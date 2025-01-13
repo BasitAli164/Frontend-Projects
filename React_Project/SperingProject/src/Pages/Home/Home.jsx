@@ -4,6 +4,7 @@ import sliderImage from '../../assets/images/slider-img.png'
 import About from '../About/About'
 import Category from '../Category/Category'
 import Work from '../Work/Work'
+import Slider from '../../components/Slider/Slider'
 
 const Home = () => {
   const [count, setCount] = useState(1);
@@ -45,6 +46,7 @@ const Home = () => {
       <About/>
       <Category/>
       <Work/>
+      <Slider/>
     </>
   )
 }
