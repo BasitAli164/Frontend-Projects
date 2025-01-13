@@ -14,10 +14,12 @@ const Header = () => {
         <div className='bg-[#1a2e35]  py-3 shadow-lg'>
             <div className='w-full h-auto flex justify-between items-center'>
                 <div>
-                    <div className='ml-10 flex justify-center items-center'>
+                    <Link to='/'>
+                    <div className='ml-10 flex justify-center items-center' >
                         <img className='w-6 sm:w-8 py-2' src={logoImage} alt="Logo-Image" />
                         <h3 className='text-slate-100 text-sm sm:text-lg font-bold'>Spering</h3>
                     </div>
+                    </Link>
                 </div>
                 {
                     toggle == false ?

@@ -3,6 +3,7 @@ import { Button1, Button2 } from '../../components/Button/Button'
 import sliderImage from '../../assets/images/slider-img.png'
 import About from '../About/About'
 import Category from '../Category/Category'
+import Work from '../Work/Work'
 
 const Home = () => {
   const [count, setCount] = useState(1);
@@ -43,6 +44,7 @@ const Home = () => {
       </main>
       <About/>
       <Category/>
+      <Work/>
     </>
   )
 }
