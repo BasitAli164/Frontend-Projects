@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react';
 import work1 from '../../assets/images/f1.png';
 import work2 from '../../assets/images/f2.png';
 import work3 from '../../assets/images/f3.png';
@@ -7,15 +7,7 @@ import freelanceImage from '../../assets/images/freelance-img.jpg';
 
 
 const Work = () => {
-  const [bgColor, setBgColor]=useState('#1a2e35');
-  const handleBgColor=()=>{
-    setBgColor('#1cbbb4')
-
-  }
-  const handleBgColors=()=>{
-    setBgColor('#1a2e35')
-
-  }
+  
   return (
     <>
     <section className='grid grid-rows-[auto,auto] sm:grid-cols-2 bg-white '> 
@@ -24,12 +16,12 @@ const Work = () => {
           <h1 className='text-4xl font-bold text-black'>Work Freelaner Has Done</h1>
         </div>
         <div className='flex items-center justify-center gap-x-4'>
-          <div className='cursor-pointer w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center hover:bg-[#1cbbb4] ' style={{backgroundColor:`${bgColor}`}} onClick={handleBgColor}>
+          <div className='cursor-pointer w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center hover:bg-[#1cbbb4] ' >
             <img src={work1} alt="" />
           </div>
           <div className='cursor-pointer'>
             <span className='text-red-500 text-3xl font-bold '>$250 Million</span>
-            <p className='text-black font-semibold text-2xl ' onMouseEnter={handleBgColor} onMouseLeave={handleBgColors} >Paid to Freelancers</p>
+            <p className='text-black font-semibold text-2xl '  >Paid to Freelancers</p>
           </div>
         </div>
         <div className='flex items-center justify-center gap-x-4'>
