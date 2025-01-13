@@ -1,1 +1,90 @@
 /* Blog CSS */
+#blog{
+    padding: 6rem 0 4rem;
+    .blog_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media screen and (max-width:992px) {
+            flex-direction: column-reverse;
+            
+        }
+        .blog_col{
+            width: calc(100% / 2 - 15px);
+            height: auto;
+            position: relative;
+            z-index: 1;
+            @media screen and (max-width:992px) {
+                width: fit-content;
+                padding: 2rem;
+                
+            }
+            @media screen and (max-width:767px) {
+                
+                padding: 1.5rem;
+                
+            }
+        }
+        & h3{
+            width: 80%;
+            font-size: 48px;
+            line-height: 59.424px;
+            font-weight: 600;
+            text-transform: uppercase;
+             @media screen and (max-width:992px) {
+                text-align: center;
+                width: 100%;
+                
+             }
+             @media screen and (max-width:767px) {
+                width: 100%;
+                font-size: 2.2rem;
+                line-height: 56px;
+             }
+
+        }
+        & p{
+            width: 80%;
+            margin: 0;
+            padding: 0;
+            font-size: 1.543rem;
+            line-height: 2rem;
+            color: var(--font-color);
+            @media screen and (max-width:992px){
+                width: 100%;
+                text-align: center;
+                
+            }
+        }
+        .blog_image{
+            position: relative;
+            text-align: center;
+            &::after{
+                content: '';
+                position: absolute;
+                border: 10px solid var(--secondary-color);
+                right: 45px;
+                left: -45px;
+                bottom: 45px;
+                top: -45px;
+                z-index: -1;
+                border-radius: 0 2.1429rem;
+                @media screen and (max-width:767px) {
+                    &::after{
+                        left: 0;
+                    }
+                    
+                }
+               
+            }
+            & img{
+                border-radius: 0 2.1429rem;
+                max-width: 100%;
+                @media screen and (max-width:767px) {
+                    max-width: 85%;
+                    
+                }
+            }
+        }
+    }
+}
