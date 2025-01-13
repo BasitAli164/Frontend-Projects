@@ -1,4 +1,9 @@
 #contact{
     padding: 3rem 0;
-    
+    .contact_wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+    }
+
 }
