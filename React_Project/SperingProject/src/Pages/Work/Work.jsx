@@ -10,6 +10,11 @@ const Work = () => {
   const [bgColor, setBgColor]=useState('#1a2e35');
   const handleBgColor=()=>{
     setBgColor('#1cbbb4')
+
+  }
+  const handleBgColors=()=>{
+    setBgColor('#1a2e35')
+
   }
   return (
     <>
@@ -24,7 +29,7 @@ const Work = () => {
           </div>
           <div className='cursor-pointer'>
             <span className='text-red-500 text-3xl font-bold '>$250 Million</span>
-            <p className='text-black font-semibold text-2xl'>Paid to Freelancers</p>
+            <p className='text-black font-semibold text-2xl ' onMouseEnter={handleBgColor} onMouseLeave={handleBgColors} >Paid to Freelancers</p>
           </div>
         </div>
         <div className='flex items-center justify-center gap-x-4'>
@@ -37,7 +42,7 @@ const Work = () => {
           </div>
         </div>
         <div className='flex items-center justify-center gap-x-4'>
-        <div className='cursor-pointer w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center'>
+        <div className='cursor-pointer w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center hover:bg-[#1cbbb4]'>
             <img src={work3} alt="" />
           </div>
           <div className='cursor-pointer'>
@@ -46,7 +51,7 @@ const Work = () => {
           </div>
         </div>
         <div className='flex items-center justify-center gap-x-4'>
-        <div className='cursor-pointer w-[150px] sm:w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center'>
+        <div className='cursor-pointer w-[150px] sm:w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center hover:bg-[#1cbbb4]'>
             <img src={work4} alt="" />
           </div>
           <div className='cursor-pointer'>
