@@ -49,6 +49,42 @@
             min-height: 114.2864px;
 
         }
+        .form-control:hover,
+        & textarea:hover,
+        .form-control:focus,
+        & textarea:focus{
+            border-color: var(--primary-color);
+            color: var(--white-color );
+        }
+    }
+    .btn_wrapper{
+        margin-top: 2rem;
+    }
+    .contact_img{
+        position: relative;
+        &::after{
+            overflow: hidden;
+            content: url('../../assets/about/layer_2.png');
+            z-index: 1;
+            position: absolute;
+            top: -70px;
+            right: -20px;
+            max-width: 100%;
+        }
+        @media screen and (max-width:1024px) {
+            &::after{
+                right: 0;
+
+            }
+            
+        }
+        & img{
+            border-radius: 2.1429rem;
+            position: relative;
+            z-index: 2;
+            max-width: 85%;
+        }
+
     }
   }
 }
