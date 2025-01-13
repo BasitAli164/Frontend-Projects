@@ -7,7 +7,7 @@ import freelanceImage from '../../assets/images/freelance-img.jpg';
 
 
 const Work = () => {
-  const [bgColor, setBgColor]=useState('');
+  const [bgColor, setBgColor]=useState('#1a2e35');
   const handleBgColor=()=>{
     setBgColor('#1cbbb4')
   }
@@ -19,37 +19,37 @@ const Work = () => {
           <h1 className='text-4xl font-bold text-black'>Work Freelaner Has Done</h1>
         </div>
         <div className='flex items-center justify-center gap-x-4'>
-          <div className='w-[125px] sm:w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center hover:bg-[#1cbbb4] '  onClick={handleBgColor}>
+          <div className='cursor-pointer w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center hover:bg-[#1cbbb4] ' style={{backgroundColor:`${bgColor}`}} onClick={handleBgColor}>
             <img src={work1} alt="" />
           </div>
-          <div>
+          <div className='cursor-pointer'>
             <span className='text-red-500 text-3xl font-bold '>$250 Million</span>
             <p className='text-black font-semibold text-2xl'>Paid to Freelancers</p>
           </div>
         </div>
         <div className='flex items-center justify-center gap-x-4'>
-        <div className='w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center'>
+        <div className='cursor-pointer w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center hover:bg-[#1cbbb4]'>
             <img src={work2} alt="" />
           </div>
-          <div>
+          <div className='cursor-pointer'>
             <span className='text-red-500 text-3xl font-bold '>2 Million</span>
             <p className='text-black font-semibold text-2xl'>Paid Invoices</p>
           </div>
         </div>
         <div className='flex items-center justify-center gap-x-4'>
-        <div className='w-[140px] sm:w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center'>
+        <div className='cursor-pointer w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center'>
             <img src={work3} alt="" />
           </div>
-          <div>
+          <div className='cursor-pointer'>
             <span className='text-red-500 text-3xl font-bold '>700,000</span>
             <p className='text-black font-semibold text-2xl'>Worldwide Freelancer</p>
           </div>
         </div>
         <div className='flex items-center justify-center gap-x-4'>
-        <div className='w-[150px] sm:w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center'>
+        <div className='cursor-pointer w-[150px] sm:w-[100px] h-[100px] bg-[#1a2e35] rounded-full flex items-center justify-center'>
             <img src={work4} alt="" />
           </div>
-          <div>
+          <div className='cursor-pointer'>
             <span className='text-red-500 text-3xl font-bold '>98%</span>
             <p className='text-black font-semibold text-2xl'>Customer Satisfaction Rate</p>
           </div>
