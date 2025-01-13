@@ -24,4 +24,13 @@
     text-align: center;
     background: var(--primary-color);
     border-radius: 100%;
+     & svg{
+        text-align: center;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        & path{
+            fill: var(--white-color);
+        }
+     }
 }
