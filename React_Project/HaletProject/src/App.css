@@ -7,11 +7,11 @@
    box-sizing: border-box;
 }
 ::-webkit-scrollbar{
-   width: 5%;
+   width: 6px;
 }
 ::-webkit-scrollbar-track{
-   color: #eeeeee;
+   background: white;
 }
 ::-webkit-slider-thumb{
-   color:#160e0b ;
+   background: black;
 }
