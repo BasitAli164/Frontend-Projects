@@ -6,4 +6,12 @@
    padding: 0;
    box-sizing: border-box;
 }
-
+::-webkit-scrollbar{
+   width: 5%;
+}
+::-webkit-scrollbar-track{
+   color: #eeeeee;
+}
+::-webkit-slider-thumb{
+   color:#160e0b ;
+}
