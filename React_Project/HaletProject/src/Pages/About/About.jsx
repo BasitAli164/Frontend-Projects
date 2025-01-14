@@ -3,8 +3,10 @@ import React from 'react'
 const About = () => {
   return (
     <>
-    <h1>From About</h1>
-      
+  <section className='bg-red-900 w-full h-[200vh] '>
+    
+  <h1>From About</h1>
+  </section>      
     </>
   )
 }

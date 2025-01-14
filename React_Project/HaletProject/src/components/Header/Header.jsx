@@ -1,10 +1,16 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const Header = ({ toggles }) => {
+  const navigate=useNavigate();
   const [toggle, setToggle] = useState(false);
-  const handleToggle = () => {
+  const handleToggle = function() {
+    console.log("basit ali")
     setToggle(!toggle);
   };
+  const handleRoute=function(route){
+    console.log(route)
+    navigate(route)
+  }
   return (
     <>
       <section className="bg-[rgba(1,1,0,0.88)] h-24 relative">
@@ -41,7 +47,7 @@ const Header = ({ toggles }) => {
                 <li className="list-none my-2">
                   <Link
                     className="text-2xl font-semibold uppercase duration-[.5s] text-slate-50 hover:text-orange-500"
-                    to="/"
+                    onClick={()=>{handleRoute('/'); handleToggle()}}
                   >
                     Home
                   </Link>
@@ -49,7 +55,7 @@ const Header = ({ toggles }) => {
                 <li className="list-none my-2">
                   <Link
                     className="text-2xl font-semibold uppercase duration-[.5s] text-slate-50 hover:text-orange-500"
-                    to="/about"
+                    onClick={()=>{handleRoute('/about'); handleToggle()}}
                   >
                     About
                   </Link>
@@ -57,7 +63,7 @@ const Header = ({ toggles }) => {
                 <li className="list-none my-2">
                   <Link
                     className="text-2xl font-semibold uppercase duration-[.5s] text-slate-50 hover:text-orange-500"
-                    to="/shop"
+                    onClick={()=>{handleRoute('/shop'); handleToggle()}}
                   >
                     Shop
                   </Link>
@@ -65,7 +71,7 @@ const Header = ({ toggles }) => {
                 <li className="list-none my-2">
                   <Link
                     className="text-2xl font-semibold uppercase duration-[.5s] text-slate-50 hover:text-orange-500"
-                    to="/blog"
+                    onClick={()=>{handleRoute('/blog'); handleToggle()}}
                   >
                     Blog
                   </Link>
