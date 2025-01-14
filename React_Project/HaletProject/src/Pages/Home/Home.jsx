@@ -10,7 +10,6 @@ const Home = () => {
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <h1>From Home</h1>
-        <Button btnText="Shop Now" borderRadius="5px" />
       </section>
     </>
   );
