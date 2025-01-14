@@ -6,7 +6,7 @@
    padding: 0;
    box-sizing: border-box;
 }
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
    width: 6px;
 }
 ::-webkit-scrollbar-track{
@@ -14,4 +14,4 @@
 }
 ::-webkit-slider-thumb{
    background: black;
-}
+} */
