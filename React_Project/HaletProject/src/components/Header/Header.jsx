@@ -7,7 +7,7 @@ const Header = ({ toggles }) => {
   };
   return (
     <>
-      <section className="bg-black h-24 relative">
+      <section className="bg-[rgba(1,1,0,0.88)] h-24 relative">
         <section className="absolute top-6 left-3">
           <Link to="/" className="text-white text-3xl font-bold">
             Healet

@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <>
       <section
-        className="w-full h-screen bg-red-300 bg-center bg-cover z-100 "
+        className="w-full h-[150vh] bg-red-300 bg-center bg-cover   z-100 "
         style={{ backgroundImage: `url(${bgImage})` }}
       >
-        <h1>From Home</h1>
+        
       </section>
     </>
   );
