@@ -140,7 +140,7 @@ const AcmeRockets = () => {
                 <p className="text-2xl sm-sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201c'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2
                 before:translate-y-2 after:content-['\201d'] after:font-serif after:absolute after:bottom-[-50px]  after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-2
                 after:translate-y-2">
-                   I knew I not only wanted — I needed — Acme's Infinity Rocket for my mission in space. Acme delievered in one day! Nothing says Take me to your leader like Acme's Infinity Rocket! 💯
+                   I knew I not only wanted — <span className="italic">I needed </span> — Acme's Infinity Rocket for my mission in space. Acme delievered in one day! Nothing says Take me to your leader like Acme's Infinity Rocket! 💯
                 </p>
                 </blockquote>
                 <figcaption className="italic text-xl sm:text-2xl text-right text-slate-500 dark:text-slate-400 ">
