@@ -39,7 +39,7 @@ const AcmeRockets = () => {
 
             </section>
 
-    <hr className='mx-auto bg-white dark:bg-white w-1/2 h-[2px]' />
+    <hr className='mx-auto bg-white dark:bg-white w-1/2 h-[2px] ' />
         </main>
     </section>
       
