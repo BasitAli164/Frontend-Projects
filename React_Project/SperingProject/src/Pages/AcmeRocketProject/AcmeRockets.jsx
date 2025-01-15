@@ -173,7 +173,7 @@ const AcmeRockets = () => {
               action=""
               className="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4"
             >
-              <label htmlFor="subject">Subject</label>
+              <label htmlFor="subject">Subject:</label>
               <input
                 type="text"
                 id="subject"
@@ -184,6 +184,8 @@ const AcmeRockets = () => {
                 placeholder="Your Subject"
                 className="w-full text-black text-2xl  sm:text-3xl p-3  rounded-xl border border-solid border-slate-900 dark:border-none"
               />
+              <label htmlFor="message">Message:</label>
+              <textarea name="message" id="message" cols={30} rows={10} placeholder="Your Message" className="w-full text-black text-2xl  sm:text-3xl p-3  rounded-xl border border-solid border-slate-900 dark:border-none"></textarea>
             </form>
           </section>
         </main>
