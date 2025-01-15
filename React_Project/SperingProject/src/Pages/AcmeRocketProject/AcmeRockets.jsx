@@ -208,13 +208,21 @@ const AcmeRockets = () => {
               Phone: <a href="#"> (555) 555-5555</a>
             </address>
             <nav className="hidden md:flex flex-col gap-2 " aria-label="footer">
-                <a href="#rocket" className="hover:opacity-90 ">Our Rockets</a>
-                <a href="#testimonials" className="hover:opacity-90 ">Testimonials</a>
-                <a href="#contact" className="hover:opacity-90 ">Contact</a>
+              <a href="#rocket" className="hover:opacity-90 ">
+                Our Rockets
+              </a>
+              <a href="#testimonials" className="hover:opacity-90 ">
+                Testimonials
+              </a>
+              <a href="#contact" className="hover:opacity-90 ">
+                Contact
+              </a>
             </nav>
-            <div className="flex flex-col sm:gap-2" >
-                <p className="text-right">Copyright &copy; <span id="year"> 2024</span></p>
-                <p className="text-right">All Rigths Reservered</p>
+            <div className="flex flex-col sm:gap-2">
+              <p className="text-right">
+                Copyright &copy; <span id="year"> 2024</span>
+              </p>
+              <p className="text-right">All Rigths Reservered</p>
             </div>
           </section>
         </footer>
