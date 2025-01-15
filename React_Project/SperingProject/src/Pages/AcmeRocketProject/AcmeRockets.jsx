@@ -112,7 +112,7 @@ const AcmeRockets = () => {
               Our Testimonials
             </h2>
             <figure className="my-12 ">
-                <blockquote className="border-teal-600 dark:bg-black pl-14 py-12 rounded-3xl relative">
+                <blockquote className="bg-teal-400 border-teal-600 dark:bg-black pl-14 py-12 rounded-3xl relative">
                 <p className="text-2xl sm-sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201c'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2
                 before:translate-y-2 after:content-['\201d'] after:font-serif after:absolute after:bottom-[-50px]  after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-2
                 after:translate-y-2">
@@ -124,7 +124,7 @@ const AcmeRockets = () => {
                 </figcaption>
             </figure>
             <figure className="my-12 ">
-                <blockquote className="border-teal-600 dark:bg-black pl-14 py-12 rounded-3xl relative">
+                <blockquote className="bg-teal-400 border-teal-600 dark:bg-black pl-14 py-12 rounded-3xl relative">
                 <p className="text-2xl sm-sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201c'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2
                 before:translate-y-2 after:content-['\201d'] after:font-serif after:absolute after:bottom-[-50px]  after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-2
                 after:translate-y-2">
@@ -136,7 +136,7 @@ const AcmeRockets = () => {
                 </figcaption>
             </figure>
             <figure className="my-12 ">
-                <blockquote className="border-teal-600 dark:bg-black pl-14 py-12 rounded-3xl relative">
+                <blockquote className="border-teal-600 dark:bg-black pl-14 py-12 rounded-3xl relative bg-teal-400 ">
                 <p className="text-2xl sm-sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201c'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2
                 before:translate-y-2 after:content-['\201d'] after:font-serif after:absolute after:bottom-[-50px]  after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:translate-x-2
                 after:translate-y-2">
