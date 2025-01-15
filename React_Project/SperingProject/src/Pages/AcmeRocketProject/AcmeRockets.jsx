@@ -185,15 +185,29 @@ const AcmeRockets = () => {
                 className="w-full text-black text-2xl  sm:text-3xl p-3  rounded-xl border border-solid border-slate-900 dark:border-none"
               />
               <label htmlFor="message">Message:</label>
-              <textarea name="message" id="message" cols={30} rows={10} placeholder="Your Message" className="w-full text-black text-2xl  sm:text-3xl p-3  rounded-xl border border-solid border-slate-900 dark:border-none"></textarea>
-              <button className="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none">Submit</button>
+              <textarea
+                name="message"
+                id="message"
+                cols={30}
+                rows={10}
+                placeholder="Your Message"
+                className="w-full text-black text-2xl  sm:text-3xl p-3  rounded-xl border border-solid border-slate-900 dark:border-none"
+              ></textarea>
+              <button className="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none">
+                Submit
+              </button>
             </form>
           </section>
         </main>
         <footer className="bg-teal-700 text-white text-xl " id="footer">
-            <section className="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
-
-            </section>
+          <section className="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
+            <address>
+              <h2>Acme Rocket-Power Products, Inc.</h2>
+              555 Astro Way <br />
+              Email: <a href="#">Inquires@acemerockets.com</a>
+              Phone: <a href="#"> (555) 555-5555</a>
+            </address>
+          </section>
         </footer>
       </section>
     </>
