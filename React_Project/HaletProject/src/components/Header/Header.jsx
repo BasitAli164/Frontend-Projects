@@ -7,7 +7,8 @@ const Header = ({ toggles }) => {
     console.log("basit ali")
     setToggle(!toggle);
   };
-  const handleRoute=function(route){
+  const handleRoute=function(event,route){
+    event.preventDefault(); // Prevent the default form submission behavior
     console.log(route)
     navigate(route)
     useNavigate(route)
@@ -26,7 +27,7 @@ const Header = ({ toggles }) => {
         <section>
           <div className="fixed top-6 right-5 z-10">
             {toggle === false ? (
-              <div className="w-10 h-10 bg-white rounded-full text-center">
+              <div className="w-10 h-10 bg-white rounded-full text-center shadow-2xl">
                 <span
                   className="text-3xl cursor-default text-black"
                   onClick={handleToggle}
