@@ -107,7 +107,7 @@ const AcmeRockets = () => {
             </ul>
           </section>
           <hr className="mx-auto bg-white dark:bg-white w-1/2 h-[2px] " />
-          <section id="testimonials" className="p-6 my-12">
+          <section id="testimonials" className="p-6 my-12 scroll-mt-16">
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
               Our Testimonials
             </h2>
@@ -154,6 +154,9 @@ const AcmeRockets = () => {
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
               Contact Us
             </h2>
+            <form action="" className="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4">
+                <label htmlFor="subject">Subject</label>
+            </form>
           </section>
         </main>
       </section>
