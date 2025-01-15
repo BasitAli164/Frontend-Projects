@@ -156,6 +156,7 @@ const AcmeRockets = () => {
             </h2>
             <form action="" className="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4">
                 <label htmlFor="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required minLength={3} maxLength={60} placeholder="Your Subject" className="w-full text-black text-2xl  sm:text-3xl p-3  rounded-xl border border-solid border-slate-900 dark:border-none" />
             </form>
           </section>
         </main>
