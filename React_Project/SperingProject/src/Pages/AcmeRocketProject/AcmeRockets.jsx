@@ -45,19 +45,24 @@ const AcmeRockets = () => {
         >
         Our Rockets 
         </h2>
+        <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row  items-center gap-8">
+            <li className=" w-2/3 sm:w-5/6 flex flex-col items-center border-solid border border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl"></li>
+        </ul>
     </section>
+    <hr className='mx-auto bg-white dark:bg-white w-1/2 h-[2px] ' />
     <section id="testimonials" className='p-6 my-12'>
         <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white"
         >
         Our Testimonials 
         </h2>
     </section>
+    <hr className='mx-auto bg-white dark:bg-white w-1/2 h-[2px] ' />
     <section id="contact" className='p-6 my-12'>
         <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white"
         >
-        Our Contact 
-        </h2>
+        Contact  Us        </h2>
     </section>
+    
         </main>
     </section>
       
