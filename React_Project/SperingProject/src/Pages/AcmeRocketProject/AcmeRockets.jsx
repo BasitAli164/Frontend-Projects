@@ -149,9 +149,10 @@ const AcmeRockets = () => {
             </figure>
           </section>
           <hr className="mx-auto bg-white dark:bg-white w-1/2 h-[2px] " />
-          <section id="contact" className="p-6 my-12">
+          <section id="contact" className="p-6 my-12 scroll-mt-16">
+
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
-              Contact Us{" "}
+              Contact Us
             </h2>
           </section>
         </main>
