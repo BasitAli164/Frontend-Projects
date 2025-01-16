@@ -20,7 +20,7 @@ const AcmeRockets = () => {
             <div>
               <button
                 id="hamburger-button"
-                className="text-3xx md:hidden cursor-pointer"
+                className="text-5xl md:hidden cursor-pointer"
                 onClick={handleToggle}
               >
                 &#9776;
@@ -42,7 +42,7 @@ const AcmeRockets = () => {
             </div>
           </section>
           <section id="mobile-menu" className={`absolute top-0 bg-black w-full text-5xl  flex-col justify-center origin-top animate-open-menu ${toggle?"flex":"hidden"}`}>
-            <button className="text-8 xl self-end px-6" onClick={handleToggle}>
+            <button className="text-8xl self-end px-6" onClick={handleToggle}>
               &times; 
             </button>
             <nav className="flex flex-col min-h-screen items-center py-8 " aria-label="mobile">
