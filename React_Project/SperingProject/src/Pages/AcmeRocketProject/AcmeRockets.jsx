@@ -16,12 +16,12 @@ const AcmeRockets = () => {
             <div>
               <button
                 id="hamburger-button"
-                className="text-3xx md:hidden focus:outline-none"
+                className="text-3xx md:hidden cursor-pointer"
               >
                 &#9776;
               </button>
               <nav
-                className="hidden sm:block space-x-8 text-xl"
+                className="hidden md:block space-x-8 text-xl"
                 aria-label="main"
               >
                 <a href="#rockets" className="hover:opacity-50">
@@ -36,6 +36,7 @@ const AcmeRockets = () => {
               </nav>
             </div>
           </section>
+          <section id="mobile-menu" className=""></section>
         </header>
         <main className="max-w-4xl mx-auto">
           <section
