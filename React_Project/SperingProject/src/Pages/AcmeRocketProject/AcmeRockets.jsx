@@ -21,6 +21,7 @@ const AcmeRockets = () => {
               <button
                 id="hamburger-button"
                 className="text-3xx md:hidden cursor-pointer"
+                onClick={handleToggle}
               >
                 &#9776;
               </button>
@@ -40,16 +41,16 @@ const AcmeRockets = () => {
               </nav>
             </div>
           </section>
-          <section id="mobile-menu" className="absolute top-0 bg-black w-full text-5xl  flex-col justify-center origin-top animate-open-menu hidden">
-            <button className="text-8 xl self-end px-6">
+          <section id="mobile-menu" className={`absolute top-0 bg-black w-full text-5xl  flex-col justify-center origin-top animate-open-menu ${toggle?"flex":"hidden"}`}>
+            <button className="text-8 xl self-end px-6" onClick={handleToggle}>
               &times; 
             </button>
             <nav className="flex flex-col min-h-screen items-center py-8 " aria-label="mobile">
-              <a href="#hero" className="w-full text-center py-6 hover:opacity-90">Home</a>
-              <a href="#rokets" className="w-full text-center py-6 hover:opacity-90">Rockets</a>
-              <a href="#testimonials" className="w-full text-center py-6 hover:opacity-90">Testimonial</a>
-              <a href="#contact" className="w-full text-center py-6 hover:opacity-90">Contact</a>
-              <a href="#footer" className="w-full text-center py-6 hover:opacity-90">Legal</a>
+              <a href="#hero" className="w-full text-center py-6 hover:opacity-90" onClick={handleToggle}>Home</a>
+              <a href="#rokets" className="w-full text-center py-6 hover:opacity-90" onClick={handleToggle}>Rockets</a>
+              <a href="#testimonials" className="w-full text-center py-6 hover:opacity-90" onClick={handleToggle}>Testimonial</a>
+              <a href="#contact" className="w-full text-center py-6 hover:opacity-90" onClick={handleToggle}>Contact</a>
+              <a href="#footer" className="w-full text-center py-6 hover:opacity-90" onClick={handleToggle}>Legal</a>
 
             </nav>
           </section>
