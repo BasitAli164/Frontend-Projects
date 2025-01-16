@@ -36,7 +36,19 @@ const AcmeRockets = () => {
               </nav>
             </div>
           </section>
-          <section id="mobile-menu" className=""></section>
+          <section id="mobile-menu" className="absolute top-0 bg-black w-full text-5xl flex flex-col justify-center ">
+            <button className="text-8 xl self-end px-6">
+              &times; 
+            </button>
+            <nav className="flex flex-col min-h-screen items-center py-8 " aria-label="mobile">
+              <a href="#hero" className="w-full text-center py-6 hover:opacity-90">Home</a>
+              <a href="#rokets" className="w-full text-center py-6 hover:opacity-90">Rockets</a>
+              <a href="#testimonials" className="w-full text-center py-6 hover:opacity-90">Testimonial</a>
+              <a href="#contact" className="w-full text-center py-6 hover:opacity-90">Contact</a>
+              <a href="#footer" className="w-full text-center py-6 hover:opacity-90">Footer</a>
+
+            </nav>
+          </section>
         </header>
         <main className="max-w-4xl mx-auto">
           <section
