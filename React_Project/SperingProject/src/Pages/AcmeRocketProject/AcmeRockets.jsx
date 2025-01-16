@@ -15,8 +15,8 @@ const AcmeRockets = () => {
             </h1>
             <div>
               <button
-                id="mobile-open-button"
-                className="text-3xx sm:hidden focus:outline-none"
+                id="hamburger-button"
+                className="text-3xx md:hidden focus:outline-none"
               >
                 &#9776;
               </button>
