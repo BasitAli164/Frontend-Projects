@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import rocketImage from "../../assets/img/rocketdab.png";
 import rocketMan from "../../assets/img/rocketman.png";
 import rocketride from "../../assets/img/rocketride.png";
 import rocketlaunch from "../../assets/img/rocketlaunch.png";
 
 const AcmeRockets = () => {
+  const [toggle,setToggel]=useState(false);
+  const handleToggle=()=>{
+    setToggel(!toggle)
+  }
   return (
     <>
       <section className="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
@@ -36,7 +40,7 @@ const AcmeRockets = () => {
               </nav>
             </div>
           </section>
-          <section id="mobile-menu" className="absolute top-0 bg-black w-full text-5xl flex flex-col justify-center ">
+          <section id="mobile-menu" className="absolute top-0 bg-black w-full text-5xl  flex-col justify-center origin-top animate-open-menu hidden">
             <button className="text-8 xl self-end px-6">
               &times; 
             </button>
