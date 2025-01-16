@@ -40,7 +40,7 @@ const AcmeRockets = () => {
         <main className="max-w-4xl mx-auto">
           <section
             id="hero"
-            className="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40"
+            className="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height"
           >
             <article className="sm:w-1/2">
               <h2 className="max-w-md text-3xl font-bold text-center sm:text-4xl sm:text-left text-slate-900 dark:text-white">
@@ -63,7 +63,7 @@ const AcmeRockets = () => {
           </section>
 
           <hr className="mx-auto bg-white dark:bg-white w-1/2 h-[2px] " />
-          <section id="rockets" className="p-6 my-12">
+          <section id="rockets" className="p-6 my-12 widescreen:section-min-height tallscreen:section-min-height scroll-mt-16">
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
               Our Rockets
             </h2>
@@ -107,7 +107,7 @@ const AcmeRockets = () => {
             </ul>
           </section>
           <hr className="mx-auto bg-white dark:bg-white w-1/2 h-[2px] " />
-          <section id="testimonials" className="p-6 my-12 scroll-mt-16">
+          <section id="testimonials" className="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height">
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
               Our Testimonials
             </h2>
@@ -165,7 +165,7 @@ const AcmeRockets = () => {
             </figure>
           </section>
           <hr className="mx-auto bg-white dark:bg-white w-1/2 h-[2px] " />
-          <section id="contact" className="p-6 my-12 scroll-mt-16">
+          <section id="contact" className="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height">
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
               Contact Us
             </h2>
