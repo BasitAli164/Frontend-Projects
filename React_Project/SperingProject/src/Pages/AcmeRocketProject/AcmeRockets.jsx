@@ -45,7 +45,7 @@ const AcmeRockets = () => {
               <a href="#rokets" className="w-full text-center py-6 hover:opacity-90">Rockets</a>
               <a href="#testimonials" className="w-full text-center py-6 hover:opacity-90">Testimonial</a>
               <a href="#contact" className="w-full text-center py-6 hover:opacity-90">Contact</a>
-              <a href="#footer" className="w-full text-center py-6 hover:opacity-90">Footer</a>
+              <a href="#footer" className="w-full text-center py-6 hover:opacity-90">Legal</a>
 
             </nav>
           </section>
