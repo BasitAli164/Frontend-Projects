@@ -1,5 +1,6 @@
 import React from 'react'
 import rocketImage from '../../assets/img/rocketdab.png'
+import rocketMan from '../../assets/img/rocketman.png'
 
 const AcmeRockets = () => {
   return (
@@ -46,7 +47,18 @@ const AcmeRockets = () => {
         Our Rockets 
         </h2>
         <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row  items-center gap-8">
-            <li className=" w-2/3 sm:w-5/6 flex flex-col items-center border-solid border border-slate-900 dark:border-gray-100 bg-white py-6 px-2 rounded-3xl shadow-xl"></li>
+            <li className=" w-2/3 sm:w-5/6 flex flex-col items-center border-solid border border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+            <img className='w-1/2 mb-6' src={rocketMan} alt="" />
+            <h3 className='text-3xl text-center text-slate-900 dark:text-white'>
+                Explore 
+            </h3>
+            <p className='hidden sm:block text-3xl text-center mt-2 text-slate-500 dark:text-slate-500'>
+                $ 
+            </p>
+            <p className='sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400'>
+                Affordable Exploration 
+            </p>
+            </li>
         </ul>
     </section>
     <hr className='mx-auto bg-white dark:bg-white w-1/2 h-[2px] ' />
