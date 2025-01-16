@@ -5,10 +5,10 @@ import rocketride from "../../assets/img/rocketride.png";
 import rocketlaunch from "../../assets/img/rocketlaunch.png";
 
 const AcmeRockets = () => {
-  const [toggle,setToggel]=useState(false);
-  const handleToggle=()=>{
-    setToggel(!toggle)
-  }
+  const [toggle, setToggel] = useState(false);
+  const handleToggle = () => {
+    setToggel(!toggle);
+  };
   return (
     <>
       <section className="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
@@ -41,17 +41,54 @@ const AcmeRockets = () => {
               </nav>
             </div>
           </section>
-          <section id="mobile-menu" className={`absolute top-0 bg-black w-full text-5xl  flex-col justify-center origin-top animate-open-menu ${toggle?"flex":"hidden"}`}>
+          <section
+            id="mobile-menu"
+            className={`absolute top-0 bg-black w-full text-5xl  flex-col justify-center origin-top animate-open-menu ${
+              toggle ? "flex" : "hidden"
+            }`}
+          >
             <button className="text-8xl self-end px-6" onClick={handleToggle}>
-              &times; 
+              &times;
             </button>
-            <nav className="flex flex-col min-h-screen items-center py-8 " aria-label="mobile">
-              <a href="#hero" className="w-full text-center py-6 hover:opacity-90" onClick={handleToggle}>Home</a>
-              <a href="#rokets" className="w-full text-center py-6 hover:opacity-90" onClick={handleToggle}>Rockets</a>
-              <a href="#testimonials" className="w-full text-center py-6 hover:opacity-90" onClick={handleToggle}>Testimonial</a>
-              <a href="#contact" className="w-full text-center py-6 hover:opacity-90" onClick={handleToggle}>Contact</a>
-              <a href="#footer" className="w-full text-center py-6 hover:opacity-90" onClick={handleToggle}>Legal</a>
-
+            <nav
+              className="flex flex-col min-h-screen items-center py-8 "
+              aria-label="mobile"
+            >
+              <a
+                href="#hero"
+                className="w-full text-center py-6 hover:opacity-90"
+                onClick={handleToggle}
+              >
+                Home
+              </a>
+              <a
+                href="#rokets"
+                className="w-full text-center py-6 hover:opacity-90"
+                onClick={handleToggle}
+              >
+                Rockets
+              </a>
+              <a
+                href="#testimonials"
+                className="w-full text-center py-6 hover:opacity-90"
+                onClick={handleToggle}
+              >
+                Testimonial
+              </a>
+              <a
+                href="#contact"
+                className="w-full text-center py-6 hover:opacity-90"
+                onClick={handleToggle}
+              >
+                Contact
+              </a>
+              <a
+                href="#footer"
+                className="w-full text-center py-6 hover:opacity-90"
+                onClick={handleToggle}
+              >
+                Legal
+              </a>
             </nav>
           </section>
         </header>
@@ -81,7 +118,10 @@ const AcmeRockets = () => {
           </section>
 
           <hr className="mx-auto bg-white dark:bg-white w-1/2 h-[2px] " />
-          <section id="rockets" className="p-6 my-12 widescreen:section-min-height tallscreen:section-min-height scroll-mt-16">
+          <section
+            id="rockets"
+            className="p-6 my-12 widescreen:section-min-height tallscreen:section-min-height scroll-mt-16"
+          >
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
               Our Rockets
             </h2>
@@ -125,7 +165,10 @@ const AcmeRockets = () => {
             </ul>
           </section>
           <hr className="mx-auto bg-white dark:bg-white w-1/2 h-[2px] " />
-          <section id="testimonials" className="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height">
+          <section
+            id="testimonials"
+            className="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height"
+          >
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
               Our Testimonials
             </h2>
@@ -183,7 +226,10 @@ const AcmeRockets = () => {
             </figure>
           </section>
           <hr className="mx-auto bg-white dark:bg-white w-1/2 h-[2px] " />
-          <section id="contact" className="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height">
+          <section
+            id="contact"
+            className="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height"
+          >
             <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-600 dark:text-white">
               Contact Us
             </h2>
