@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
     <header className='w-full  bg-[#c69c72]  sticky top-0 z-10'>
-      <section className='flex justify-between  items-center  h-20'>
+      <section className='flex justify-between  items-center  h-16'>
         <div className='ml-10'>
           <Link to='/' className=' text-4xl sm:text-3xl text-white font-semibold uppercase'>Healet</Link>
         </div>
