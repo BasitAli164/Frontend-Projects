@@ -1,6 +1,7 @@
 import React from "react";
 import bgImage from "../../assets/images/slider-bg.jpg";
 import Button from "../../components/Button/Button";
+import About from '../About/About'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         </div>
         
       </section>
+      <About/>
     </>
   );
 };
