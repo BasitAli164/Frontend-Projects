@@ -2,6 +2,8 @@ import React from "react";
 import facebookIcon from '../../assets/images/fb.png';
 import twitterIcon from '../../assets/images/twitter.png';
 import linkedinIcon from '../../assets/images/linkedin.png';
+import footerImage1 from '../../assets/images/p1.png';
+import footerImage2 from '../../assets/images/p2.png';
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
@@ -45,7 +47,28 @@ const Footer = () => {
                 <Link className="text-white text-xl hover:text-[#fd9c6b]" to="/blog">Blog</Link>
               </ul>
             </div>
-            <div>Instagram</div>
+            <div className="flex flex-col justify-center gap-y-6">
+            <h2 className="text-white text-3xl">Instagram</h2>
+            <div className="flex flex-col justify-center items-center gap-y-4 ">
+              <div className="flex justify-center items-center gap-x-4">
+                <div className="w-12 h-12 bg-white flex justify-center items-center">
+                <img className="w-5 " src={footerImage1} alt="gooter-Image1" />
+
+                </div>
+                <p className="text-white ">long established fact that a reader</p>
+              </div>
+              <div className="flex justify-center items-center gap-x-5">
+                <div className="w-12 h-12 bg-white flex justify-center items-center">
+                <img className="w-5 " src={footerImage2} alt="gooter-Image1" />
+
+                </div>
+                <p className="text-white ">long established fact that a reader</p>
+              </div>
+              
+
+            </div>
+
+            </div>
             <div>About Us</div>
             <div>Contact Us</div>
           </div>
