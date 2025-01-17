@@ -16,10 +16,10 @@ const Header = () => {
           <h1 className=' text-4xl sm:text-3xl text-white font-semibold uppercase'>Healet</h1>
         </div>
       <nav className='hidden sm:flex gap-x-5 mr-10'>
-        <Link className='text-lg sm:text-xl font-semibold text-white uppercase hover:text-[#]' to='/'>Home</Link>
-        <Link className='text-lg sm:text-xl font-semibold text-white uppercase hover:text-[#]' to='/about'>About</Link>
-        <Link className='text-lg sm:text-xl font-semibold text-white uppercase hover:text-[#]' to='/shop'>Shop</Link>
-        <Link className='text-lg sm:text-xl font-semibold text-white uppercase hover:text-[#]' to='/blog'>Blog</Link>
+        <Link className='text-lg sm:text-xl font-semibold text-white uppercase hover:text-[#fd9c6b] duration-[0.8s]' to='/'>Home</Link>
+        <Link className='text-lg sm:text-xl font-semibold text-white uppercase hover:text-[#fd9c6b] duration-[0.8s]' to='/about'>About</Link>
+        <Link className='text-lg sm:text-xl font-semibold text-white uppercase hover:text-[#fd9c6b] duration-[0.8s]' to='/shop'>Shop</Link>
+        <Link className='text-lg sm:text-xl font-semibold text-white uppercase hover:text-[#fd9c6b] duration-[0.8s]' to='/blog'>Blog</Link>
       </nav>
       <button onClick={handleToggle} className='sm:hidden text-5xl text-white border-none outline-none'>
         &#9776;
