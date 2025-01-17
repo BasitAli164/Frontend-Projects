@@ -11,11 +11,11 @@ const Header = () => {
   return (
     <>
     <header className='w-full  bg-[#c69c72]  sticky top-0 z-10'>
-      <section className='flex justify-between sm:justify-around items-center  h-20'>
-        <div>
+      <section className='flex justify-between  items-center  h-20'>
+        <div className='ml-10'>
           <h1 className=' text-4xl sm:text-3xl text-white font-semibold uppercase'>Healet</h1>
         </div>
-      <nav className='hidden sm:flex gap-x-5'>
+      <nav className='hidden sm:flex gap-x-5 mr-10'>
         <Link className='text-lg sm:text-xl font-semibold text-white uppercase' to='/'>Home</Link>
         <Link className='text-lg sm:text-xl font-semibold text-white uppercase' to='/about'>About</Link>
         <Link className='text-lg sm:text-xl font-semibold text-white uppercase' to='/shop'>Shop</Link>
