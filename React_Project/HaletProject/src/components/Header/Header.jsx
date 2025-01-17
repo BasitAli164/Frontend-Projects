@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 const Header = () => {
   const [toggle,setToggle]=useState(false);
   const handleToggle=()=>{
-    console.log("Basit is")
     setToggle(!toggle)
   }
 
@@ -13,7 +12,7 @@ const Header = () => {
     <header className='w-full  bg-[#c69c72]  sticky top-0 z-10'>
       <section className='flex justify-between  items-center  h-20'>
         <div className='ml-10'>
-          <h1 className=' text-4xl sm:text-3xl text-white font-semibold uppercase'>Healet</h1>
+          <Link to='/' className=' text-4xl sm:text-3xl text-white font-semibold uppercase'>Healet</Link>
         </div>
       <nav className='hidden sm:flex gap-x-5 mr-10'>
         <Link className='text-lg sm:text-xl font-semibold text-white uppercase hover:text-[#fd9c6b] duration-[0.8s]' to='/'>Home</Link>
@@ -33,10 +32,10 @@ const Header = () => {
         &times;
       </button>
       <nav className='flex flex-col gap-y-10 items-center h-screen justify-center'>
-        <Link onClick={handleToggle} className='text-4xl sm:text-xl font-semibold text-white uppercase hover:text-[#fd9c6b]' to='/'>Home</Link>
-        <Link onClick={handleToggle} className='text-4xl sm:text-xl font-semibold text-white uppercase hover:text-[#fd9c6b]' to='/about'>About</Link>
-        <Link onClick={handleToggle} className='text-4xl sm:text-xl font-semibold text-white uppercase hover:text-[#fd9c6b]' to='/shop'>Shop</Link>
-        <Link onClick={handleToggle} className='text-4xl sm:text-xl font-semibold text-white uppercase hover:text-[#fd9c6b]' to='/blog'>Blog</Link>
+        <Link onClick={handleToggle} className='text-4xl sm:text-xl font-semibold text-white uppercase hover:text-orange-400' to='/'>Home</Link>
+        <Link onClick={handleToggle} className='text-4xl sm:text-xl font-semibold text-white uppercase hover:text-orange-400' to='/about'>About</Link>
+        <Link onClick={handleToggle} className='text-4xl sm:text-xl font-semibold text-white uppercase hover:text-orange-400' to='/shop'>Shop</Link>
+        <Link onClick={handleToggle} className='text-4xl sm:text-xl font-semibold text-white uppercase hover:text-orange-400' to='/blog'>Blog</Link>
       </nav>
       </section>
     </header>
