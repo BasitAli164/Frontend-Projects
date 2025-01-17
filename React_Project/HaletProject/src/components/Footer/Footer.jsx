@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
             
           </div>
-          <div className="flex justify-between flex-col sm:flex-row items-center">
+          <div className="flex justify-between flex-col sm:flex-row items-center flex-wrap">
             <div className="flex flex-col gap-y-3">
               <h2 className="text-white text-3xl">Menu</h2>
               <ul className="flex flex-col gap-y-2">
@@ -48,16 +48,16 @@ const Footer = () => {
               </ul>
             </div>
             <div className="flex flex-col justify-center gap-y-6">
-            <h2 className="text-white text-3xl">Instagram</h2>
+            <h2 className="text-white text-3xl text-center sm:text-left">Instagram</h2>
             <div className="flex flex-col justify-center items-center gap-y-4 ">
-              <div className="flex justify-center items-center gap-x-4">
+              <div className="flex flex-col sm:flex-row gap-y-3 sm:gap-y-0 justify-center items-center gap-x-4 ">
                 <div className="w-12 h-12 bg-white flex justify-center items-center">
                 <img className="w-5 " src={footerImage1} alt="gooter-Image1" />
 
                 </div>
                 <p className="text-white ">long established fact that a reader</p>
               </div>
-              <div className="flex justify-center items-center gap-x-5">
+              <div className="flex flex-col gap-y-3 sm:flex-row justify-center items-center gap-x-5">
                 <div className="w-12 h-12 bg-white flex justify-center items-center">
                 <img className="w-5 " src={footerImage2} alt="gooter-Image1" />
 
