@@ -2,12 +2,13 @@ import React from "react";
 import bgImage from "../../assets/images/slider-bg.jpg";
 import Button from "../../components/Button/Button";
 import About from '../About/About'
+import Shop from "../Shop/Shop";
 
 const Home = () => {
   return (
     <>
       <section
-        className="w-full h-[150vh]  bg-center z-100  bg-no-repeat bg-cover"
+        className="w-full h-[150vh]  bg-center z-100  bg-no-repeat bg-cover p-10"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div className="w-[60%] sm:w-[40%]  sm:h-[60%] flex sm:justify-center  ml-10 flex-col gap-y-14 sm:gap-y-10"> 
@@ -22,6 +23,7 @@ const Home = () => {
         </div>
         
       </section>
+      <Shop/>
       <About/>
     </>
   );

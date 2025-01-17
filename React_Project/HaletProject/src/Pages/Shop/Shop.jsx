@@ -16,48 +16,56 @@ const Shop = () => {
       alt:"Nacklace-Image",
       prouductName: "Nacklace",
       price: "$200",
+      proudctStatus:'Old'
     },
     {
       img: product2,
       alt:"Nacklace-Image",
       prouductName: "Nacklace",
       price: "$300",
+      proudctStatus:'New'
     },
     {
       img: product3,
       alt:"Nacklace-Image",
       prouductName: "Nacklace",
       price: "$110",
+      proudctStatus:'Old'
     },
     {
       img: product4,
       alt:"Ring-Image",
       prouductName: "Ring",
       price: "$45",
+      proudctStatus:'New'
     },
     {
       img: product5,
       alt:"Ring-Image",
       prouductName: "Ring",
       price: "$95",
+      proudctStatus:'Old'
     },
     {
       img: product6,
       alt:"Earrings-Image",
       prouductName: "Earrings",
       price: "$70",
+      proudctStatus:'New'
     },
     {
       img: product7,
       alt:"Earrings-Image",
       prouductName: "Earrings",
       price: "$400",
+      proudctStatus:'New'
     },
     {
       img: product8,
       alt:"Nacklace-Image",
       prouductName: "Nacklace",
       price: "$450",
+      proudctStatus:'Old'
     },
   ];
   return (
@@ -66,11 +74,19 @@ const Shop = () => {
         <div className="mt-10">
           <h2 className="text-[32px] font-bold  uppercase ">Latest Products</h2>
         </div>
-        <div className="flex justify-center items-center gap-10 flex-wrap">
+        <div className="flex justify-center items-center gap-10 flex-wrap relative">
         {
           productDetail.map((item)=>(
            
-          <div className="w-[260px] h-[300px] border-[1px] bg-[#eeeeee] shadow-xl p-10 rounded-lg">
+          <div
+           className="w-[260px] h-[300px] border-[1px] bg-[#eeeeee] shadow-xl p-10 rounded-lg relative
+           cursor-pointer hover:scale-[1.1] duration-[1s]
+           
+          ">
+            <div className="bg-white w-14 h-14 rounded-full absolute top-1 left-1 flex justify-center items-center font-bold">
+              {item.proudctStatus}
+            </div>
+
             <div className="w-full h-[75%] flex justify-center items-center">
               <img
                 className="max-w-full max-h-[150px]"
