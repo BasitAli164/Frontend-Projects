@@ -13,41 +13,49 @@ const Shop = () => {
   const productDetail = [
     {
       img: product1,
+      alt:"Nacklace-Image",
       prouductName: "Nacklace",
       price: "$200",
     },
     {
       img: product2,
+      alt:"Nacklace-Image",
       prouductName: "Nacklace",
       price: "$300",
     },
     {
       img: product3,
+      alt:"Nacklace-Image",
       prouductName: "Nacklace",
       price: "$110",
     },
     {
       img: product4,
+      alt:"Ring-Image",
       prouductName: "Ring",
       price: "$45",
     },
     {
       img: product5,
+      alt:"Ring-Image",
       prouductName: "Ring",
       price: "$95",
     },
     {
       img: product6,
+      alt:"Earrings-Image",
       prouductName: "Earrings",
       price: "$70",
     },
     {
-      img: product1,
+      img: product7,
+      alt:"Earrings-Image",
       prouductName: "Earrings",
       price: "$400",
     },
     {
-      img: product1,
+      img: product8,
+      alt:"Nacklace-Image",
       prouductName: "Nacklace",
       price: "$450",
     },
@@ -62,12 +70,12 @@ const Shop = () => {
         {
           productDetail.map((item)=>(
            
-          <div className="w-[260px] h-[300px] border-[1px] bg-[#eeeeee]">
+          <div className="w-[260px] h-[300px] border-[1px] bg-[#eeeeee] shadow-xl p-10 rounded-lg">
             <div className="w-full h-[75%] flex justify-center items-center">
               <img
                 className="max-w-full max-h-[150px]"
                 src={item.img}
-                alt="Product-Image"
+                alt={item.alt}
               />
             </div>
             <div className="h-[20%] flex items-end justify-between ">
