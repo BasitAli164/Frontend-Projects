@@ -2,14 +2,14 @@ import React from "react";
 import facebookIcon from '../../assets/images/fb.png';
 import twitterIcon from '../../assets/images/twitter.png';
 import linkedinIcon from '../../assets/images/linkedin.png';
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
       <footer className="w-full  bg-[#160e0b]">
-        <section className="flex flex-col justify-center p-10">
-          <div className="w-full flex flex-col gap-y-5 sm:gap-y-0 sm:flex-row">
-            <div className="sm:ml-10  flex w-full sm:w-[80%]">
+        <section className="flex flex-col justify-center p-10 max-w-[1200px] gap-y-10">
+          <div className="w-full flex justify-between flex-col gap-y-5 sm:gap-y-0 sm:flex-row">
+            <div className="  flex w-full sm:w-[80%]">
               <input
                 className="w-full  sm:w-[60%] h-12 active:outline-none active:border-none border-none outline-none text-lg sm:text-xl"
                 type="text"
@@ -35,10 +35,17 @@ const Footer = () => {
             </div>
             
           </div>
-          <div>
-            <div>menu</div>
+          <div className="flex justify-between flex-col sm:flex-row items-center text-white ">
+            <div className="">
+              <h2 className="text-white text-2xl">Menu</h2>
+              <ul className="flex flex-col">
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/shop">Shop</Link>
+                <Link to="/blog">Blog</Link>
+              </ul>
+            </div>
             <div>Instagram</div>
-            <div>About Us</div>
             <div>About Us</div>
             <div>Contact Us</div>
           </div>
