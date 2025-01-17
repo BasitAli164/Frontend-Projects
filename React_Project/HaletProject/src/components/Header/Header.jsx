@@ -4,22 +4,24 @@ import {Link} from 'react-router-dom';
 const Header = () => {
   return (
     <>
-    <header className='w-full h-auto bg-[#ABABAB]'>
-      <section className='flex justify-between items-center '>
+    <header className='w-full  bg-[#c69c72] '>
+      <section className='flex justify-between sm:justify-around items-center  h-20'>
         <div>
-          <h1 className=' text-3xl sm:text-5xl text-white font-black'>Healet</h1>
+          <h1 className=' text-2xl sm:text-3xl text-white font-semibold uppercase'>Healet</h1>
         </div>
-      <nav className='hidden sm:flex justify-between items-center'>
-        <Link to='/'>Home</Link>
-        <Link to='/about'>About</Link>
-        <Link to='/shop'>Shop</Link>
-        <Link to='/blog'>Blog</Link>
+      <nav className='hidden sm:flex gap-x-5'>
+        <Link className='text-lg sm:text-xl font-semibold text-white uppercase' to='/'>Home</Link>
+        <Link className='text-lg sm:text-xl font-semibold text-white uppercase' to='/about'>About</Link>
+        <Link className='text-lg sm:text-xl font-semibold text-white uppercase' to='/shop'>Shop</Link>
+        <Link className='text-lg sm:text-xl font-semibold text-white uppercase' to='/blog'>Blog</Link>
       </nav>
-      <div>
+      <div className='sm:hidden text-3xl text-white'>
         &#9776;
       </div>
       </section>
-      <section></section>
+      <section>
+        
+      </section>
     </header>
       
     </>
