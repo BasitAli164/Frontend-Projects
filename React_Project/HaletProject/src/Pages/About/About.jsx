@@ -7,7 +7,7 @@ const About = () => {
     <>
   <section className='h-screen w-full grid grid-rows-[auto, auto] sm:grid-cols-2 relative' >
     <div className='justify-self-center self-center after:w-[250px] after:h-[250px] after:bg-black after:absolute after:top-20 after:left-10 -z-10]'>
-      <img className='w-[500px] relative z-40' src={aboutImage} alt="About-Image" />
+      <img className='w-[500px] relative z-[2]' src={aboutImage} alt="About-Image" />
     </div>
     <div className=' justify-self-center self-center '>
        <div >

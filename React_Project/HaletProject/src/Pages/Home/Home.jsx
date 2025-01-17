@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <section
-        className="w-full h-[160vh]  bg-center z-100  bg-no-repeat bg-cover"
+        className="w-full h-[100vh]  bg-center z-100  bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div className="w-[60%] sm:w-[40%] h-[100%] sm:h-[50%] flex sm:justify-center  ml-10 flex-col gap-y-14 sm:gap-y-20"> 
