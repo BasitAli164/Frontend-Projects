@@ -35,14 +35,14 @@ const Footer = () => {
             </div>
             
           </div>
-          <div className="flex justify-between flex-col sm:flex-row items-center text-white ">
-            <div className="">
-              <h2 className="text-white text-2xl">Menu</h2>
-              <ul className="flex flex-col">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/shop">Shop</Link>
-                <Link to="/blog">Blog</Link>
+          <div className="flex justify-between flex-col sm:flex-row items-center">
+            <div className="flex flex-col gap-y-3">
+              <h2 className="text-white text-3xl">Menu</h2>
+              <ul className="flex flex-col gap-y-2">
+                <Link className="text-white text-xl hover:text-[#fd9c6b]" to="/">Home</Link>
+                <Link className="text-white text-xl hover:text-[#fd9c6b]" to="/about">About</Link>
+                <Link className="text-white text-xl hover:text-[#fd9c6b]" to="/shop">Shop</Link>
+                <Link className="text-white text-xl hover:text-[#fd9c6b]" to="/blog">Blog</Link>
               </ul>
             </div>
             <div>Instagram</div>
