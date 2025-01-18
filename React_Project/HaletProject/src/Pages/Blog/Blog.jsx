@@ -31,7 +31,7 @@ const Blog = () => {
           </div>
           <div className=" bg-[#eeeeee] shadow-2xl border-[1px] border-solid border-black  relative">
             <div className="after:w-20 after:h-20 after:bg-black after:content-['15_July'] after:font-serif  after:text-white after:border-[2px] after:box-border after:z-[2] after:text-lg after:border-solid after:absolute after:bottom-64 md:after:bottom-72 lg:after:bottom-60 after:left-5 after:flex after:justify-center after:items-center">
-              <img className="w-full" src={image1} alt="" />
+              <img className="w-full" src={image2} alt="" />
             </div>
             <div className="p-10 flex flex-col gap-3">
               <h4 className="text-[22px] text-black font-semibold">Look even slightly believable. If you are</h4>
