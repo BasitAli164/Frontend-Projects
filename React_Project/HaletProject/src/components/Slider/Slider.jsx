@@ -44,30 +44,27 @@ const Slider = () => {
             Testimonial
           </h1>
         </div>
-        <div className="max-w-[800px] h-[350px] bg-[#160e0b] rounded-xl shadow-2xl flex flex-col justify-center items-center relative">
+        <div className="max-w-[800px] h-[350px] bg-[#160e0b] rounded-xl shadow-2xl flex flex-col justify-center items-center relative p-40">
           {sliderContent.map(
             (item, index) =>
               index === data && (
-                <>
-                  <div key={Math.random()} className="flex justify-center items-center ">
+                <div key={index}>
+                  <div className="flex justify-center items-center ">
                     <img
                       className="w-1/3 rounded-full border-[8px]  border-solid border-gray-600 "
                       src={item.img}
                       alt="Slider-Image"
-                      key={Math.random()}
                     />
                   </div>
-                  <div key={Math.random()} className="text-center  after:content-['\201C'] after:text-white after:text-8xl after:absolute after:bottom-[-50px] lg:after:bottom-[-48px]">
-                    <h3 className="text-[#fd9c6b] text-xl font-bold"
-                    key={Math.random()}>
-
+                  <div className="text-center  after:content-['\201C'] after:text-white after:text-8xl after:absolute after:bottom-[-50px] lg:after:bottom-[-48px]">
+                    <h3 className="text-[#fd9c6b] text-xl font-bold">
                       {item.name}
                     </h3>
-                    <p className="text-[#eeeeee] text-center text-lg  "key={Math.random()}>
+                    <p className="text-[#eeeeee] text-center text-lg  ">
                       {item.description}
                     </p>
                   </div>
-                </>
+                </div>
               )
           )}
         </div>
