@@ -3,6 +3,7 @@ import nextIcon from "../../assets/images/next.png";
 import prevIcon from "../../assets/images/prev.png";
 import sliderImage1 from "../../assets/images/client.jpg";
 import sliderImage2 from "../../assets/images/profile.jpg";
+import sliderImage3 from "../../assets/images/me.jpg";
 
 const Slider = () => {
   const sliderContent = [
@@ -19,8 +20,8 @@ const Slider = () => {
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sequi voluptates libero asperiores, quod similique architecto, doloremque esse quae aut dolorum",
     },
     {
-      img: sliderImage1,
-      name: "Samantha Doe",
+      img: sliderImage3,
+      name: "John Doe",
       description:
         "It is a long established fact that a reader will be distracted by the readable cIt is a long established fact that a reader will be distracted by the readable",
     },
