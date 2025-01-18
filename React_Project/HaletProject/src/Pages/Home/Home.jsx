@@ -3,6 +3,7 @@ import bgImage from "../../assets/images/slider-bg.jpg";
 import Button from "../../components/Button/Button";
 import About from '../About/About'
 import Shop from "../Shop/Shop";
+import Blog from "../Blog/Blog";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       </section>
       <Shop/>
       <About/>
+      <Blog/>
     </>
   );
 };
