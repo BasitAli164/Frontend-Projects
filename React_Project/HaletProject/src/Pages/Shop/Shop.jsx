@@ -8,6 +8,9 @@ import product5 from "../../assets/images/p5.png";
 import product6 from "../../assets/images/p6.png";
 import product7 from "../../assets/images/p7.png";
 import product8 from "../../assets/images/p8.png";
+import product9 from "../../assets/images/o1.jpg";
+import product10 from "../../assets/images/o2.jpg";
+import product11 from "../../assets/images/o3.jpg";
 
 const Shop = () => {
   const productDetail = [
@@ -66,6 +69,27 @@ const Shop = () => {
       prouductName: "Nacklace",
       price: "$450",
       proudctStatus: "Old",
+    },
+    {
+      img: product9,
+      alt: "Reing-Image",
+      prouductName: "Ring",
+      price: "$950",
+      proudctStatus: "New",
+    },
+    {
+      img: product10,
+      alt: "Earring-Image",
+      prouductName: "Earring",
+      price: "$700",
+      proudctStatus: "New",
+    },
+    {
+      img: product11,
+      alt: "HandRing-Image",
+      prouductName: "HandRing",
+      price: "$120",
+      proudctStatus: "New",
     },
   ];
   return (
