@@ -4,6 +4,7 @@ import Button from "../../components/Button/Button";
 import About from '../About/About'
 import Shop from "../Shop/Shop";
 import Blog from "../Blog/Blog";
+import Slider from "../../components/Slider/Slider";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <Shop/>
       <About/>
       <Blog/>
+      <Slider/>
     </>
   );
 };
