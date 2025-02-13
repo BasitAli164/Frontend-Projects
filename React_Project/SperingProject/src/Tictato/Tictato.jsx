@@ -1,4 +1,9 @@
+
+let data=["","","","","","","","",""];
+
+
 const Tictato = () => {
+  console.log("length is:",data.length)
   return (
     <>
       <div className="container text-center h-[110%] w-screen">
