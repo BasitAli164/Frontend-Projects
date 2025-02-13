@@ -10,7 +10,9 @@ createRoot(document.getElementById('root')).render(
    
     {/* <App /> */}
     {/* <AcmeRockets/> */}
+    
     <Tictato/>
+   
   </StrictMode>,
 )
 
