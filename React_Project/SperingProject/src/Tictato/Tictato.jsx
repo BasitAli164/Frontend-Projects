@@ -8,19 +8,19 @@ const Tictato = () => {
         </div>
         <div className="board">
           <div className="row1">
-            <div className="boxes"></div>
-            <div className="boxes"></div>
-            <div className="boxes"></div>
+            <div className="flex h-[180px] w-[180px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
+            <div className="flex h-[180px] w-[180px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
+            <div className="flex h-[180px] w-[180px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
           </div>
           <div className="row2">
-            <div className="boxes"></div>
-            <div className="boxes"></div>
-            <div className="boxes"></div>
+            <div className="flex h-[180px] w-[180px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
+            <div className="flex h-[180px] w-[180px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
+            <div className="flex h-[180px] w-[180px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
           </div>
           <div className="row3">
-            <div className="boxes"></div>
-            <div className="boxes"></div>
-            <div className="boxes"></div>
+            <div className="flex h-[180px] w-[180px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
+            <div className="flex h-[180px] w-[180px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
+            <div className="flex h-[180px] w-[180px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
           </div>
         </div>
         <button className="w-[250px] h-[75px] border-none outline-none cursor-pointer rounded-full bg-[#1f3540] text-[26px] mt-[25px] mb-[50px] text-[#26ffcb]  ">
