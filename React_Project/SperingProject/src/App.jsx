@@ -6,7 +6,6 @@ import About from './Pages/About/About'
 import Work from './Pages//Work/Work'
 import Category from './Pages/Category/Category'
 import Footer from './components/Footer/Footer'
-import Tictato from './Tictato/Tictato'
 const App = () => {
   return (
     <>
@@ -17,7 +16,6 @@ const App = () => {
       <Route path='/about' element={<About/>}/>
       <Route path='/work' element={<Work/>}  />
       <Route path='/category' element={<Category/>} />
-      <Route path='/tictato' element={<Tictato/>} />
 
     </Routes>
     <Footer/>
