@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import logoImage from "../../assets/images/logo.png"
 import serachIcon from '../../assets/images/search-icon.png'
 import menuIcon from '../../assets/images/menu.png'
@@ -30,6 +30,7 @@ const Header = () => {
                                     <li className='mx-1 text-slate-200 text-[16px] md:mx-4'><Link className="md:text-lg" to='/about'>About</Link></li>
                                     <li className='mx-1 text-slate-200 text-[16px] md:mx-4'><Link className="md:text-lg" to='/work'>Work</Link></li>
                                     <li className='mx-1 text-slate-200 text-[16px] md:mx-4' ><Link className="md:text-lg" to="/category">Category</Link></li>
+                                    <li className='mx-1 text-slate-200 text-[16px] md:mx-4' ><Link className="md:text-lg" to="/tictato">Titacto</Link></li>
                                 </ul>
                             </div>
                             <div className='hidden sm:flex ml-42 space-x-5 xl: ml-40 space-x-10'>

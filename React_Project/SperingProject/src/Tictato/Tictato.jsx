@@ -1,10 +1,9 @@
-import React from 'react'
 
 const Tictato = () => {
   return (
     <>
-    
-      
+
+      <h1>Hello</h1>
     </>
   )
 }
