@@ -2,8 +2,9 @@
 const Tictato = () => {
   return (
     <>
-
-      <h1>Hello</h1>
+    <div className="container">
+      <div className="title">Tic Tac Toe Game in <span>React</span></div>
+    </div>
     </>
   )
 }
