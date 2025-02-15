@@ -6,7 +6,7 @@ const Tictato = () => {
   console.log("length is:", data.length);
   const [count, setCount] = useState(0);
   const [lock, setLock] = useState(false);
-  let titleRef=useRef(null)
+  let titleRef = useRef(null);
   const toggle = (e, num) => {
     if (lock) {
       return 0;
@@ -20,47 +20,48 @@ const Tictato = () => {
       data[num] = "o";
       setCount(count + 1);
     }
-    checkWin()
+    checkWin();
   };
-  const checkWin=()=>{
-    if(data[0]===data[1] && data[1]===data[2]&&data[2]!==''){
-      won(data)
-    }else if(data[3]===data[4] && data[4]===data[5]&&data[5]!==''){
-      won(data)
-    }else if(data[6]===data[7] && data[7]===data[8]&&data[8]!==''){
-      won(data)
+  const checkWin = () => {
+    if (data[0] === data[1] && data[1] === data[2] && data[2] !== "") {
+      won(data);
+    } else if (data[3] === data[4] && data[4] === data[5] && data[5] !== "") {
+      won(data);
+    } else if (data[6] === data[7] && data[7] === data[8] && data[8] !== "") {
+      won(data);
+    } else if (data[0] === data[3] && data[3] === data[6] && data[6] !== "") {
+      won(data);
+    } else if (data[1] === data[4] && data[4] === data[7] && data[7] !== "") {
+      won(data);
+    } else if (data[2] === data[5] && data[5] === data[8] && data[8] !== "") {
+      won(data);
+    } else if (data[0] === data[4] && data[4] === data[8] && data[8] !== "") {
+      won(data);
+    } else if (data[2] === data[4] && data[4] === data[6] && data[6] !== "") {
+      won(data);
     }
-    else if(data[0]===data[3] && data[3]===data[6]&&data[6]!==''){
-      won(data)
+  };
+  const won = (winner) => {
+    setLock(true);
+    if (winner == "x") {
+      titleRef.current.innerHTML = `Congratulation: <h1>X</h1>`;
+    } else {
+      titleRef.current.innerHTML = `Congratulation: <h1>O</h1>`;
     }
-    else if(data[1]===data[4] && data[4]===data[7]&&data[7]!==''){
-      won(data)
-    }
-    else if(data[2]===data[5] && data[5]===data[8]&&data[8]!==''){
-      won(data)
-    }
-    else if(data[0]===data[4] && data[4]===data[8]&&data[8]!==''){
-      won(data)
-    }
-    
-    else if(data[2]===data[4] && data[4]===data[6]&&data[6]!==''){
-      won(data)
-    }
-    
-  }
-  const won=(winner)=>{
-    setLock(true)
-    if(){
-      
-    }
-  }
+  };
 
   return (
     <>
       <div className="container text-center h-[110%] w-screen">
-        <div className="" >
-         <h1 className="title mt-[8px] text-white text-[50px] flex justify-center items-center font-semibold" ref={titleRef}> Tic Tac Toe Game in
-         <span className="text-[#26ffcb] pl-[15px]"> React</span></h1>
+        <div className="">
+          <h1
+            className="title mt-[8px] text-white text-[50px] flex justify-center items-center font-semibold"
+            ref={titleRef}
+          >
+            {" "}
+            Tic Tac Toe Game in
+            <span className="text-[#26ffcb] pl-[15px]"> React</span>
+          </h1>
         </div>
         <div className="h-[365px] w-[380px] flex justify-center items-center mx-auto">
           <div className="row1">
