@@ -7,6 +7,16 @@ const Tictato = () => {
   const [count, setCount] = useState(0);
   const [lock, setLock] = useState(false);
   let titleRef = useRef(null);
+  let box1=useRef(null);
+  let box2=useRef(null);
+  let box3=useRef(null);
+  let box4=useRef(null);
+  let box5=useRef(null);
+  let box6=useRef(null);
+  let box7=useRef(null);
+  let box8=useRef(null);
+  let box9=useRef(null);
+  let boxArray=[box1,box2,box3,box4,box5,box6,box7,box8,box9];
   const toggle = (e, num) => {
     if (lock) {
       return 0;
@@ -49,6 +59,11 @@ const Tictato = () => {
       titleRef.current.innerHTML = `Congratulation: <h1>O</h1>`;
     }
   };
+  const reset=()=>{
+    setLock(false)
+     data = ["", "", "", "", "", "", "", "", ""];
+     titleRef.current.innerHTML=" Tic Tac Toe Game in <span> React</span>"
+  }
 
   return (
     <>
@@ -107,7 +122,7 @@ const Tictato = () => {
             ></div>
           </div>
         </div>
-        <button className=" w-[150px] h-[50px] border-none outline-none cursor-pointer rounded-full bg-[#1f3540] text-[23px] mt-[25px] mb-[25px] text-[#26ffcb]  ">
+        <button className=" w-[150px] h-[50px] border-none outline-none cursor-pointer rounded-full bg-[#1f3540] text-[23px] mt-[25px] mb-[25px] text-[#26ffcb]  " onClick={reset}>
           Reset
         </button>
       </div>
