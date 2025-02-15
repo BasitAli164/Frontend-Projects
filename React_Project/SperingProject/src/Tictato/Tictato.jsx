@@ -81,43 +81,43 @@ const Tictato = () => {
         <div className="h-[365px] w-[380px] flex justify-center items-center mx-auto">
           <div className="row1">
             <div
-              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500"
+              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500" ref={box1}
               onClick={(e) => toggle(e, 0)}
             ></div>
             <div
-              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500"
+              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500" ref={box2}
               onClick={(e) => toggle(e, 1)}
             ></div>
             <div
-              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500"
+              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500" ref={box3}
               onClick={(e) => toggle(e, 2)}
             ></div>
           </div>
           <div className="row2">
             <div
-              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500"
+              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500" ref={box4}
               onClick={(e) => toggle(e, 3)}
             ></div>
             <div
-              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500"
+              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500" ref={box5}
               onClick={(e) => toggle(e, 4)}
             ></div>
             <div
-              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500"
+              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500" ref={box6}
               onClick={(e) => toggle(e, 5)}
             ></div>
           </div>
           <div className="row3">
             <div
-              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500"
+              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500" ref={box7}
               onClick={(e) => toggle(e, 6)}
             ></div>
             <div
-              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500"
+              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500" ref={box8}
               onClick={(e) => toggle(e, 7)}
             ></div>
             <div
-              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500"
+              className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer text-6xl font-bold justify-center items-center text-slate-500" ref={box9 }
               onClick={(e) => toggle(e, 8)}
             ></div>
           </div>
