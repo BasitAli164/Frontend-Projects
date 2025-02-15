@@ -1,9 +1,27 @@
+import { useState } from "react";
 
 let data=["","","","","","","","",""];
 
 
 const Tictato = () => {
   console.log("length is:",data.length)
+  const [count,setCount]=useState(0);
+  const [lock,setLock]=useState(false);
+  const toggle=(e,num)=>{
+    if(lock){
+      return 0;
+    }
+    if(count%2===0){
+      e.target.innerHTML=`<h1>X<h1/>`
+      data[num]="x"
+      setCount(++count)
+      
+    }else{
+      e.target.innerHTML=`<h1>O</h1>`
+      data[num]='o'
+      setCount(--count)
+    }
+  }
   return (
     <>
       <div className="container text-center h-[110%] w-screen">
@@ -13,9 +31,9 @@ const Tictato = () => {
         </div>
         <div className="h-[365px] w-[380px] flex justify-center items-center mx-auto">
           <div className="row1">
-            <div className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
-            <div className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
-            <div className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
+            <div className= "flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer" onClick={()=>toggle(e,0)}></div>
+            <div className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer" onClick={()=>toggle(e,1)}></div>
+            <div className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer" onClick={()=>toggle(e,2)}></div>
           </div>
           <div className="row2">
             <div className="flex h-[120px] w-[120px] bg-[#1f3540] border-[4px] border-solid border-[#0f1b21] rounded-[12px] cursor-pointer"></div>
