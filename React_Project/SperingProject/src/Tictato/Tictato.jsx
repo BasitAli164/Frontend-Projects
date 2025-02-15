@@ -63,6 +63,9 @@ const Tictato = () => {
     setLock(false)
      data = ["", "", "", "", "", "", "", "", ""];
      titleRef.current.innerHTML=" Tic Tac Toe Game in <span> React</span>"
+     boxArray.map((item)=>{
+      item.current.innerHTML=""
+     })
   }
 
   return (
