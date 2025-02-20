@@ -25,14 +25,14 @@ const Footer = () => {
       <div>
         <h1 className="text-2xl text-white font-semibold">Sitemap</h1>
         <div className="flex gap-14 mt-5">
-          <div className="text-gray-500 flex flex-col gap-y-2">
-            <Link to="/story">Story</Link>
-            <Link to="privacy">Privacy Policy</Link>
-            <Link to="contact">Contact</Link>
+          <div className="flex flex-col gap-y-2">
+            <Link to="/story" className="text-gray-500 hover:text-orange-300">Story</Link>
+            <Link to="privacy" className="text-gray-500 hover:text-orange-300">Privacy Policy</Link>
+            <Link to="contact" className="text-gray-500 hover:text-orange-300">Contact</Link>
           </div>
-          <div className="text-gray-500 flex flex-col gap-y-2">
-            <Link to="product">Products</Link>
-            <Link to="faqs">FAQs</Link>
+          <div className="flex flex-col gap-y-2">
+            <Link to="product" className="text-gray-500 hover:text-orange-300">Products</Link>
+            <Link to="faqs" className="text-gray-500 hover:text-orange-300">FAQs</Link>
           </div>
         </div>
       </div>
@@ -41,25 +41,25 @@ const Footer = () => {
         <div className="flex gap-x-3">
           <Link
             to="https://www.youtube.com"
-            className="text-gray-500 font-semibold text-xl"
+            className="text-gray-500 font-semibold text-xl hover:text-orange-300"
           >
             {youTubeIcon}
           </Link>
           <Link
             to="https://www.whatsapp.com"
-            className="text-gray-500 font-semibold text-xl"
+            className="text-gray-500 font-semibold text-xl hover:text-orange-300"
           >
             {whatsAppIcon}
           </Link>
           <Link
             to="https://www.instagram.com"
-            className="text-gray-500 font-semibold text-xl"
+            className="text-gray-500 font-semibold text-xl hover:text-orange-300"
           >
             {instagramIcon}
           </Link>
           <Link
             to="https://www.skye.com"
-            className="text-gray-500 font-semibold text-xl"
+            className="text-gray-500 font-semibold text-xl hover:text-orange-300"
           >
             {skypeIcon}
           </Link>
