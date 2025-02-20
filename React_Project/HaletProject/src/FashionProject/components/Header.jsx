@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faShoppingBag, faL } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
-  const [isHome,setIsHome]=useState(true)
+  const [isHome, setIsHome] = useState(true);
   const userIcon = <FontAwesomeIcon icon={faUser} />;
   const shopingBag = <FontAwesomeIcon icon={faShoppingBag} />;
   return (
@@ -17,47 +17,50 @@ const Header = () => {
         <div>
           <nav>
             <ul className="flex gap-x-5">
-              <li onClick={()=>setIsHome(true)}>
-                <Link to="/" className={`${isHome?'text-orange-300 underline decoration-[2px] decoration-gray-500 font-semibold':'text-white font-semibold hover:text-orange-300 hover:underline hover:decoration-[2px] hover:decoration-gray-500'}`}>
+              <li onClick={() => setIsHome(true)}>
+                <Link
+                  to="/"
+                  className={`${
+                    isHome
+                      ? "text-orange-300 underline decoration-[2px] decoration-gray-500 font-semibold"
+                      : "text-white font-semibold hover:text-orange-300 hover:underline hover:decoration-[2px] hover:decoration-gray-500"
+                  }`}
+                >
                   Home
                 </Link>
               </li>
-              <li onClick={()=>setIsHome(false)}>
+              <li onClick={() => setIsHome(false)}>
                 <Link
                   to="/story"
                   onClick={() => setIsHome(false)}
                   className="text-white font-semibold hover:text-orange-300 hover:underline hover:decoration-[2px] hover:decoration-gray-500 "
-            
                 >
                   Story
                 </Link>
               </li>
-              <li onClick={()=>setIsHome(false)}>
+              <li onClick={() => setIsHome(false)}>
                 <Link
                   to="/products"
                   onClick={() => setIsHome(false)}
                   className="text-white font-semibold hover:text-orange-300 hover:underline hover:decoration-[2px] hover:decoration-gray-500 "
-            
                 >
                   Products
                 </Link>
               </li>
-              <li onClick={()=>setIsHome(false)}>
+              <li onClick={() => setIsHome(false)}>
                 <Link
                   to="/faqs"
                   onClick={() => setIsHome(false)}
                   className="text-white font-semibold hover:text-orange-300 hover:underline hover:decoration-[2px] hover:decoration-gray-500 "
-            
                 >
                   FAQs
                 </Link>
               </li>
-              <li onClick={()=>setIsHome(false)}>
+              <li onClick={() => setIsHome(false)}>
                 <Link
                   to="/contact"
                   onClick={() => setIsHome(false)}
                   className="text-white font-semibold hover:text-orange-300 hover:underline hover:decoration-[2px] hover:decoration-gray-500 "
-            
                 >
                   Contact
                 </Link>
