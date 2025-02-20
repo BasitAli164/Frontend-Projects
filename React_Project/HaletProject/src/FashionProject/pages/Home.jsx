@@ -32,13 +32,29 @@ const dataInfo = [
 const Home = () => {
   const [count,setCount]=useState(0)
   const [data,setData]=useState(dataInfo[count]);
+  const [click,setClick]=useState(false);
+  console.log(data,'data')
+  const handler=()=>{
+    console.log(count,"befor")
+    setCount(count+1)
+    setClick(!click)
+    console.log(count,"after")
+    setData(count)
+
+  }
   return (
     <div 
-    className={` w-full h-screen  bg-cover bg-center bg-no-repeat   `}
+    className={` w-full h-[820px]  bg-cover bg-center bg-no-repeat    `}
     style={{backgroundImage:`url(${data.image})`}}
     >
+    <div>
       <p>{data.description}</p>
-      
+      </div>      
+    <div>
+      <button className={`p-3 rounded-full bg-transparent border-[6px] border-solid border-gray-400 ${click?'bg-slate-100':'bg-transparent'}`} onClick={handler}></button>
+      <button></button>
+      <button></button>
+    </div>      
     </div>
   );
 };
