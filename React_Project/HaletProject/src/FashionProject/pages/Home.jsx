@@ -30,24 +30,50 @@ const dataInfo = [
 ];
 
 const Home = () => {
-  const [count,setCount]=useState(0)
-  const [data,setData]=useState(dataInfo[count])
-  console.log("data is:",data)
-  const handler=()=>{
-    if(dataInfo.length>0 && dataInfo.length<4){
-      setCount(count+1)
-      setData(dataInfo[count+1])
-      
-    }else if(dataInfo>4){
-      setCount(0)
-      setData(dataInfo[0])
-    }
+  const [data, setData] = useState(0);
+  const handleNext = () => {
+    setData((next) => (next + 1) % dataInfo.length);
+  };
+  const handlePrev = () => {
+    setData((prev) => (prev - 1 + dataInfo.length) % dataInfo.length);
+  };
 
-  }
   return (
-    <div className="w-full h-[820px] bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(${data.image})`}}>
-
-    </div> 
+    <div>
+      <div className="absolute top-[300px] left-10 flex flex-col gap-3 z-50">
+        <button
+          className={`rounded-full border-[5px] border-slate-300 p-[12px]  focus:bg-white`}
+          onClick={handlePrev}
+        ></button>
+      </div>
+      {dataInfo.map(
+        (item, index) =>
+          index === data && (
+            <div
+              className="w-full h-[760px] bg-cover bg-center bg-no-repeat relative bg-blend-darken"
+              style={{ backgroundImage: `url(${item.image}) ` }}
+            >
+              <div>
+                <div className="absolute top-56 left-20 w-[520px] flex flex-col items-start justify-center gap-y-8">
+                  <h1 className="font-bold text-[75px] text-white">
+                    {item.title}
+                  </h1>
+                  <p className="text-white  text-2xl ">{item.description}</p>
+                  <button className="px-12 py-3 rounded-full bg-black text-white font-bold">
+                    {item.buttonText}
+                  </button>
+                </div>
+              </div>
+            </div>
+          )
+      )}
+      <div className="absolute top-[300px] right-10 flex flex-col gap-3 z-50">
+        <button
+          className={`rounded-full border-[5px] border-slate-300 p-[12px] focus:bg-white`}
+          onClick={handleNext}
+        ></button>
+      </div>
+    </div>
   );
 };
 
