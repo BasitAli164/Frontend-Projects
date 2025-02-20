@@ -23,7 +23,7 @@ const Header = () => {
                   className={`${
                     isHome
                       ? "text-orange-500 underline decoration-[2px] decoration-gray-500 font-semibold"
-                      : "text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500"
+                      : "text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 "
                   }`}
                 >
                   Home
@@ -33,7 +33,7 @@ const Header = () => {
                 <Link
                   to="/story"
                   onClick={() => setIsHome(false)}
-                  className="text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 "
+                  className="text-gray-500 font-semibold  hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 focus:underline focus:decoration-gray-500 focus:decoration-[2px] "
                 >
                   Story
                 </Link>
@@ -42,7 +42,7 @@ const Header = () => {
                 <Link
                   to="/products"
                   onClick={() => setIsHome(false)}
-                  className="text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 "
+                  className="text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 focus:underline focus:decoration-gray-500 focus:decoration-[2px]"
                 >
                   Products
                 </Link>
@@ -51,7 +51,7 @@ const Header = () => {
                 <Link
                   to="/faqs"
                   onClick={() => setIsHome(false)}
-                  className="text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 "
+                  className="text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 focus:underline focus:decoration-gray-500 focus:decoration-[2px] "
                 >
                   FAQs
                 </Link>
@@ -60,7 +60,7 @@ const Header = () => {
                 <Link
                   to="/contact"
                   onClick={() => setIsHome(false)}
-                  className="text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 "
+                  className="text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 focus:underline focus:decoration-gray-500 focus:decoration-[2px]"
                 >
                   Contact
                 </Link>

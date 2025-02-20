@@ -40,12 +40,6 @@ const Home = () => {
 
   return (
     <div>
-      <div className="absolute top-[300px] left-10 flex flex-col gap-3 z-50">
-        <button
-          className={`rounded-full border-[5px] border-slate-300 p-[12px]  focus:bg-white`}
-          onClick={handlePrev}
-        ></button>
-      </div>
       {dataInfo.map(
         (item, index) =>
           index === data && (
@@ -69,8 +63,12 @@ const Home = () => {
       )}
       <div className="absolute top-[300px] right-10 flex flex-col gap-3 z-50">
         <button
-          className={`rounded-full border-[5px] border-slate-300 p-[12px] focus:bg-white`}
+          className={`rounded-full border-[5px] border-gray-500 p-[12px] bg-gray-400 focus:bg-white`}
           onClick={handleNext}
+        ></button>
+        <button
+          className={`rounded-full border-[5px] border-gray-500 p-[12px] bg-gray-400  focus:bg-white`}
+          onClick={handlePrev}
         ></button>
       </div>
     </div>
