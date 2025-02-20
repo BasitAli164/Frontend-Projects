@@ -69,12 +69,12 @@ const Header = () => {
           </nav>
         </div>
         <div className="flex gap-x-5">
-          <div className="text-white hover:text-orange-300 hover:cursor-pointer">
+          <Link className="text-white hover:text-orange-300">
             {userIcon}
-          </div>
-          <div className="text-white hover:text-orange-300 hover:cursor-pointer">
+          </Link>
+          <Link className="text-white hover:text-orange-300">
             {shopingBag}
-          </div>
+          </Link>
         </div>
       </div>
     </>

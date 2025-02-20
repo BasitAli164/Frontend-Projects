@@ -19,7 +19,7 @@ const Footer = () => {
           <span className="text-gray-500 ">Little</span> Fashion
         </h1>
         <p className="text-gray-500 text-[1.1rem] leading-[26.4px] mt-10">
-          Copyright © 2022 Little Fashion Designed by Tooplate
+          Copyright © 2025 Little Fashion Designed by Tooplate
         </p>
       </div>
       <div>
@@ -60,6 +60,7 @@ const Footer = () => {
           <Link
             to="https://www.skye.com"
             className="text-gray-500 font-semibold text-xl hover:text-orange-300"
+            
           >
             {skypeIcon}
           </Link>
