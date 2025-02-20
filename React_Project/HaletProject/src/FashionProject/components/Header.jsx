@@ -8,22 +8,22 @@ const Header = () => {
   const shopingBag = <FontAwesomeIcon icon={faShoppingBag} />;
   return (
     <>
-      <div className="container  px-10 flex justify-between items-center w-full h-20 bg-black">
+      <div className="container  px-10 flex justify-between items-center w-full h-20 bg-[#e9e9e9] animate-pulse">
         <div>
-          <h1 className="text-white text-2xl font-semibold">
-            <span className="text-orange-300">Little</span> Fashion
+          <h1 className="text-gray-500 text-2xl font-semibold">
+            <span className="text-orange-500">Little</span> Fashion
           </h1>
         </div>
         <div>
           <nav>
-            <ul className="flex gap-x-5">
+            <ul className="flex gap-x-5 animate-bounce">
               <li onClick={() => setIsHome(true)}>
                 <Link
                   to="/"
                   className={`${
                     isHome
-                      ? "text-orange-300 underline decoration-[2px] decoration-gray-500 font-semibold"
-                      : "text-white font-semibold hover:text-orange-300 hover:underline hover:decoration-[2px] hover:decoration-gray-500"
+                      ? "text-orange-500 underline decoration-[2px] decoration-gray-500 font-semibold"
+                      : "text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500"
                   }`}
                 >
                   Home
@@ -33,7 +33,7 @@ const Header = () => {
                 <Link
                   to="/story"
                   onClick={() => setIsHome(false)}
-                  className="text-white font-semibold hover:text-orange-300 hover:underline hover:decoration-[2px] hover:decoration-gray-500 "
+                  className="text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 "
                 >
                   Story
                 </Link>
@@ -42,7 +42,7 @@ const Header = () => {
                 <Link
                   to="/products"
                   onClick={() => setIsHome(false)}
-                  className="text-white font-semibold hover:text-orange-300 hover:underline hover:decoration-[2px] hover:decoration-gray-500 "
+                  className="text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 "
                 >
                   Products
                 </Link>
@@ -51,7 +51,7 @@ const Header = () => {
                 <Link
                   to="/faqs"
                   onClick={() => setIsHome(false)}
-                  className="text-white font-semibold hover:text-orange-300 hover:underline hover:decoration-[2px] hover:decoration-gray-500 "
+                  className="text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 "
                 >
                   FAQs
                 </Link>
@@ -60,7 +60,7 @@ const Header = () => {
                 <Link
                   to="/contact"
                   onClick={() => setIsHome(false)}
-                  className="text-white font-semibold hover:text-orange-300 hover:underline hover:decoration-[2px] hover:decoration-gray-500 "
+                  className="text-gray-500 font-semibold hover:text-orange-500 hover:underline hover:decoration-[2px] hover:decoration-gray-500 focus:text-orange-500 "
                 >
                   Contact
                 </Link>
@@ -69,10 +69,10 @@ const Header = () => {
           </nav>
         </div>
         <div className="flex gap-x-5">
-          <Link className="text-white hover:text-orange-300">
+          <Link className="text-gray-500 hover:text-orange-500">
             {userIcon}
           </Link>
-          <Link className="text-white hover:text-orange-300">
+          <Link className="text-gray-500 hover:text-orange-500">
             {shopingBag}
           </Link>
         </div>
