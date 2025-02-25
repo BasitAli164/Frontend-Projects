@@ -13,7 +13,7 @@ const Footer = () => {
   const instagramIcon = <FontAwesomeIcon icon={faInstagram} />;
   const skypeIcon = <FontAwesomeIcon icon={faSkype} />;
   return (
-    <div className=" bg-black grid grid-cols-3 container p-10 gap-40">
+    <div className=" bg-black grid grid-cols-3 container p-32 gap-40 ">
       <div>
         <h1 className="text-3xl  font-semibold text-white">
           <span className="text-gray-500 ">Little</span> Fashion
@@ -26,13 +26,23 @@ const Footer = () => {
         <h1 className="text-2xl text-white font-semibold">Sitemap</h1>
         <div className="flex gap-14 mt-5">
           <div className="flex flex-col gap-y-2">
-            <Link to="/story" className="text-gray-500 hover:text-orange-300">Story</Link>
-            <Link to="privacy" className="text-gray-500 hover:text-orange-300">Privacy Policy</Link>
-            <Link to="contact" className="text-gray-500 hover:text-orange-300">Contact</Link>
+            <Link to="/story" className="text-gray-500 hover:text-orange-300">
+              Story
+            </Link>
+            <Link to="privacy" className="text-gray-500 hover:text-orange-300">
+              Privacy Policy
+            </Link>
+            <Link to="contact" className="text-gray-500 hover:text-orange-300">
+              Contact
+            </Link>
           </div>
           <div className="flex flex-col gap-y-2">
-            <Link to="product" className="text-gray-500 hover:text-orange-300">Products</Link>
-            <Link to="faqs" className="text-gray-500 hover:text-orange-300">FAQs</Link>
+            <Link to="product" className="text-gray-500 hover:text-orange-300">
+              Products
+            </Link>
+            <Link to="faqs" className="text-gray-500 hover:text-orange-300">
+              FAQs
+            </Link>
           </div>
         </div>
       </div>
@@ -60,7 +70,6 @@ const Footer = () => {
           <Link
             to="https://www.skye.com"
             className="text-gray-500 font-semibold text-xl hover:text-orange-300"
-            
           >
             {skypeIcon}
           </Link>
